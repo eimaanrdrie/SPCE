@@ -280,40 +280,126 @@ Shows how an approved decision can inform future behaviour, remain explainable, 
 
 ## <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23F472B6" width="22" alt="" /> 4. What Makes It Different
 
-SPCE is not another calendar with an AI chat box attached.
-
-Its core difference is the combination of:
-
-> **Capacity reasoning + explainability + human approval + self-learning + human comfort**
+SPCE is not trying to become another task manager. Its main difference is that it learns from the gap between **what you planned** and **what you actually managed to do**.
 
 ### <img src="https://api.iconify.design/lucide/badge-plus.svg?color=%23F472B6" width="20" alt="" /> Novel Features
 
-| **SPCE Idea** | **The Twist** |
+| **Feature** | **What makes it different** |
 | --- | --- |
-| **Free time ≠ capacity** | SPCE treats usable capacity as a changing state instead of assuming that empty time is available energy. |
-| **Five-dimensional capacity model** | Mental, Time, Physical, Social, and Errands are considered together. |
-| **Minimum-disruption FIX** | SPCE looks for the smallest viable adjustment before proposing a larger schedule change. |
-| **Human-governed learning** | The system can learn from approved behaviour without silently turning one decision into a permanent rule. |
-| **WHY / Decision Ledger** | Important recommendations remain inspectable. |
-| **Fixed vs Flexible commitments** | SPCE reasons about what can realistically move before proposing a fix. |
-| **Comfort Circle** | Support is short, opt-in, anonymous by default, and deliberately avoids DMs, threads, or oversharing. |
-| **Patterns, not scores** | Insights focus on recurring capacity and recovery patterns rather than reducing the user to a single wellbeing score. |
-| **Optional wearable context** | Wearable input can enrich context without becoming a dependency or medical diagnosis mechanism. |
+| <img src="https://api.iconify.design/lucide/zap.svg?color=%23F59E0B" width="18" alt="" /> **Instant UNLOAD** | Double-tap the back of the iPhone and quickly speak or type a commitment. SPCE is designed to capture things before you forget them. |
+| <img src="https://api.iconify.design/lucide/calendar-sync.svg?color=%2360A5FA" width="18" alt="" /> **One view of your real day** | SPCE combines quick UNLOAD entries with connected Calendar and Reminders so it can see both planned and newly remembered commitments. |
+| <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="18" alt="" /> **Personal Capacity Learning** | SPCE learns from what you complete, delay, skip, or postpone. Capacity is based on your own patterns instead of a generic productivity target. |
+| <img src="https://api.iconify.design/lucide/gauge.svg?color=%2334D399" width="18" alt="" /> **Daily capacity changes with you** | If certain days or activities repeatedly become difficult, SPCE can use that pattern to suggest a more realistic capacity for similar days. |
+| <img src="https://api.iconify.design/lucide/search-check.svg?color=%2360A5FA" width="18" alt="" /> **Transparent AI** | SPCE shows what it noticed and why it made a suggestion. The user can inspect the reasoning instead of receiving a hidden score. |
+| <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="18" alt="" /> **Human approval first** | SPCE can suggest a change, but the user approves, rejects, or edits it before the decision becomes part of what SPCE learns. |
+| <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F59E0B" width="18" alt="" /> **Smallest practical fix** | Instead of rebuilding the whole day, SPCE first looks for a smaller adjustment that may make the workload manageable. |
+| <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="18" alt="" /> **Comfort Space** | When productivity advice is not what the user needs, SPCE provides a short, privacy-focused place to receive encouragement. |
+| <img src="https://api.iconify.design/lucide/flame.svg?color=%23F59E0B" width="18" alt="" /> **Kindness Streak** | Support works both ways. Users can comfort someone who is having a difficult day and build a streak through positive participation. |
+| <img src="https://api.iconify.design/lucide/bar-chart-3.svg?color=%238B5CF6" width="18" alt="" /> **Patterns, not pressure** | Insights focus on recurring capacity, recovery, and decisions instead of reducing the student to one productivity or wellbeing score. |
+
+> **The SPCE idea in one line:** learn the person behind the calendar, keep the AI explainable, keep the human in control, and make support part of the experience.
 
 ### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%238B5CF6" width="20" alt="" /> Market Positioning
 
-Akiflow and Tiimo are useful reference points because they demonstrate strong approaches to task/calendar planning, visual planning, routines, and time allocation. SPCE starts from a different primary signal: **the person’s changing capacity**, including hidden load that may not be represented as a task or calendar event.
+We compared SPCE with **Akiflow** and **Tiimo** because both already solve important parts of daily planning, but their published product experiences start from a different place.
 
-| | **SPCE** | **Akiflow** | **Tiimo** |
-| --- | --- | --- | --- |
-| Primary planning focus | Personal capacity + commitments | Task + calendar planning / time blocking | Visual planning, routines + reminders |
-| Typical planning signals | Capacity dimensions, commitments, approved patterns | Tasks, duration, planned time, calendar | Tasks, routines, calendar, reminders |
-| Hidden-load / capacity model | **Core concept** | Not the focus of the referenced product flow | Not the focus of the referenced product flow |
-| Explainable fit decision | **WHY / Decision Ledger** | Different product focus | Different product focus |
-| Human-approved personal learning | **Core concept** | Different product focus | Different product focus |
-| Built-in peer comfort concept | **Comfort Circle** | Different product focus | Different product focus |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Capability</th>
+      <th align="center">
+        <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="42" alt="SPCE icon"><br>
+        <strong>SPCE</strong>
+      </th>
+      <th align="center">
+        <img src="https://www.google.com/s2/favicons?domain=akiflow.com&sz=128" width="42" alt="Akiflow logo"><br>
+        <strong>Akiflow</strong>
+      </th>
+      <th align="center">
+        <img src="https://www.google.com/s2/favicons?domain=tiimoapp.com&sz=128" width="42" alt="Tiimo logo"><br>
+        <strong>Tiimo</strong>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Primary focus</strong></td>
+      <td>Personal capacity and workload fit</td>
+      <td>Tasks, calendars, time blocking, scheduling and AI productivity assistance</td>
+      <td>Visual planning, routines, tasks, reminders and daily structure</td>
+    </tr>
+    <tr>
+      <td><strong>Main planning question</strong></td>
+      <td><strong>Can I realistically handle this today?</strong></td>
+      <td>When should I do this and where should it fit?</td>
+      <td>What do I need to do and how can I structure my day?</td>
+    </tr>
+    <tr>
+      <td><strong>Fast task capture</strong></td>
+      <td>Back Tap UNLOAD with voice or text</td>
+      <td>Task capture, shortcuts, integrations and mobile capture</td>
+      <td>Tasks and AI assisted planning</td>
+    </tr>
+    <tr>
+      <td><strong>Calendar integration</strong></td>
+      <td>Uses Calendar and Reminders as part of the user's capacity picture</td>
+      <td>Strong calendar integration, task imports and time blocking</td>
+      <td>Calendar, to-dos, routines and reminders in one visual view</td>
+    </tr>
+    <tr>
+      <td><strong>Learns from completed vs postponed work</strong></td>
+      <td><strong>Core concept</strong>. Completion patterns help estimate future capacity</td>
+      <td>Not presented as the primary capacity model on the referenced product pages</td>
+      <td>Not presented as the primary capacity model on the referenced product pages</td>
+    </tr>
+    <tr>
+      <td><strong>Personal capacity model</strong></td>
+      <td><strong>Core concept</strong>. Mental, Time, Physical, Social and Errands</td>
+      <td>Product focus is scheduling, time management and task execution</td>
+      <td>Product focus is visual planning, routines and reducing planning overwhelm</td>
+    </tr>
+    <tr>
+      <td><strong>Explainable fit decision</strong></td>
+      <td><strong>WHY / Decision Ledger</strong> shows what influenced the suggestion</td>
+      <td>AI and scheduling assistance, but not SPCE's capacity decision model</td>
+      <td>AI co-planning, but not SPCE's capacity decision model</td>
+    </tr>
+    <tr>
+      <td><strong>User approval before learned policy</strong></td>
+      <td><strong>Yes</strong>. User can approve, reject, or edit before SPCE learns</td>
+      <td>Different product model</td>
+      <td>Different product model</td>
+    </tr>
+    <tr>
+      <td><strong>Emotional support layer</strong></td>
+      <td><strong>Comfort Space</strong></td>
+      <td>Not a primary feature in the referenced product pages</td>
+      <td>Designed to reduce overwhelm, but not presented as a peer comfort network</td>
+    </tr>
+    <tr>
+      <td><strong>Community support</strong></td>
+      <td><strong>Kindness Streak</strong> and short peer encouragement</td>
+      <td>Not a primary feature in the referenced product pages</td>
+      <td>Not a primary feature in the referenced product pages</td>
+    </tr>
+    <tr>
+      <td><strong>Best fit</strong></td>
+      <td>Students who want help understanding how much they can realistically handle</td>
+      <td>Users who want tasks and calendars consolidated into a strong scheduling workflow</td>
+      <td>Users who want a visual, flexible way to organise daily life and routines</td>
+    </tr>
+  </tbody>
+</table>
 
-> Market comparison is based on the publicly described Akiflow and Tiimo product flows reviewed during project preparation. It explains SPCE's positioning rather than claiming those products lack every adjacent capability.
+**Sources used for this comparison:**  
+<a href="https://akiflow.com/features">Akiflow Features</a> ·
+<a href="https://akiflow.com/features/time-blocking">Akiflow Time Blocking</a> ·
+<a href="https://www.tiimoapp.com/product/visual-planning">Tiimo Visual Planning</a>
+
+> [!NOTE]
+> The comparison describes the publicly documented product focus of Akiflow and Tiimo. It does not claim that either product lacks every adjacent or experimental capability.
+
+> **SPCE's position:** Akiflow helps organise the schedule. Tiimo helps make the day easier to structure. SPCE is designed to learn **how much of that day the person can realistically handle** and provide support when capacity runs low.
 
 ---
 
