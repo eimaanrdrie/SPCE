@@ -36,91 +36,57 @@
 
 ### ⚠️ The Problem
 
-**Imagine this:** your bestie keeps telling you uni life is exhausting.
+**Imagine this:** your bestie keeps telling you uni life is exhausting. Assignments are piling up, they’re commuting, running errands, keeping up with friends, and somehow still expected to stay productive.
 
-Assignments are piling up. They are commuting, running errands, trying to keep up with friends, and still expected to stay productive.
-
-Then you look at their calendar and say:
+Then you check their calendar and say:
 
 > **“But bestie… you’re free at 7 PM?”**
 
-**Exactly. An empty calendar does not mean they still have capacity.**
+**That’s exactly the problem: free time ≠ real capacity.**
 
----
+A “free” hour can still come after **📚 classes, 🚌 commuting, 🛒 errands, 👥 social commitments, 🧠 mental load, and 😮‍💨 trying to recover**. So even when there is time on the calendar, there may be very little capacity left to use it.
 
-#### What students are actually carrying
+> **This is not a small problem.** In a 2025 UPM study of **1,211 higher-education students**, **60.5% reported symptoms of anxiety, 45.6% depression, and 40% stress**. *The Star* also highlighted academic pressure, career uncertainty, and financial constraints as contributors to student stress and burnout. [[1]](https://www.thestar.com.my/news/nation/2025/06/16/heavy-price-of-education)
 
-A “free” hour can still come after:
-
-- 📚 Assignments and classes
-- 🚌 Commuting
-- 🛒 Errands
-- 👥 Social commitments
-- 🧠 Mental load
-- 😮‍💨 Trying to recover from everything above
-
-So the problem is not only **time**.
-
-It is whether the student still has enough **mental, physical, social, and practical capacity** to take on something else.
-
----
-
-#### This is not a small problem
-
-> **In a 2025 UPM study of 1,211 higher-education students, 60.5% reported symptoms of anxiety, 45.6% depression, and 40% stress.**  
-> *The Star* also highlighted academic pressure, career uncertainty, and financial constraints as contributors to student stress and burnout. [[1]](https://www.thestar.com.my/news/nation/2025/06/16/heavy-price-of-education)
-
----
-
-#### Existing tools help with planning — but from a different angle
+Existing tools already help organise the day — but SPCE focuses on what those plans demand from the person:
 
 <table>
   <thead>
     <tr>
       <th align="center">App</th>
-      <th align="left">What it focuses on</th>
-      <th align="left">The question it helps answer</th>
+      <th align="left">What it helps with</th>
+      <th align="left">Core question</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td align="center">
-        <img src="https://www.google.com/s2/favicons?domain=akiflow.com&sz=128" width="44" alt="Akiflow logo"><br>
+        <img src="https://www.google.com/s2/favicons?domain=akiflow.com&sz=128" width="36" alt="Akiflow logo"><br>
         <strong>Akiflow</strong>
       </td>
-      <td>
-        Tasks, calendars, planning and time-blocking.<br>
-        <a href="https://akiflow.com/">Official site ↗</a>
-      </td>
+      <td>Tasks, calendars and time-blocking.</td>
       <td><strong>“When should I do this?”</strong></td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://www.google.com/s2/favicons?domain=tiimoapp.com&sz=128" width="44" alt="Tiimo logo"><br>
+        <img src="https://www.google.com/s2/favicons?domain=tiimoapp.com&sz=128" width="36" alt="Tiimo logo"><br>
         <strong>Tiimo</strong>
       </td>
-      <td>
-        Visual planning, tasks, routines and daily structure.<br>
-        <a href="https://www.tiimoapp.com/">Official site ↗</a>
-      </td>
-      <td><strong>“What do I need to do, and how do I structure it?”</strong></td>
+      <td>Visual planning, routines and daily structure.</td>
+      <td><strong>“What do I need to do?”</strong></td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="44" alt="SPCE icon"><br>
+        <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="36" alt="SPCE icon"><br>
         <strong>SPCE</strong>
       </td>
-      <td>
-        Hidden workload, personal capacity, explainable decisions, human-approved learning and support.
-      </td>
+      <td>Hidden workload and personal capacity.</td>
       <td><strong>“Even if I have time, can I actually handle this right now?”</strong></td>
     </tr>
   </tbody>
 </table>
 
-> **The gap SPCE focuses on:** planning the day is not the same as understanding the person living through it.
-
-SPCE looks beyond calendar availability and considers five kinds of load:
+> **SPCE’s gap:** planning the day is not the same as understanding the person living through it.
 
 <p align="center">
   <strong>🧠 Mental &nbsp;·&nbsp; ⏱️ Time &nbsp;·&nbsp; ⚡ Physical &nbsp;·&nbsp; 👥 Social &nbsp;·&nbsp; 🛍️ Errands</strong>
