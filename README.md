@@ -2,7 +2,7 @@
   <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="64" alt="" />
 </p>
 
-<h1 align="center">SPCE — Prsonal Capacity AI That Learns Your Patterns</h1>
+<h1 align="center">SPCE — Personal Capacity AI That Learns Your Patterns</h1>
 
 <p align="center">
   <strong>SPCE gets to know you like someone who loves you. It learns when you can handle more, when you need to slow down, and when you just need comfort.</strong>
