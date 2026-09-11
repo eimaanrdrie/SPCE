@@ -301,7 +301,7 @@ SPCE is not trying to become another task manager. Its main difference is that i
 
 ### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%238B5CF6" width="20" alt="" /> Market Positioning
 
-A quick comparison of the main product focus:
+A quick comparison of **what each product is built to do**:
 
 <table>
   <thead>
@@ -324,72 +324,78 @@ A quick comparison of the main product focus:
   <tbody>
     <tr>
       <td><strong>Task planning</strong></td>
-      <td align="center">✅ Yes</td>
-      <td align="center">✅ Core</td>
-      <td align="center">✅ Core</td>
+      <td align="center">✅ Tasks + capacity</td>
+      <td align="center">✅ Task scheduling</td>
+      <td align="center">✅ Visual to-dos</td>
     </tr>
     <tr>
       <td><strong>Calendar planning</strong></td>
-      <td align="center">✅ Connected</td>
-      <td align="center">✅ Core</td>
-      <td align="center">✅ Yes</td>
+      <td align="center">✅ Capacity context</td>
+      <td align="center">✅ Time blocking</td>
+      <td align="center">✅ Visual schedule</td>
     </tr>
     <tr>
-      <td><strong>Fast task capture</strong></td>
-      <td align="center">✅ Back Tap</td>
-      <td align="center">✅ Quick capture</td>
-      <td align="center">✅ Tasks</td>
+      <td><strong>Fast capture</strong></td>
+      <td align="center">✅ Back Tap + voice</td>
+      <td align="center">✅ Inbox + shortcuts</td>
+      <td align="center">✅ Widget + voice</td>
     </tr>
     <tr>
-      <td><strong>Completion check-in</strong></td>
-      <td align="center">✅ Learns outcomes</td>
-      <td align="center">➖ Different focus</td>
-      <td align="center">➖ Different focus</td>
+      <td><strong>Daily completion review</strong></td>
+      <td align="center">✅ Feeds learning</td>
+      <td align="center">◐ Review + stats</td>
+      <td align="center">◐ Review unfinished tasks</td>
     </tr>
     <tr>
       <td><strong>Learns postponement patterns</strong></td>
-      <td align="center">✅ Core</td>
-      <td align="center">➖ Different focus</td>
-      <td align="center">➖ Different focus</td>
+      <td align="center">✅ Builds capacity pattern</td>
+      <td align="center">◐ Replans undone tasks</td>
+      <td align="center">◐ Moves unfinished tasks</td>
     </tr>
     <tr>
       <td><strong>Personal capacity model</strong></td>
-      <td align="center">✅ 5 dimensions</td>
-      <td align="center">➖ Scheduling focus</td>
-      <td align="center">➖ Planning focus</td>
+      <td align="center">✅ 5 capacity dimensions</td>
+      <td align="center">❌ Time + task focus</td>
+      <td align="center">◐ Wellbeing + planning</td>
     </tr>
     <tr>
-      <td><strong>Explains AI decisions</strong></td>
-      <td align="center">✅ WHY Ledger</td>
-      <td align="center">➖ Different model</td>
-      <td align="center">➖ Different model</td>
+      <td><strong>Explains why something does not fit</strong></td>
+      <td align="center">✅ WHY / Decision Ledger</td>
+      <td align="center">❌ No capacity ledger</td>
+      <td align="center">❌ No capacity ledger</td>
     </tr>
     <tr>
-      <td><strong>Human approval before learning</strong></td>
-      <td align="center">✅ Required</td>
-      <td align="center">➖ Different model</td>
-      <td align="center">➖ Different model</td>
+      <td><strong>Human approval before AI learns a rule</strong></td>
+      <td align="center">✅ Explicit approval</td>
+      <td align="center">❌ No capacity-policy gate</td>
+      <td align="center">❌ No capacity-policy gate</td>
+    </tr>
+    <tr>
+      <td><strong>Smallest workload fix</strong></td>
+      <td align="center">✅ Minimum disruption</td>
+      <td align="center">◐ Reschedules tasks</td>
+      <td align="center">◐ Reshuffles the day</td>
     </tr>
     <tr>
       <td><strong>Emotional support space</strong></td>
       <td align="center">✅ Comfort Space</td>
-      <td align="center">➖ Not core</td>
-      <td align="center">➖ Not core</td>
+      <td align="center">❌ Productivity focused</td>
+      <td align="center">◐ Wellbeing check-ins</td>
     </tr>
     <tr>
       <td><strong>Peer support community</strong></td>
       <td align="center">✅ Kindness Streak</td>
-      <td align="center">➖ Not core</td>
-      <td align="center">➖ Not core</td>
+      <td align="center">❌ No peer support layer</td>
+      <td align="center">❌ No peer support layer</td>
     </tr>
   </tbody>
 </table>
 
-**Legend:** ✅ supported / core feature &nbsp;&nbsp; ➖ different product focus
+**Legend:** ✅ built for this &nbsp;&nbsp; ◐ related feature, different purpose &nbsp;&nbsp; ❌ not part of the referenced core product experience
 
-> **SPCE's position:** Akiflow helps organise **when work happens**. Tiimo helps make daily planning **easier to structure**. SPCE focuses on **how much the person can realistically handle**, explains its reasoning, and adds a human support layer.
+> **The key difference:** Akiflow is strongest at **scheduling and time blocking**. Tiimo is strongest at **visual, flexible daily planning and reducing planning overwhelm**. SPCE focuses on **learning the user's real capacity from actual behaviour**, explaining why something may not fit, keeping the user in control of what the AI learns, and adding peer comfort when productivity is not the answer.
 
-<sub>Comparison is based on the publicly described product focus of Akiflow and Tiimo. It does not claim that either product lacks every adjacent capability.</sub>
+<sub>Comparison based on the publicly documented Akiflow and Tiimo product pages. Akiflow documents task status/history, daily review, stats, replanning and AI rescheduling. Tiimo documents visual planning, Review Today, AI task breakdown, time estimates, schedule reshuffling and wellbeing check-ins. This table compares primary product purpose rather than claiming either product lacks every adjacent capability.</sub>
 
 
 ---
