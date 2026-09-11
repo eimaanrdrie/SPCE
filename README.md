@@ -144,28 +144,35 @@ And when you are having a better day, you can support someone else and build you
 
 ### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="20" alt="" /> 2.1 Ideas We Considered
 
+We started broad, then kept the ideas that supported one clear goal: **help SPCE understand what a student can realistically handle, while keeping the student in control.**
+
 Chosen ideas are listed first.
 
-| **Idea** | **Why it was kept / dropped** |
-| --- | --- |
-| **Personal Capacity Engine — Chosen** | **Kept.** This became the core idea: an empty calendar slot does not automatically mean the user has usable capacity. |
-| **UNLOAD — Chosen** | **Kept.** Hidden workload should be capturable before the user has perfectly organised it into a task. |
-| **FIT / Does Not Fit — Chosen** | **Kept.** Gives the user a simple, understandable state while deeper reasoning remains inspectable. |
-| **Minimum-disruption FIX — Chosen** | **Kept.** SPCE first looks for the smallest viable change instead of rebuilding the user’s whole day. |
-| **Human Approval — Chosen** | **Kept.** The user remains the authority over proposed changes and learned behaviour. |
-| **WHY / Decision Ledger — Chosen** | **Kept.** A personal AI should be able to show why it reached an important recommendation. |
-| **Self-learning Personal Policies — Chosen** | **Kept.** Approved patterns can become proposed reusable rules, allowing SPCE to become more personal over time. |
-| **RECOVER — Chosen** | **Kept.** Detecting overload is only useful if the product can also help the user return to a workable state. |
-| **Comfort Circle — Chosen** | **Kept.** Adds human support while protecting the user’s schedule and reason for asking for help. |
-| **Glanceable State / Widget — Chosen** | **Kept.** Capacity should be visible without requiring the user to reopen the full app. |
-| **Optional Wearable Context — Chosen as stretch** | **Kept as optional.** It may enrich context, but SPCE must still work without a wearable. |
-| **Generic Mood Tracker** | **Dropped.** Mood alone does not solve workload fit, commitment trade-offs, or hidden capacity. |
-| **Generic To-do / Calendar App** | **Dropped.** It would reproduce a crowded category without addressing the core capacity problem. |
-| **Generic AI Chatbot** | **Dropped.** Conversation alone does not create a structured, inspectable `FIT → WHY → FIX → APPROVE → LEARN` loop. |
-| **Wearable-first Stress Dashboard** | **Dropped as the main product.** It would make the experience hardware-dependent and move the concept too close to health interpretation. |
-| **Automatic AI Rescheduling** | **Dropped.** SPCE should not silently rearrange a student’s life without explicit approval. |
-| **Open Social Feed / DMs** | **Dropped.** Comfort Circle is deliberately constrained and is not designed to become another social network. |
-| **Medical Burnout Diagnosis** | **Dropped.** SPCE manages workload and personal capacity; it does not diagnose a medical condition. |
+| **Idea** | **Status** | **What problem it targets** | **Reason for the decision** |
+| --- | --- | --- | --- |
+| **Personal Capacity Engine** | ✅ **Core** | A free calendar slot does not always mean the user still has enough energy or capacity. | **Kept.** This became the heart of SPCE. The system learns from what the user actually completes, delays, postpones, or leaves unfinished. |
+| **Instant UNLOAD with iPhone Back Tap** | ✅ **Core** | Students can forget small commitments before they have time to open a planner and organise them. | **Kept.** Double-tapping the back of the iPhone makes capture fast. The user can speak or type the commitment immediately and continue with their day. |
+| **Calendar and Reminders Connection** | ✅ **Core** | Users should not have to enter the same commitment in several places. | **Kept.** SPCE can combine manually unloaded activities with commitments already recorded in connected Calendar and Reminders apps. |
+| **Daily Completion Check-In** | ✅ **Core** | A planned schedule does not tell us what the user actually managed to finish. | **Kept.** SPCE checks what was completed, delayed, skipped, or postponed so its learning is based on real behaviour. |
+| **Personal Capacity Learning** | ✅ **Core** | Different users can handle very different workloads, and even the same user may have different capacity on different days. | **Kept.** Repeated patterns help SPCE estimate a more realistic daily capacity instead of applying one generic productivity standard. |
+| **FIT / Does Not Fit** | ✅ **Core** | Users need a simple way to know whether another commitment is realistic. | **Kept.** It turns the capacity model into an easy decision while still allowing the user to inspect the reasoning behind it. |
+| **WHY / Decision Ledger** | ✅ **Core** | AI recommendations can feel arbitrary when the reasoning is hidden. | **Kept.** SPCE shows what it noticed and why it made a suggestion, making the system more transparent and easier to challenge. |
+| **Minimum-Disruption FIX** | ✅ **Core** | A student may only need one small adjustment, not a completely rebuilt schedule. | **Kept.** SPCE first looks for the smallest practical change that could make the day more manageable. |
+| **Human Approval** | ✅ **Core** | Personal AI should not silently change a user's schedule or learn permanent rules from one decision. | **Kept.** The user can approve, reject, or edit a suggestion before SPCE applies it or learns from it. |
+| **Self-Learning Personal Policies** | ✅ **Core** | Useful patterns should become more personalised over time. | **Kept.** Repeated approved decisions can become proposed personal rules, but the user remains the final authority. |
+| **RECOVER** | ✅ **Core** | Detecting overload is not enough if the product stops at the warning. | **Kept.** SPCE also helps the user move back toward a more manageable state after a difficult period. |
+| **Comfort Space / Comfort Circle** | ✅ **Core** | Sometimes the user needs emotional support rather than another productivity suggestion. | **Kept.** It gives stressed users a short, privacy-preserving place to receive encouragement without exposing their full schedule or reason for needing support. |
+| **Kindness Streak** | ✅ **Core** | We wanted support to work both ways, not only when the user is struggling. | **Kept.** Users can comfort someone else when they have capacity and build a streak through positive participation. |
+| **Glanceable Capacity Widget** | 🧪 **Stretch** | Users should be able to see their current state without repeatedly opening the full app. | **Kept as a stretch feature.** It supports quick awareness, but the core capacity-learning loop comes first. |
+| **Optional Garmin Context** | 🧪 **Stretch** | Wearable data may provide extra context about the user's day. | **Kept as optional.** It may enrich the capacity picture, but SPCE must still work without a wearable and should not make medical claims. |
+| **Generic Mood Tracker** | ❌ **Dropped** | Tracking feelings can show mood changes. | **Dropped.** Mood alone does not explain workload fit, repeated postponement, commitment trade-offs, or what the user can realistically complete. |
+| **Generic To-Do / Calendar App** | ❌ **Dropped** | Traditional planners organise tasks and time. | **Dropped.** It would duplicate an already crowded category without addressing SPCE's main idea: the difference between available time and actual capacity. |
+| **Generic AI Chatbot** | ❌ **Dropped** | A chatbot could let users talk about their workload. | **Dropped.** Conversation alone does not create the structured FIT, WHY, FIX, approval, and learning system we wanted. |
+| **Wearable-First Stress Dashboard** | ❌ **Dropped** | Physiological signals could be used as the main indicator of stress. | **Dropped as the main product.** It would make SPCE hardware-dependent and move the concept too close to health interpretation. |
+| **Automatic AI Rescheduling** | ❌ **Dropped** | AI could automatically rearrange the user's day when it detects overload. | **Dropped.** We did not want SPCE silently changing a student's life. Recommendations should remain explainable and require user approval. |
+| **Open Social Feed and DMs** | ❌ **Dropped** | A social layer could let users talk directly and build a larger community. | **Dropped.** We wanted Comfort Space to feel safe and focused, not become another social network with feeds, threads, or unsolicited messages. |
+| **Medical Burnout Diagnosis** | ❌ **Dropped** | The system could attempt to label whether a user is medically burned out. | **Dropped.** SPCE is a stress and workload management tool, not a medical diagnostic system. |
+
 
 ### <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="20" alt="" /> 2.2 Ideation Boards
 
