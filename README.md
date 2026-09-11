@@ -74,20 +74,57 @@ It is whether the student still has enough **mental, physical, social, and pract
 
 #### Existing tools help with planning — but from a different angle
 
-**Akiflow** helps organise tasks, calendars, and time blocks. [[2]](https://akiflow.com/features)  
-**Tiimo** helps organise routines, reminders, tasks, and daily plans visually. [[3]](https://www.tiimoapp.com/product/visual-planning)
+<table>
+  <thead>
+    <tr>
+      <th align="center">App</th>
+      <th align="left">What it focuses on</th>
+      <th align="left">The question it helps answer</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img src="https://www.google.com/s2/favicons?domain=akiflow.com&sz=128" width="44" alt="Akiflow logo"><br>
+        <strong>Akiflow</strong>
+      </td>
+      <td>
+        Tasks, calendars, planning and time-blocking.<br>
+        <a href="https://akiflow.com/">Official site ↗</a>
+      </td>
+      <td><strong>“When should I do this?”</strong></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://www.google.com/s2/favicons?domain=tiimoapp.com&sz=128" width="44" alt="Tiimo logo"><br>
+        <strong>Tiimo</strong>
+      </td>
+      <td>
+        Visual planning, tasks, routines and daily structure.<br>
+        <a href="https://www.tiimoapp.com/">Official site ↗</a>
+      </td>
+      <td><strong>“What do I need to do, and how do I structure it?”</strong></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="44" alt="SPCE icon"><br>
+        <strong>SPCE</strong>
+      </td>
+      <td>
+        Hidden workload, personal capacity, explainable decisions, human-approved learning and support.
+      </td>
+      <td><strong>“Even if I have time, can I actually handle this right now?”</strong></td>
+    </tr>
+  </tbody>
+</table>
 
-They help answer:
+> **The gap SPCE focuses on:** planning the day is not the same as understanding the person living through it.
 
-> **“What do I need to do, and when?”**
+SPCE looks beyond calendar availability and considers five kinds of load:
 
-SPCE focuses on the layer underneath:
-
-> ## **“Even if you have time, do you actually have the capacity to handle it right now?”**
-
-SPCE looks beyond the calendar and considers five kinds of load:
-
-**Mental · Time · Physical · Social · Errands**
+<p align="center">
+  <strong>🧠 Mental &nbsp;·&nbsp; ⏱️ Time &nbsp;·&nbsp; ⚡ Physical &nbsp;·&nbsp; 👥 Social &nbsp;·&nbsp; 🛍️ Errands</strong>
+</p>
 
 > [!NOTE]
 > **SPCE is a stress and workload management tool, not a medical diagnosis tool.**
