@@ -404,21 +404,62 @@ A quick comparison of **what each product is built to do**:
 
 ### <img src="https://api.iconify.design/lucide/code-2.svg?color=%2334D399" width="20" alt="" /> Planned Tech Stack
 
-> Confirm final implementation choices before submission and replace any item that differs from the actual build.
+We designed the stack around three priorities: **fast mobile interaction, explainable AI, and a realistic hackathon build**.
 
-| Layer | Planned Technology | Why / Constraint |
-| --- | --- | --- |
-| **Mobile Frontend** | React Native + TypeScript + Expo | Fast cross-platform development while retaining a mobile-first interaction model. |
-| **Styling** | NativeWind | Speeds up consistent UI iteration during a short build window. |
-| **Motion / Gestures** | React Native Reanimated + Gesture Handler | Supports spatial transitions, swipe interactions, and live state changes. |
-| **Spatial Visualisation** | React Native Skia | Provides more control over the SPCE FIELD / CORE visual language. |
-| **Voice Input** | Deepgram | Planned for rapid voice-based UNLOAD and low-friction capture. |
-| **Language / Context Layer** | [ILMU / Gemini — confirm final choice] | Used for language understanding and context extraction rather than as the sole decision-maker. |
-| **Structured Contracts** | JSON + Zod | Keeps model/context output structured and machine-checkable. |
-| **FIT / FIX / Policy Logic** | Deterministic TypeScript rules | Keeps core decisions testable, inspectable, and suitable for the Decision Ledger. |
-| **Backend / Database** | Supabase | Provides authentication, persistence, and realtime capabilities with hackathon-friendly setup. |
-| **Edge / API Layer** | Cloudflare Workers | Lightweight service/proxy layer where required. |
-| **Optional Wearable Input** | Garmin integration | Stretch goal only; the core experience must work without it. |
+> [!IMPORTANT]
+> The AI is not the final decision-maker. Language models help understand user input, while SPCE's capacity, FIT, FIX, approval, and learning logic stay structured and inspectable.
+
+| **Layer** | **Technology** | **Role in SPCE** | **Why we chose it / Constraint** |
+| --- | --- | --- | --- |
+| 📱 **Mobile App** | **React Native + TypeScript + Expo Development Build** | Main iPhone app for Home, Work, SPCE, Insights, Comfort Space, and check-ins. | One codebase, fast iteration, and access to native modules when Expo Go is not enough. |
+| 🧭 **Navigation** | **Expo Router** | Handles the main app routes and deep links into experiences such as UNLOAD. | Keeps navigation simple and works well with an Expo based project. |
+| 👆 **Back Tap UNLOAD** | **iOS Back Tap + Shortcut/App Intent + Deep Link** | Lets the user double-tap the back of the iPhone and jump straight into quick UNLOAD. | Fast capture is central to SPCE. This depends on iOS setup and a native shortcut/deep-link bridge. |
+| 📅 **Calendar + Reminders** | **Apple EventKit integration** | Reads permitted Calendar and Reminders commitments so SPCE can understand the planned day. | Avoids forcing the user to enter the same commitment twice. Requires explicit iOS permissions. |
+| 🎙️ **Voice Capture** | **Deepgram** | Converts quick spoken UNLOAD entries into text. | Useful for fast hands-free capture. Requires network access, so typed UNLOAD remains available. |
+| ✨ **Motion + Gestures** | **React Native Reanimated + Gesture Handler** | Powers swipe cards, transitions, interactive states, and gesture-driven UI. | Gives the prototype a native-feeling interaction model. |
+| 🪐 **Spatial Visuals** | **React Native Skia** | Renders the SPCE FIELD / CORE visual system and richer realtime visual states. | More control than standard UI primitives, but kept separate from the decision logic. |
+| 🧩 **Context Parser** | **LLM context layer, provider-agnostic** | Converts natural-language UNLOAD input into structured commitments, context, and candidate attributes. | Keeps the product flexible while preventing the LLM from directly controlling core decisions. |
+| 🧾 **Structured AI Contracts** | **JSON + Zod** | Validates parsed commitments, capacity inputs, explanations, and candidate policy objects. | Stops malformed model output from flowing directly into SPCE logic. |
+| 🧠 **Capacity Engine** | **Deterministic TypeScript rules + user history** | Compares planned commitments with actual completion, delay, skip, and postponement patterns. | Makes the core capacity logic testable and explainable instead of hiding it inside a black-box model. |
+| 🔍 **FIT / WHY / FIX Engine** | **Deterministic decision rules** | Produces FIT or Does Not Fit, records WHY, and proposes the smallest practical FIX. | Judges can inspect how a recommendation was produced. Rules can be refined without retraining a model. |
+| 🙋 **Human Approval Layer** | **Approval state machine + Decision Ledger** | Stores approve, reject, edit, and learned-policy decisions. | SPCE never silently turns an AI suggestion into a personal rule. |
+| 📈 **Capacity Learning** | **Behaviour history + lightweight pattern scoring** | Learns from repeated completion and postponement patterns to update future capacity estimates. | Feasible during a hackathon and easier to explain than training a custom ML model. |
+| 🗄️ **Database** | **Supabase Postgres** | Stores commitments, completion history, capacity patterns, approvals, learning history, and Comfort Space data. | Managed database with fast setup. Requires a clear schema and careful access rules. |
+| 🔐 **Authentication + Access Control** | **Supabase Auth + Row Level Security** | Keeps each user's personal workload and learning history scoped to their account. | Reduces custom backend work while supporting per-user data isolation. |
+| ⚡ **Realtime Community Layer** | **Supabase Realtime** | Delivers short Comfort Space messages during an active support window. | Good fit for temporary realtime interactions. Moderation still needs to happen before delivery. |
+| 🛡️ **Comfort Moderation** | **Rule checks + moderation service** | Screens messages before they are delivered to another user. | Required because Comfort Space is supportive, not an unrestricted social feed. |
+| 🔔 **Notifications** | **Expo Notifications + APNs** | Handles check-ins, approved reminders, and Comfort Space events. | Useful for timely interactions without keeping the app open. Requires notification permission. |
+| ☁️ **API / Secure Proxy** | **Cloudflare Workers** | Protects service credentials and handles lightweight API orchestration when a direct mobile call is not appropriate. | Fast deployment and low operational overhead for a hackathon. |
+| 🗃️ **Local Cache** | **Secure local storage** | Keeps small pieces of app state available quickly and reduces unnecessary network calls. | Sensitive data should be minimised and not stored locally unless needed. |
+| ⌚ **Wearable Context** | **Garmin integration** | Optional extra context for the capacity model. | **Stretch goal.** SPCE must work fully without a wearable and should not interpret wearable data as a medical diagnosis. |
+| 🚀 **Build + Distribution** | **Expo EAS Build / TestFlight** | Produces an installable iOS build for testing and judging. | Practical for rapid iteration, but Apple permissions and native integrations need to be tested early. |
+
+#### What runs the intelligence?
+
+SPCE separates the system into three layers so the AI stays understandable:
+
+| **Layer** | **Responsibility** |
+| --- | --- |
+| 🗣️ **Understand** | The language layer turns messy voice or text into structured commitments and context. |
+| 🧠 **Decide** | Deterministic FIT, WHY, FIX, and capacity rules evaluate what the user can realistically handle. |
+| 🙋 **Govern** | The user approves, rejects, or edits important decisions before SPCE learns from them. |
+
+#### Core build vs stretch integrations
+
+| **Core for the hackathon** | **Stretch after the core loop works** |
+| --- | --- |
+| React Native iOS app | Garmin context |
+| Fast UNLOAD | Richer wearable signals |
+| Calendar + Reminders connection | Advanced long-term pattern modelling |
+| Daily completion check-in | More complex community matching |
+| Capacity Engine | Expanded Insights analytics |
+| FIT / WHY / FIX | Additional device integrations |
+| Human Approval + Decision Ledger | More advanced spatial animations |
+| Supabase persistence | Broader external app integrations |
+| Basic Comfort Space | Production-scale moderation pipeline |
+
+> **Why this stack is feasible:** managed services handle infrastructure, the LLM is limited to understanding context, and the core SPCE decision loop remains deterministic, testable, and small enough to demonstrate end to end during the hackathon.
+
 
 ### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="20" alt="" /> Architecture Principle
 
