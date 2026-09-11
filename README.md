@@ -176,77 +176,42 @@ Chosen ideas are listed first.
 
 ### <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="20" alt="" /> 2.2 Ideation Boards
 
-#### Board A — Problem Tree
+We used four visual boards to show how the idea moved from **understanding the problem** to **choosing SPCE**, then into the **solution flow** and the final **product ecosystem**.
 
-```mermaid
-flowchart TD
-    A[Calendar shows free time] --> B[Only scheduled work is visible]
-    B --> C[Hidden load is missed]
+#### 1. Problem Exploration
 
-    C --> D[Mental load]
-    C --> E[Physical fatigue]
-    C --> F[Social commitments]
-    C --> G[Errands and travel]
-    C --> H[Unscheduled work]
+<p align="center">
+  <img src="images/Problem_Board.png" alt="SPCE Problem Exploration Board" width="100%">
+</p>
 
-    D --> I[Actual capacity is lower]
-    E --> I
-    F --> I
-    G --> I
-    H --> I
+**What it shows:** We started with the gap between **free time and real capacity**. The board maps the hidden load students carry, what current planning tools can see, what they may miss, who is affected, and the main insight that shaped SPCE.
 
-    I --> J[Overcommitment]
-    J --> K[Stress, late changes, missed work]
-```
+#### 2. Idea Exploration
 
-**What it shows:** The problem is not simply poor scheduling. A meaningful portion of a student’s load may never appear as a calendar event.
+<p align="center">
+  <img src="images/Idea_Board.png" alt="SPCE Idea Exploration Board" width="100%">
+</p>
 
-#### Board B — Core SPCE Loop
+**What it shows:** We explored several directions before choosing SPCE. The board separates ideas we kept from ideas we dropped and explains why we focused on **fast capture, personal capacity learning, transparent AI, human approval, and emotional support**.
 
-```mermaid
-flowchart LR
-    A[UNLOAD] --> B[UNDERSTAND]
-    B --> C[FIT]
-    C -->|Fits| D[Continue]
-    C -->|Does Not Fit| E[WHY]
-    E --> F[FIX]
-    F --> G[HUMAN APPROVAL]
-    G --> H[LEARN]
-    H --> I[PROVE]
-    I --> J[RECOVER]
-    J --> C
-```
+#### 3. SPCE Solution Flow
 
-**What it shows:** SPCE moves from hidden workload to an explainable decision, asks the user to approve the smallest adjustment, and learns only from accepted behaviour.
+<p align="center">
+  <img src="images/SPCE_feature.png" alt="How SPCE Works Board" width="100%">
+</p>
 
-#### Board C — Product Surface
+**What it shows:** This board turns the concept into a simple product journey. It covers **UNLOAD, connected commitments, check-ins, capacity learning, transparent explanations, human approval, Comfort Space, and Kindness Streak**.
 
-```mermaid
-flowchart TD
-    HOME[Home]
-    WORK[Work]
-    SPCE[SPCE]
-    INSIGHTS[Insights]
+#### 4. Product Ecosystem
 
-    HOME --> WORK
-    HOME --> SPCE
-    HOME --> INSIGHTS
+<p align="center">
+  <img src="images/Product_EcoSystem.png" alt="SPCE Product Ecosystem Board" width="100%">
+</p>
 
-    SPCE --> STATE[Current State]
-    SPCE --> UNLOAD[Unload]
-    SPCE --> WHY[Reasoning Status]
-    SPCE --> SUPPORT[Comfort Circle]
+**What it shows:** The final board maps how the wider product fits together across **Home, Work, SPCE, Insights, Comfort, and the five capacity dimensions**.
 
-    WORK --> FIXED[Fixed Commitments]
-    WORK --> FLEX[Flexible Commitments]
+> **Our ideation path:** understand the real problem, explore different ideas, choose the strongest concept, then turn it into one connected product.
 
-    INSIGHTS --> PATTERN[Capacity Patterns]
-    INSIGHTS --> RECOVERY[Recovery]
-    INSIGHTS --> LEARNING[Learning History]
-    INSIGHTS --> LEDGER[Decision Ledger]
-```
-
-**What it shows:** The wider product is organised into four simple areas—**Home, Work, SPCE, and Insights**—while the reasoning engine remains understandable underneath.
 
 ### <img src="https://api.iconify.design/lucide/messages-square.svg?color=%2334D399" width="20" alt="" /> 2.3 Mentor Consultation
 
