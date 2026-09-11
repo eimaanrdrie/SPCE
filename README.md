@@ -301,105 +301,96 @@ SPCE is not trying to become another task manager. Its main difference is that i
 
 ### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%238B5CF6" width="20" alt="" /> Market Positioning
 
-We compared SPCE with **Akiflow** and **Tiimo** because both already solve important parts of daily planning, but their published product experiences start from a different place.
+A quick comparison of the main product focus:
 
 <table>
   <thead>
     <tr>
       <th align="left">Capability</th>
       <th align="center">
-        <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="42" alt="SPCE icon"><br>
+        <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="40" alt="SPCE icon"><br>
         <strong>SPCE</strong>
       </th>
       <th align="center">
-        <img src="https://www.google.com/s2/favicons?domain=akiflow.com&sz=128" width="42" alt="Akiflow logo"><br>
+        <img src="https://www.google.com/s2/favicons?domain=akiflow.com&sz=128" width="40" alt="Akiflow logo"><br>
         <strong>Akiflow</strong>
       </th>
       <th align="center">
-        <img src="https://www.google.com/s2/favicons?domain=tiimoapp.com&sz=128" width="42" alt="Tiimo logo"><br>
+        <img src="https://www.google.com/s2/favicons?domain=tiimoapp.com&sz=128" width="40" alt="Tiimo logo"><br>
         <strong>Tiimo</strong>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Primary focus</strong></td>
-      <td>Personal capacity and workload fit</td>
-      <td>Tasks, calendars, time blocking, scheduling and AI productivity assistance</td>
-      <td>Visual planning, routines, tasks, reminders and daily structure</td>
+      <td><strong>Task planning</strong></td>
+      <td align="center">✅ Yes</td>
+      <td align="center">✅ Core</td>
+      <td align="center">✅ Core</td>
     </tr>
     <tr>
-      <td><strong>Main planning question</strong></td>
-      <td><strong>Can I realistically handle this today?</strong></td>
-      <td>When should I do this and where should it fit?</td>
-      <td>What do I need to do and how can I structure my day?</td>
+      <td><strong>Calendar planning</strong></td>
+      <td align="center">✅ Connected</td>
+      <td align="center">✅ Core</td>
+      <td align="center">✅ Yes</td>
     </tr>
     <tr>
       <td><strong>Fast task capture</strong></td>
-      <td>Back Tap UNLOAD with voice or text</td>
-      <td>Task capture, shortcuts, integrations and mobile capture</td>
-      <td>Tasks and AI assisted planning</td>
+      <td align="center">✅ Back Tap</td>
+      <td align="center">✅ Quick capture</td>
+      <td align="center">✅ Tasks</td>
     </tr>
     <tr>
-      <td><strong>Calendar integration</strong></td>
-      <td>Uses Calendar and Reminders as part of the user's capacity picture</td>
-      <td>Strong calendar integration, task imports and time blocking</td>
-      <td>Calendar, to-dos, routines and reminders in one visual view</td>
+      <td><strong>Completion check-in</strong></td>
+      <td align="center">✅ Learns outcomes</td>
+      <td align="center">➖ Different focus</td>
+      <td align="center">➖ Different focus</td>
     </tr>
     <tr>
-      <td><strong>Learns from completed vs postponed work</strong></td>
-      <td><strong>Core concept</strong>. Completion patterns help estimate future capacity</td>
-      <td>Not presented as the primary capacity model on the referenced product pages</td>
-      <td>Not presented as the primary capacity model on the referenced product pages</td>
+      <td><strong>Learns postponement patterns</strong></td>
+      <td align="center">✅ Core</td>
+      <td align="center">➖ Different focus</td>
+      <td align="center">➖ Different focus</td>
     </tr>
     <tr>
       <td><strong>Personal capacity model</strong></td>
-      <td><strong>Core concept</strong>. Mental, Time, Physical, Social and Errands</td>
-      <td>Product focus is scheduling, time management and task execution</td>
-      <td>Product focus is visual planning, routines and reducing planning overwhelm</td>
+      <td align="center">✅ 5 dimensions</td>
+      <td align="center">➖ Scheduling focus</td>
+      <td align="center">➖ Planning focus</td>
     </tr>
     <tr>
-      <td><strong>Explainable fit decision</strong></td>
-      <td><strong>WHY / Decision Ledger</strong> shows what influenced the suggestion</td>
-      <td>AI and scheduling assistance, but not SPCE's capacity decision model</td>
-      <td>AI co-planning, but not SPCE's capacity decision model</td>
+      <td><strong>Explains AI decisions</strong></td>
+      <td align="center">✅ WHY Ledger</td>
+      <td align="center">➖ Different model</td>
+      <td align="center">➖ Different model</td>
     </tr>
     <tr>
-      <td><strong>User approval before learned policy</strong></td>
-      <td><strong>Yes</strong>. User can approve, reject, or edit before SPCE learns</td>
-      <td>Different product model</td>
-      <td>Different product model</td>
+      <td><strong>Human approval before learning</strong></td>
+      <td align="center">✅ Required</td>
+      <td align="center">➖ Different model</td>
+      <td align="center">➖ Different model</td>
     </tr>
     <tr>
-      <td><strong>Emotional support layer</strong></td>
-      <td><strong>Comfort Space</strong></td>
-      <td>Not a primary feature in the referenced product pages</td>
-      <td>Designed to reduce overwhelm, but not presented as a peer comfort network</td>
+      <td><strong>Emotional support space</strong></td>
+      <td align="center">✅ Comfort Space</td>
+      <td align="center">➖ Not core</td>
+      <td align="center">➖ Not core</td>
     </tr>
     <tr>
-      <td><strong>Community support</strong></td>
-      <td><strong>Kindness Streak</strong> and short peer encouragement</td>
-      <td>Not a primary feature in the referenced product pages</td>
-      <td>Not a primary feature in the referenced product pages</td>
-    </tr>
-    <tr>
-      <td><strong>Best fit</strong></td>
-      <td>Students who want help understanding how much they can realistically handle</td>
-      <td>Users who want tasks and calendars consolidated into a strong scheduling workflow</td>
-      <td>Users who want a visual, flexible way to organise daily life and routines</td>
+      <td><strong>Peer support community</strong></td>
+      <td align="center">✅ Kindness Streak</td>
+      <td align="center">➖ Not core</td>
+      <td align="center">➖ Not core</td>
     </tr>
   </tbody>
 </table>
 
-**Sources used for this comparison:**  
-<a href="https://akiflow.com/features">Akiflow Features</a> ·
-<a href="https://akiflow.com/features/time-blocking">Akiflow Time Blocking</a> ·
-<a href="https://www.tiimoapp.com/product/visual-planning">Tiimo Visual Planning</a>
+**Legend:** ✅ supported / core feature &nbsp;&nbsp; ➖ different product focus
 
-> [!NOTE]
-> The comparison describes the publicly documented product focus of Akiflow and Tiimo. It does not claim that either product lacks every adjacent or experimental capability.
+> **SPCE's position:** Akiflow helps organise **when work happens**. Tiimo helps make daily planning **easier to structure**. SPCE focuses on **how much the person can realistically handle**, explains its reasoning, and adds a human support layer.
 
-> **SPCE's position:** Akiflow helps organise the schedule. Tiimo helps make the day easier to structure. SPCE is designed to learn **how much of that day the person can realistically handle** and provide support when capacity runs low.
+<sub>Comparison is based on the publicly described product focus of Akiflow and Tiimo. It does not claim that either product lacks every adjacent capability.</sub>
+
 
 ---
 
