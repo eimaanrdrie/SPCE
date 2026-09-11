@@ -1,18 +1,40 @@
-# SPCE — Personal Capacity AI by [Team Name]
+<p align="center">
+  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="64" alt="" />
+</p>
 
-> ## **SPCE gets to know you like someone who loves you. Learning when you can handle more, when you need to slow down, and when you just need comfort.**
+<h1 align="center">SPCE — Personal Capacity AI</h1>
 
-**Team:** [Member 1], [Member 2], [Member 3], [Member 4]  
-**Problem Statement:** Stress & Workload Manager  
-**Video Presentation:** [Unlisted YouTube Link]  
-**Presentation Slides:** [Public Link]  
-**UI Prototype:** [Public Figma Link]
+<p align="center">
+  <strong>SPCE gets to know you like someone who loves you would — learning when you can handle more, when you need to slow down, and when you just need comfort.</strong>
+</p>
+
+<p align="center">
+  <em>Free time is not the same as capacity.</em>
+</p>
+
+<p align="center">
+  <a href="#-1-project-overview">Overview</a> •
+  <a href="#-2-ideation--process">Ideation</a> •
+  <a href="#-3-design--prototype">Prototype</a> •
+  <a href="#-4-what-makes-it-different">Difference</a> •
+  <a href="#-5-technical-architecture--feasibility">Architecture</a>
+</p>
 
 ---
 
-## 1. Project Overview
+| | |
+| --- | --- |
+| **Team** | [Member 1], [Member 2], [Member 3], [Member 4] |
+| **Problem Statement** | Stress & Workload Manager |
+| **Video Presentation** | [Unlisted YouTube Link] |
+| **Presentation Slides** | [Public Link] |
+| **UI Prototype** | [Public Figma Link] |
 
-### The Problem
+---
+
+## <img src="https://api.iconify.design/lucide/target.svg?color=%238B5CF6" width="22" alt="" /> 1. Project Overview
+
+### <img src="https://api.iconify.design/lucide/triangle-alert.svg?color=%23F59E0B" width="20" alt="" /> The Problem
 
 **Imagine your bestie keeps telling you uni life is exhausting.**
 
@@ -24,7 +46,8 @@ You check their calendar and say:
 
 That’s the problem.
 
-## **Being free doesn’t mean you still have capacity.**
+> [!IMPORTANT]
+> **Being free doesn’t mean you still have capacity.**
 
 A student can have an empty hour on their calendar and still be completely drained — mentally, physically, socially, or just from dealing with life.
 
@@ -49,16 +72,26 @@ SPCE looks beyond an empty calendar slot and considers the load people usually d
 
 It is built for **students**, the **friends and peers who support them**, and **universities that want to help before things get too overwhelming**.
 
-**SPCE is a stress and workload management tool, not a medical diagnosis tool.**
+> [!NOTE]
+> **SPCE is a stress and workload management tool, not a medical diagnosis tool.**
 
 
-### Our Solution
+### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="20" alt="" /> Our Solution
 
 SPCE is a human-governed **Personal Capacity AI** that learns from the user’s own approved decisions.
 
 The flow is simple:
 
-> **UNLOAD → FIT → WHY → FIX → APPROVE → LEARN → PROVE → RECOVER**
+><p align="center">
+> <img src="https://api.iconify.design/lucide/inbox.svg?color=%2360A5FA" width="18" alt="" /> <strong>UNLOAD</strong> → 
+> <img src="https://api.iconify.design/lucide/circle-check-big.svg?color=%2334D399" width="18" alt="" /> <strong>FIT</strong> → 
+> <img src="https://api.iconify.design/lucide/search.svg?color=%238B5CF6" width="18" alt="" /> <strong>WHY</strong> → 
+> <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F59E0B" width="18" alt="" /> <strong>FIX</strong> → 
+> <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="18" alt="" /> <strong>APPROVE</strong> → 
+> <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="18" alt="" /> <strong>LEARN</strong> → 
+> <img src="https://api.iconify.design/lucide/file-search.svg?color=%2360A5FA" width="18" alt="" /> <strong>PROVE</strong> → 
+> <img src="https://api.iconify.design/lucide/heart-pulse.svg?color=%23F472B6" width="18" alt="" /> <strong>RECOVER</strong>
+> </p>
 
 A student can quickly unload hidden work, check whether a new commitment actually fits their current capacity, understand **why** it may not fit, review the smallest possible fix, and approve the change before SPCE learns from it.
 
@@ -66,7 +99,25 @@ When things get heavy, **Comfort Circle** gives the student a short, privacy-pre
 
 SPCE does not try to take over the user’s life. It helps them notice overload earlier, make a better call, and recover with less friction.
 
-### Core Feature Set
+
+> [!TIP]
+> **SPCE in one line:** <img src="https://api.iconify.design/lucide/eye.svg?color=%2360A5FA" width="17" alt="" /> See the hidden load → <img src="https://api.iconify.design/lucide/scale.svg?color=%238B5CF6" width="17" alt="" /> check real capacity → <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F59E0B" width="17" alt="" /> make the smallest fix → <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="17" alt="" /> recover with support.
+
+
+### <img src="https://api.iconify.design/lucide/layers-3.svg?color=%2360A5FA" width="20" alt="" /> Core Feature Set
+
+<p align="center">
+  <img src="https://api.iconify.design/lucide/brain.svg?color=%238B5CF6" width="24" alt="" /> <strong>Mental</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <img src="https://api.iconify.design/lucide/clock-3.svg?color=%2360A5FA" width="24" alt="" /> <strong>Time</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <img src="https://api.iconify.design/lucide/activity.svg?color=%2334D399" width="24" alt="" /> <strong>Physical</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <img src="https://api.iconify.design/lucide/users.svg?color=%23F472B6" width="24" alt="" /> <strong>Social</strong>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <img src="https://api.iconify.design/lucide/shopping-bag.svg?color=%23F59E0B" width="24" alt="" /> <strong>Errands</strong>
+</p>
+
 
 | Feature | What it does |
 | --- | --- |
@@ -87,9 +138,9 @@ SPCE does not try to take over the user’s life. It helps them notice overload 
 
 ---
 
-## 2. Ideation & Process
+## <img src="https://api.iconify.design/lucide/lightbulb.svg?color=%23F59E0B" width="22" alt="" /> 2. Ideation & Process
 
-### 2.1 Ideas We Considered
+### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="20" alt="" /> 2.1 Ideas We Considered
 
 Chosen ideas are listed first.
 
@@ -114,7 +165,7 @@ Chosen ideas are listed first.
 | **Open Social Feed / DMs** | **Dropped.** Comfort Circle is deliberately constrained and is not designed to become another social network. |
 | **Medical Burnout Diagnosis** | **Dropped.** SPCE manages workload and personal capacity; it does not diagnose a medical condition. |
 
-### 2.2 Ideation Boards
+### <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="20" alt="" /> 2.2 Ideation Boards
 
 #### Board A — Problem Tree
 
@@ -188,7 +239,7 @@ flowchart TD
 
 **What it shows:** The wider product is organised into four simple areas—**Home, Work, SPCE, and Insights**—while the reasoning engine remains understandable underneath.
 
-### 2.3 Mentor Consultation
+### <img src="https://api.iconify.design/lucide/messages-square.svg?color=%2334D399" width="20" alt="" /> 2.3 Mentor Consultation
 
 > Replace the placeholders below with the team’s actual consultation record before submission.
 
@@ -199,7 +250,7 @@ flowchart TD
 
 ---
 
-## 3. Design & Prototype
+## <img src="https://api.iconify.design/lucide/smartphone.svg?color=%2360A5FA" width="22" alt="" /> 3. Design & Prototype
 
 **UI Prototype:** [Public Figma Link]
 
@@ -212,7 +263,7 @@ The prototype uses four primary areas:
 - **SPCE** — the live capacity reasoning journey.
 - **Insights** — capacity patterns, recovery, learning history, and decision reasoning.
 
-### Key Screens to Showcase
+### <img src="https://api.iconify.design/lucide/panels-top-left.svg?color=%2360A5FA" width="20" alt="" /> Key Screens to Showcase
 
 > Export 4–8 final screenshots into an `/assets` folder before submission.
 
@@ -253,7 +304,7 @@ Shows how an approved decision can inform future behaviour, remain explainable, 
 
 ---
 
-## 4. What Makes It Different
+## <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23F472B6" width="22" alt="" /> 4. What Makes It Different
 
 SPCE is not another calendar with an AI chat box attached.
 
@@ -261,7 +312,7 @@ Its core difference is the combination of:
 
 > **Capacity reasoning + explainability + human approval + self-learning + human comfort**
 
-### Novel Features
+### <img src="https://api.iconify.design/lucide/badge-plus.svg?color=%23F472B6" width="20" alt="" /> Novel Features
 
 | **SPCE Idea** | **The Twist** |
 | --- | --- |
@@ -275,7 +326,7 @@ Its core difference is the combination of:
 | **Patterns, not scores** | Insights focus on recurring capacity and recovery patterns rather than reducing the user to a single wellbeing score. |
 | **Optional wearable context** | Wearable input can enrich context without becoming a dependency or medical diagnosis mechanism. |
 
-### Market Positioning
+### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%238B5CF6" width="20" alt="" /> Market Positioning
 
 Akiflow and Tiimo are useful reference points because they demonstrate strong approaches to task/calendar planning, visual planning, routines, and time allocation. SPCE starts from a different primary signal: **the person’s changing capacity**, including hidden load that may not be represented as a task or calendar event.
 
@@ -292,9 +343,9 @@ Akiflow and Tiimo are useful reference points because they demonstrate strong ap
 
 ---
 
-## 5. Technical Architecture & Feasibility
+## <img src="https://api.iconify.design/lucide/workflow.svg?color=%2334D399" width="22" alt="" /> 5. Technical Architecture & Feasibility
 
-### Planned Tech Stack
+### <img src="https://api.iconify.design/lucide/code-2.svg?color=%2334D399" width="20" alt="" /> Planned Tech Stack
 
 > Confirm final implementation choices before submission and replace any item that differs from the actual build.
 
@@ -312,7 +363,7 @@ Akiflow and Tiimo are useful reference points because they demonstrate strong ap
 | **Edge / API Layer** | Cloudflare Workers | Lightweight service/proxy layer where required. |
 | **Optional Wearable Input** | Garmin integration | Stretch goal only; the core experience must work without it. |
 
-### Architecture Principle
+### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="20" alt="" /> Architecture Principle
 
 SPCE separates **language understanding** from **decision authority**.
 
@@ -322,7 +373,7 @@ A model may help interpret an unload such as:
 
 But the actual `FIT → WHY → FIX → APPROVE → LEARN` path is structured so the decision can be checked, explained, and shown back to the user.
 
-### System Architecture
+### <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="20" alt="" /> System Architecture
 
 ```mermaid
 flowchart TD
@@ -363,7 +414,7 @@ flowchart TD
     S[Language / Context Model] --- E
 ```
 
-### Build Plan & Scope
+### <img src="https://api.iconify.design/lucide/hammer.svg?color=%23F59E0B" width="20" alt="" /> Build Plan & Scope
 
 The prototype shows the wider SPCE product vision. The build phase should prove **one complete loop extremely well**.
 
@@ -393,7 +444,7 @@ Turn repeated approved behaviour into a **candidate** personal policy rather tha
 **8. PROVE / RECOVER**  
 Show why the fix was selected and return the user toward a workable state.
 
-### Stretch Goals
+### <img src="https://api.iconify.design/lucide/rocket.svg?color=%23F472B6" width="20" alt="" /> Stretch Goals
 
 - Realtime **Comfort Circle** delivery and moderation.
 - Glanceable widget / capacity state.
@@ -402,7 +453,7 @@ Show why the fix was selected and return the user toward a workable state.
 - Full SPCE FIELD / CORE spatial animation.
 - Richer long-term learning history and capacity-pattern insights.
 
-### Hackathon Scope Boundary
+### <img src="https://api.iconify.design/lucide/flag.svg?color=%238B5CF6" width="20" alt="" /> Hackathon Scope Boundary
 
 The goal is not to build every possible SPCE feature.
 
@@ -412,3 +463,25 @@ The goal is to demonstrate one believable closed loop:
 
 If that journey works clearly, the wider product becomes credible.
 
+---
+
+## Submission Checklist
+
+- [ ] Replace **[Team Name]**
+- [ ] Add final team member names
+- [ ] Add the unlisted YouTube presentation link
+- [ ] Add the public presentation-slides link
+- [ ] Add the public Figma link and test it in an incognito window
+- [ ] Replace mentor-consultation placeholders with the actual consultation record
+- [ ] Export 4–8 final prototype screenshots into `/assets`
+- [ ] Confirm every screenshot renders correctly in the repository
+- [ ] Replace planned technologies with the stack actually used
+- [ ] Confirm the final language/context model
+- [ ] Clearly mark which stretch goals were actually implemented
+- [ ] Final proofread so every claim matches the submitted prototype/build
+
+---
+
+<p align="center">
+  <sub>Interface icons: <a href="https://lucide.dev/">Lucide</a> · SVG delivery via Iconify API.</sub>
+</p>
