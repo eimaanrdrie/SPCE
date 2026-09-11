@@ -34,43 +34,60 @@
 
 ## <img src="https://api.iconify.design/lucide/target.svg?color=%238B5CF6" width="22" alt="" /> 1. Project Overview
 
-### <img src="https://api.iconify.design/lucide/triangle-alert.svg?color=%23F59E0B" width="20" alt="" /> The Problem
+### ⚠️ The Problem
 
-**Imagine your bestie keeps telling you uni life is exhausting.**
+**Imagine this:** your bestie keeps telling you uni life is exhausting.
 
-Assignments are piling up. They’re commuting, running errands, trying to keep up with friends, and somehow still expected to stay productive.
+Assignments are piling up. They are commuting, running errands, trying to keep up with friends, and still expected to stay productive.
 
-You check their calendar and say:
+Then you look at their calendar and say:
 
 > **“But bestie… you’re free at 7 PM?”**
 
-That’s the problem.
+**Exactly. An empty calendar does not mean they still have capacity.**
 
-> [!IMPORTANT]
-> **Being free doesn’t mean you still have capacity.**
+---
 
-A student can have an empty hour on their calendar and still be completely drained — mentally, physically, socially, or just from dealing with life.
+#### What students are actually carrying
 
-And this is not just a “uni is stressful lol” problem.
+A “free” hour can still come after:
 
-In June 2025, *The Star* reported that a Universiti Putra Malaysia study involving **1,211 higher-education students** found that **60.5% reported symptoms of anxiety, 45.6% depression, and 40% stress**. The report also highlighted academic pressure, career uncertainty, and financial constraints as contributors to student stress and burnout. [[1]](https://www.thestar.com.my/news/nation/2025/06/16/heavy-price-of-education)
+- 📚 Assignments and classes
+- 🚌 Commuting
+- 🛒 Errands
+- 👥 Social commitments
+- 🧠 Mental load
+- 😮‍💨 Trying to recover from everything above
 
-Existing tools already help students organise **time and tasks**:
+So the problem is not only **time**.
 
-- **Akiflow** helps users organise tasks, calendars, and time blocks. [[2]](https://akiflow.com/features)
-- **Tiimo** helps users organise routines, reminders, tasks, and daily plans visually. [[3]](https://www.tiimoapp.com/product/visual-planning)
+It is whether the student still has enough **mental, physical, social, and practical capacity** to take on something else.
 
-They are good at answering:
+---
+
+#### This is not a small problem
+
+> **In a 2025 UPM study of 1,211 higher-education students, 60.5% reported symptoms of anxiety, 45.6% depression, and 40% stress.**  
+> *The Star* also highlighted academic pressure, career uncertainty, and financial constraints as contributors to student stress and burnout. [[1]](https://www.thestar.com.my/news/nation/2025/06/16/heavy-price-of-education)
+
+---
+
+#### Existing tools help with planning — but from a different angle
+
+**Akiflow** helps organise tasks, calendars, and time blocks. [[2]](https://akiflow.com/features)  
+**Tiimo** helps organise routines, reminders, tasks, and daily plans visually. [[3]](https://www.tiimoapp.com/product/visual-planning)
+
+They help answer:
 
 > **“What do I need to do, and when?”**
 
-SPCE asks the layer underneath:
+SPCE focuses on the layer underneath:
 
-> **“Okay… but do you actually have the capacity to deal with it right now?”**
+> ## **“Even if you have time, do you actually have the capacity to handle it right now?”**
 
-SPCE looks beyond an empty calendar slot and considers the load people usually do not schedule — **Mental, Time, Physical, Social, and Errands**.
+SPCE looks beyond the calendar and considers five kinds of load:
 
-It is built for **students**, the **friends and peers who support them**, and **universities that want to help before things get too overwhelming**.
+**Mental · Time · Physical · Social · Errands**
 
 > [!NOTE]
 > **SPCE is a stress and workload management tool, not a medical diagnosis tool.**
