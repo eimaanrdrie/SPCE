@@ -114,35 +114,28 @@ SPCE is a human-governed **Personal Capacity AI** that learns from what you actu
 | 💜 | **6. Get support when you need it** | **Comfort Space** gives stressed users a private place to receive short supportive messages from the community. |
 | 🔥 | **7. Give support when you can** | Users can comfort someone else and build a **Kindness Streak** through positive support. |
 
-#### What does "learning your capacity" actually mean?
+#### 🧠 What does “learning your capacity” mean?
 
-SPCE compares the day you **planned** with the day you were actually able to **handle**.
+SPCE compares what you **planned** with what you actually **managed to finish**.
 
-> **Example**
->
-> You planned **6 commitments** on several Tuesdays.
->
-> You usually completed **4** and postponed **2**.
->
-> SPCE can recognise that pattern and suggest that **around 4 commitments may better match your Tuesday capacity**.
+> 💡 **Example:** You planned **6 commitments** on several Tuesdays, but usually finished **4** and postponed **2**.  
+> SPCE can spot that pattern and suggest that **4 may be a more realistic Tuesday capacity**.
 
-The important part is that SPCE does not silently decide this for you.
+SPCE does not quietly decide for you. It shows what it noticed, explains **why**, and asks for your approval before learning from that decision.
 
-It shows what it noticed, explains why it made the suggestion, and asks for your approval before that decision becomes part of what SPCE learns.
+#### 💜 Sometimes you just need comfort
 
-#### Comfort is part of the product too
+Not every stressful moment needs another productivity tip.
 
-Sometimes the user does not need another productivity suggestion. They need support.
+**Comfort Space** lets you receive short supportive messages without sharing your full schedule or explaining everything.
 
-**Comfort Space** gives them a place to receive encouragement without exposing their full schedule or the reason they are stressed.
+And when you are having a better day, you can support someone else and build your **🔥 Kindness Streak**.
 
-The community works both ways:
+> **When you have the capacity, give some comfort. When you need it, let the community give some back.**
 
-> **When you have capacity, you can comfort someone else. When you are struggling, the community can be there for you.**
+#### ✨ SPCE in one line
 
-#### SPCE in one sentence
-
-> **Capture your commitments quickly, learn from what you actually complete, understand your real capacity, explain every suggestion, keep you in control, and give you a place to receive or give comfort.**
+> **Capture fast. Learn what you can really handle. Stay in control. Get support when you need it.**
 
 
 ---
