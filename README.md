@@ -504,92 +504,63 @@ The diagram below shows the full SPCE system at a glance, from **user inputs** t
 
 ### <img src="https://api.iconify.design/lucide/hammer.svg?color=%23F59E0B" width="20" alt="" /> Build Plan & Scope
 
-**Building phase: 21 September 2026 to 11 October 2026**
+| **Build Window** | **21 September 2026 to 11 October 2026** |
+| --- | --- |
+| **Goal** | Prove one complete SPCE loop from quick capture to capacity learning, explanation, human approval, and basic support. |
+| **Platform** | iOS-first hackathon build |
+| **Success Standard** | Working end-to-end flow, not maximum feature count |
 
-We are intentionally keeping the build focused. The goal is to prove one complete SPCE loop from **capturing a commitment** to **learning from what the user actually managed to do**, with the user always in control.
+#### Core Build
 
-#### What we plan to build
-
-| **Priority** | **Feature** | **What must work by 11 October** |
+| **Priority** | **Feature** | **Done when** |
 | --- | --- | --- |
-| P0 | ⚡ **UNLOAD** | User can quickly capture a commitment by text or voice, including the Back Tap entry flow on iPhone. |
-| P0 | 📅 **Calendar + Reminders** | SPCE can read permitted commitments from Apple Calendar and Reminders and combine them with manual UNLOAD entries. |
-| P0 | ✅ **Daily Check-In** | User can mark activities as completed, delayed, skipped, or postponed. |
-| P0 | 🧠 **Capacity Engine** | SPCE compares planned work with actual outcomes and produces a simple daily capacity estimate from recent patterns. |
-| P0 | 🎯 **FIT / Does Not Fit** | SPCE can tell whether a new commitment appears realistic for the user's current capacity. |
-| P0 | 🔍 **WHY** | Every important recommendation shows the factors that influenced it. |
-| P0 | 🛠️ **FIX** | SPCE suggests one or two small, practical changes instead of rebuilding the entire day. |
-| P0 | 🙋 **Human Approval** | User can approve, reject, or edit the suggestion before SPCE learns from it. |
-| P0 | 📖 **Learning History** | Approved decisions and repeated completion patterns are stored so future capacity estimates can improve. |
-| P1 | 💜 **Comfort Space** | Basic five-minute support flow with short moderated messages and privacy rules. |
-| P1 | 🔥 **Kindness Streak** | User can receive one qualifying streak credit for a successful support action. |
-| P1 | 📊 **Insights** | Show simple capacity, recovery, and learning patterns from the user's own history. |
+| P0 | ⚡ **UNLOAD** | User can capture commitments quickly by text or voice, including Back Tap entry. |
+| P0 | 📅 **Calendar + Reminders** | Permitted commitments can be imported and combined with UNLOAD entries. |
+| P0 | ✅ **Daily Check-In** | User can mark activities completed, delayed, skipped, or postponed. |
+| P0 | 🧠 **Capacity Engine** | SPCE compares planned vs actual behaviour and estimates realistic capacity. |
+| P0 | 🎯 **FIT / Does Not Fit** | New commitments can be checked against current capacity. |
+| P0 | 🔍 **WHY** | SPCE explains the factors behind each important recommendation. |
+| P0 | 🛠️ **FIX** | SPCE suggests one or two small practical adjustments. |
+| P0 | 🙋 **Human Approval** | User can approve, reject, or edit before SPCE learns. |
+| P0 | 📖 **Learning History** | Approved decisions and repeated patterns are stored for future capacity estimates. |
+| P1 | 💜 **Comfort Space** | Basic five-minute support flow works with privacy and moderation rules. |
+| P1 | 🔥 **Kindness Streak** | A qualifying support action can earn streak credit. |
+| P1 | 📊 **Insights** | Simple capacity, recovery, and learning patterns are visible. |
 
-#### 3-week build schedule
+#### Build Timeline
 
-| **Dates** | **Focus** | **Planned output** |
+| **Dates** | **Focus** | **Output** |
 | --- | --- | --- |
-| **21 to 27 Sep** | **Foundation + Capture** | Set up React Native/Expo project, navigation, Supabase schema and auth, UNLOAD, Deepgram voice capture, ILMU structured parsing, Calendar/Reminders permissions, and basic task storage. |
-| **28 Sep to 4 Oct** | **Core SPCE Intelligence** | Build Daily Check-In, capacity history, deterministic Capacity Engine, FIT, WHY, FIX, Human Approval, Decision Ledger, and approved learning flow. Complete one end-to-end test scenario. |
-| **5 to 11 Oct** | **Support + Integration + Polish** | Add basic Comfort Space, moderation rules, Kindness Streak, simple Insights, notifications, integration testing, edge-case fixes, UI polish, demo data, final TestFlight/build, and submission QA. |
+| **21 to 27 Sep** | Foundation + Capture | App setup, Supabase, UNLOAD, Deepgram, ILMU parsing, Calendar/Reminders, task storage |
+| **28 Sep to 4 Oct** | Core Intelligence | Check-In, Capacity Engine, FIT, WHY, FIX, Human Approval, Decision Ledger, learning |
+| **5 to 11 Oct** | Support + Polish | Comfort Space, Kindness Streak, Insights, notifications, testing, UI polish, final build |
 
-#### Weekly checkpoints
+#### Scope Boundary
 
-**By 27 September**
-- A user can UNLOAD a commitment.
-- Voice input can be converted into structured data.
-- Calendar and Reminders can be connected with permission.
-- Commitments are stored correctly.
+| **In Scope** | **Stretch Only** |
+| --- | --- |
+| iOS-first app | Garmin integration |
+| UNLOAD + connected commitments | Advanced wearable interpretation |
+| Daily completion check-in | Complex long-term ML |
+| Capacity learning | Large-scale community matching |
+| FIT, WHY, FIX | Production-scale moderation |
+| Human Approval + Decision Ledger | Full multi-platform release |
+| Supabase persistence | Many third-party integrations |
+| Basic Comfort Space | Advanced spatial animation |
 
-**By 4 October**
-- A user can complete the full core loop:
-  **UNLOAD, Check-In, Capacity, FIT, WHY, FIX, Approval, Learn**
-- The Decision Ledger explains why the suggestion was made.
-- Rejected or edited suggestions do not silently become learned rules.
+#### Definition of Done
 
-**By 11 October**
-- The complete demo journey is stable.
-- Basic Comfort Space and Kindness Streak work.
-- Core privacy and moderation rules are enforced.
-- Key screens are polished and connected.
-- The team has a working build, demo scenario, README, architecture diagram, and presentation assets.
-
-#### Scope we are deliberately keeping small
-
-To keep the project realistic, the hackathon build will **not** try to solve everything.
-
-**In scope**
-- One iOS-first experience
-- One working capacity-learning loop
-- Simple behaviour-based capacity estimation
-- Explainable decisions
-- Human approval
-- Basic peer comfort flow
-- Supabase-backed persistence
-
-**Stretch only**
-- Garmin integration
-- Advanced wearable interpretation
-- Complex long-term machine learning
-- Large-scale community matching
-- Production-scale moderation
-- Full multi-platform release
-- Deep integrations with many third-party apps
-
-#### Definition of done
-
-By **11 October 2026**, a reviewer should be able to:
-
-1. Add or import commitments.
-2. Tell SPCE what was actually completed or postponed.
-3. See SPCE estimate a realistic capacity from that history.
-4. Add a new commitment and receive a FIT or Does Not Fit result.
-5. Open WHY and understand the reasoning.
-6. Review a small FIX and approve, reject, or edit it.
-7. See that only approved decisions contribute to future learning.
-8. Enter Comfort Space and complete a basic support interaction.
-
-> **Success for the hackathon is not "we built every feature." Success is proving that SPCE can learn from a student's real behaviour, explain its reasoning, keep the student in control, and support them when capacity runs low.**
+| **Reviewer should be able to...** | **Expected result** |
+| --- | --- |
+| Add or import commitments | SPCE has the planned day |
+| Complete the daily check-in | SPCE knows what actually happened |
+| View capacity | SPCE uses recent behaviour to estimate realistic load |
+| Add another commitment | SPCE returns FIT or Does Not Fit |
+| Open WHY | The reasoning is visible |
+| Review FIX | A small adjustment is suggested |
+| Approve, reject, or edit | The user stays in control |
+| Return later | Only approved decisions influence learning |
+| Open Comfort Space | A basic support interaction works |
 
 
 ### <img src="https://api.iconify.design/lucide/rocket.svg?color=%23F472B6" width="20" alt="" /> Stretch Goals
