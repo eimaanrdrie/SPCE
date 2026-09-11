@@ -102,51 +102,47 @@ Existing tools already help organise the day — but SPCE focuses on what those 
 
 SPCE is a human-governed **Personal Capacity AI** that learns from what you actually complete, delay, postpone, or leave unfinished.
 
-The idea is simple. Your calendar can show what you planned, but SPCE wants to understand what you were actually able to handle.
+#### How SPCE works
 
-The experience starts with **UNLOAD**. When something comes to mind, you can **double-tap the back of your iPhone**, quickly speak or type what you need to do, and continue with your day. SPCE can also bring in commitments from connected **Calendar and Reminders** so you do not have to enter everything twice.
-
-At the end of the day, SPCE can check in and ask things like:
-
-> **“Did you finish the tasks you unloaded today?”**  
-> **“Did you complete the activities from your Calendar and Reminders?”**
-
-Your answers help SPCE learn your real capacity.
-
-If you often finish a certain activity late, keep postponing the same type of task, or regularly leave the last few commitments unfinished, SPCE can recognise that pattern. It can then estimate a more realistic capacity for similar days in the future.
-
-For example:
-
-> You planned **6 commitments** on several Tuesdays, but you usually completed only **4** and postponed the last **2**.
->
-> SPCE can learn that **6 may fit your calendar, but around 4 may better match your actual Tuesday capacity**.
-
-SPCE does not make that decision silently. It explains what it noticed, shows the pattern behind the suggestion, and asks the user to approve, reject, or edit the recommendation before it becomes part of what SPCE learns.
-
-| **Part of SPCE** | **What it does** | **Why it matters** |
+| | **Step** | **What happens** |
 | --- | --- | --- |
-| ⚡ **Instant UNLOAD** | Double-tap the back of the iPhone, then speak or type a commitment immediately. | Makes capture fast, so users can record something before they forget it. |
-| 📅 **Calendar and Reminders connection** | Brings in existing commitments from connected apps. | Gives SPCE a fuller view of the user's day without making them rebuild their schedule. |
-| ✅ **Daily check-in** | Asks what was completed, delayed, skipped, or postponed. | Lets SPCE learn from what actually happened, not only from what was planned. |
-| 🧠 **Personal capacity learning** | Detects patterns in what the user can realistically finish on different kinds of days. | Helps SPCE estimate a more realistic daily capacity over time. |
-| 🔍 **Transparent AI reasoning** | Explains why it thinks the day may be overloaded and shows the pattern behind the suggestion. | Keeps the AI understandable instead of giving an unexplained answer. |
-| 🙋 **Human approval** | The user approves, rejects, or edits the AI suggestion before SPCE learns from it. | Keeps the user in control of important decisions. |
-| 💜 **Comfort Space** | Gives stressed users a private place to receive short supportive messages from the community. | Sometimes the user needs emotional support, not another productivity tip. |
-| 🔥 **Kindness Streak** | Users can comfort someone who is stressed and build a streak through positive support. | Helps create a community where people are encouraged to care for each other. |
+| ⚡ | **1. Capture fast** | Double-tap the back of your iPhone, then speak or type what you need to do. SPCE can also bring in commitments from connected **Calendar and Reminders**. |
+| ✅ | **2. Check what actually happened** | SPCE checks in on what you completed, delayed, skipped, or postponed. |
+| 🧠 | **3. Learn your capacity** | SPCE looks for patterns in what you realistically finish on different days and with different types of activities. |
+| 🔍 | **4. Explain before deciding** | If SPCE thinks your day may be overloaded, it explains why and shows the pattern behind its suggestion. |
+| 🙋 | **5. You approve** | You can approve, reject, or edit the suggestion before SPCE learns from it. |
+| 💜 | **6. Get support when you need it** | **Comfort Space** gives stressed users a private place to receive short supportive messages from the community. |
+| 🔥 | **7. Give support when you can** | Users can comfort someone else and build a **Kindness Streak** through positive support. |
 
-### How SPCE works in one simple cycle
+#### What does "learning your capacity" actually mean?
 
-1. **Capture** what you need to do with UNLOAD, Calendar, and Reminders.
-2. **Check in** on what you actually completed.
-3. **Learn** your personal patterns over time.
-4. **Estimate** how much you can realistically handle today.
-5. **Explain** why a commitment may be too much.
-6. **Ask for approval** before learning from or applying the decision.
-7. **Offer comfort** when what you need is support, not another task.
+SPCE compares the day you **planned** with the day you were actually able to **handle**.
 
-> **The goal:** SPCE should gradually understand how you actually live, how much you can usually handle, and when you may need to slow down.
+> **Example**
+>
+> You planned **6 commitments** on several Tuesdays.
+>
+> You usually completed **4** and postponed **2**.
+>
+> SPCE can recognise that pattern and suggest that **around 4 commitments may better match your Tuesday capacity**.
 
-> **The community idea:** when you have capacity, you can comfort someone else. When you are struggling, the community can be there for you.
+The important part is that SPCE does not silently decide this for you.
+
+It shows what it noticed, explains why it made the suggestion, and asks for your approval before that decision becomes part of what SPCE learns.
+
+#### Comfort is part of the product too
+
+Sometimes the user does not need another productivity suggestion. They need support.
+
+**Comfort Space** gives them a place to receive encouragement without exposing their full schedule or the reason they are stressed.
+
+The community works both ways:
+
+> **When you have capacity, you can comfort someone else. When you are struggling, the community can be there for you.**
+
+#### SPCE in one sentence
+
+> **Capture your commitments quickly, learn from what you actually complete, understand your real capacity, explain every suggestion, keep you in control, and give you a place to receive or give comfort.**
 
 
 ---
