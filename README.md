@@ -98,37 +98,55 @@ Existing tools already help organise the day — but SPCE focuses on what those 
 
 ### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="20" alt="" /> Our Solution
 
-> ## **SPCE learns what you can actually handle — not just what you planned.**
+> ## **SPCE learns how much you can realistically handle each day, not just what fits on your calendar.**
 
-SPCE is a human-governed **Personal Capacity AI** designed to make capturing your day fast, learn from what actually happens, and help you make better decisions before your workload becomes too much.
+SPCE is a human-governed **Personal Capacity AI** that learns from what you actually complete, delay, postpone, or leave unfinished.
 
-The experience starts with **UNLOAD**. When something comes to mind, the user can **double-tap the back of their iPhone**, quickly speak or type everything they need to do, and continue with their day. SPCE can also bring in commitments from connected **Calendar and Reminders** so the user does not have to rebuild their schedule manually.
+The idea is simple. Your calendar can show what you planned, but SPCE wants to understand what you were actually able to handle.
 
-From there, SPCE learns the difference between the day you **planned** and the day you could actually **handle**.
+The experience starts with **UNLOAD**. When something comes to mind, you can **double-tap the back of your iPhone**, quickly speak or type what you need to do, and continue with your day. SPCE can also bring in commitments from connected **Calendar and Reminders** so you do not have to enter everything twice.
 
-| | **What SPCE does** | **Why it matters** |
+At the end of the day, SPCE can check in and ask things like:
+
+> **“Did you finish the tasks you unloaded today?”**  
+> **“Did you complete the activities from your Calendar and Reminders?”**
+
+Your answers help SPCE learn your real capacity.
+
+If you often finish a certain activity late, keep postponing the same type of task, or regularly leave the last few commitments unfinished, SPCE can recognise that pattern. It can then estimate a more realistic capacity for similar days in the future.
+
+For example:
+
+> You planned **6 commitments** on several Tuesdays, but you usually completed only **4** and postponed the last **2**.
+>
+> SPCE can learn that **6 may fit your calendar, but around 4 may better match your actual Tuesday capacity**.
+
+SPCE does not make that decision silently. It explains what it noticed, shows the pattern behind the suggestion, and asks the user to approve, reject, or edit the recommendation before it becomes part of what SPCE learns.
+
+| **Part of SPCE** | **What it does** | **Why it matters** |
 | --- | --- | --- |
-| ⚡ **Instant UNLOAD** | Double-tap the back of the iPhone → speak or type a commitment → SPCE captures it immediately. | Fast enough to use the moment something comes to mind, so commitments are less likely to be forgotten. |
-| 📅 **Connect the day** | Combines manually unloaded commitments with activities from connected Calendar and Reminders. | Gives SPCE a more complete picture of what the user is actually carrying. |
-| ✅ **Check what really happened** | SPCE asks whether planned and unloaded activities were completed, delayed, skipped, or postponed. | The system learns from actual behaviour instead of assuming every planned task was realistic. |
-| 🧠 **Learn personal capacity** | If the user repeatedly postpones certain activities, finishes them late, or struggles on similar days, SPCE identifies the pattern and estimates a more realistic capacity for future days. | Capacity becomes personal to the user rather than based on a generic productivity target. |
-| 🔍 **Explain before acting** | When SPCE thinks the day may be overloaded, it shows **WHY** — such as recent completion patterns, repeated postponements, workload, and fixed commitments — and proposes the smallest practical adjustment. | The AI stays transparent instead of giving the user an unexplained recommendation. |
-| 🙋 **User approval** | The user approves, rejects, or edits SPCE's proposed decision before it is applied or used as a learned personal rule. | **SPCE suggests. The human decides.** |
-| 💜 **Comfort Space** | When the user feels overwhelmed, they can enter a short, privacy-preserving space to receive supportive messages without sharing their full schedule or reason. | Sometimes the user needs emotional support, not another productivity tip. |
-| 🔥 **Kindness Streak** | When users have the capacity, they can comfort someone else who needs support and build a Kindness Streak through positive participation. | SPCE aims to create a community where support can move both ways. |
+| ⚡ **Instant UNLOAD** | Double-tap the back of the iPhone, then speak or type a commitment immediately. | Makes capture fast, so users can record something before they forget it. |
+| 📅 **Calendar and Reminders connection** | Brings in existing commitments from connected apps. | Gives SPCE a fuller view of the user's day without making them rebuild their schedule. |
+| ✅ **Daily check-in** | Asks what was completed, delayed, skipped, or postponed. | Lets SPCE learn from what actually happened, not only from what was planned. |
+| 🧠 **Personal capacity learning** | Detects patterns in what the user can realistically finish on different kinds of days. | Helps SPCE estimate a more realistic daily capacity over time. |
+| 🔍 **Transparent AI reasoning** | Explains why it thinks the day may be overloaded and shows the pattern behind the suggestion. | Keeps the AI understandable instead of giving an unexplained answer. |
+| 🙋 **Human approval** | The user approves, rejects, or edits the AI suggestion before SPCE learns from it. | Keeps the user in control of important decisions. |
+| 💜 **Comfort Space** | Gives stressed users a private place to receive short supportive messages from the community. | Sometimes the user needs emotional support, not another productivity tip. |
+| 🔥 **Kindness Streak** | Users can comfort someone who is stressed and build a streak through positive support. | Helps create a community where people are encouraged to care for each other. |
 
-The learning can look as simple as this:
+### How SPCE works in one simple cycle
 
-> You planned **6 commitments** on similar Tuesdays, but you regularly completed only **4** and postponed the last **2**.  
-> SPCE can learn that **6 may fit your calendar, but around 4 may better match your actual Tuesday capacity** — then explain that pattern before suggesting a change.
+1. **Capture** what you need to do with UNLOAD, Calendar, and Reminders.
+2. **Check in** on what you actually completed.
+3. **Learn** your personal patterns over time.
+4. **Estimate** how much you can realistically handle today.
+5. **Explain** why a commitment may be too much.
+6. **Ask for approval** before learning from or applying the decision.
+7. **Offer comfort** when what you need is support, not another task.
 
-<p align="center">
-  <strong>👆 Double Tap → 🎙️ UNLOAD → 📅 Connect → ✅ Check In → 🧠 Learn Capacity → 🔍 Explain → 🙋 Approve → 💜 Comfort / Recover</strong>
-</p>
+> **The goal:** SPCE should gradually understand how you actually live, how much you can usually handle, and when you may need to slow down.
 
-> **The goal:** make capturing life almost instant, then let SPCE gradually understand **how much you can actually handle — not just how much your calendar says you can.**
-
-> **Our community idea:** when you have capacity, you can give comfort. When you do not, the community can give some back.
+> **The community idea:** when you have capacity, you can comfort someone else. When you are struggling, the community can be there for you.
 
 
 ---
