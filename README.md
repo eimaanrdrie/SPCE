@@ -473,44 +473,34 @@ But the actual `FIT → WHY → FIX → APPROVE → LEARN` path is structured so
 
 ### <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="20" alt="" /> System Architecture
 
-```mermaid
-flowchart TD
-    subgraph INPUTS[Inputs]
-        A[Text / Voice UNLOAD]
-        B[Calendar + Commitments]
-        C[User Corrections]
-        D[Optional Wearable Context]
-    end
+The diagram below shows the full SPCE system at a glance, from **user inputs** to **ILMU-powered understanding**, **capacity reasoning**, **human approval**, **data storage**, and **Comfort Space**.
 
-    A --> E[Structured Context Layer]
-    B --> E
-    C --> E
-    D --> E
+<p align="center">
+  <img src="images/architecture.png" alt="SPCE System Architecture Diagram" width="100%">
+</p>
 
-    E --> F[Personal Capacity Engine]
-    F --> G[FIT Evaluation]
+**What the diagram highlights:**
 
-    G -->|Fits| H[Continue Current Plan]
-    G -->|Does Not Fit| I[WHY / Decision Ledger]
+- **Users & Inputs**  
+  Back Tap UNLOAD, voice or text input, Calendar, Reminders, and optional Garmin context.
 
-    I --> J[FIX Engine]
-    J --> K[Human Approval]
+- **SPCE Application**  
+  One mobile app that brings together **Home, Work, SPCE, Insights, Comfort Space, Kindness Streak, and Notifications**.
 
-    K -->|Approve| L[Apply Change]
-    K -->|Reject / Edit| J
+- **Input & Understanding**  
+  **Deepgram** converts voice to text, while **ILMU LLM** turns natural language into structured commitments and usable context.
 
-    L --> M[Learning Candidate]
-    M --> N[User-Governed Personal Policy]
-    N --> F
+- **SPCE Intelligence Engine**  
+  The core logic evaluates **Capacity**, checks **FIT**, explains **WHY**, suggests a **FIX**, waits for **Human Approval**, then updates **Learning**.
 
-    L --> O[PROVE]
-    O --> P[RECOVER]
+- **Backend & Data**  
+  **Supabase** handles authentication, storage, and realtime features, while **Cloudflare Workers** help protect keys and coordinate secure service calls.
 
-    Q[(Supabase)] --- E
-    Q --- N
-    R[API / Edge Layer] --- E
-    S[Language / Context Model] --- E
-```
+- **Comfort & Community**  
+  A separate support layer provides **Comfort Space**, moderation, anonymous encouragement, and **Kindness Streak**.
+
+> **Architecture principle:** ILMU helps understand the user's input, but the final SPCE decision loop remains structured, explainable, and human-approved.
+
 
 ### <img src="https://api.iconify.design/lucide/hammer.svg?color=%23F59E0B" width="20" alt="" /> Build Plan & Scope
 
@@ -572,9 +562,10 @@ If that journey works clearly, the wider product becomes credible.
 - [ ] Add the public Figma link and test it in an incognito window
 - [ ] Replace mentor-consultation placeholders with the actual consultation record
 - [ ] Export 4–8 final prototype screenshots into `/assets`
-- [ ] Confirm every screenshot renders correctly in the repository
+- [ ] Confirm every screenshot and board image renders correctly in the repository
+- [ ] Confirm `images/architecture.png` renders correctly in the repository
 - [ ] Replace planned technologies with the stack actually used
-- [ ] Confirm the final language/context model
+- [ ] Confirm the ILMU-based language/context layer is correctly described
 - [ ] Clearly mark which stretch goals were actually implemented
 - [ ] Final proofread so every claim matches the submitted prototype/build
 
