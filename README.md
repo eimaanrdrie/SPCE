@@ -2,10 +2,10 @@
   <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="64" alt="" />
 </p>
 
-<h1 align="center">SPCE — Personal Capacity AI</h1>
+<h1 align="center">SPCE — Prsonal Capacity AI That Learns Your Patterns</h1>
 
 <p align="center">
-  <strong>SPCE gets to know you like someone who loves you would — learning when you can handle more, when you need to slow down, and when you just need comfort.</strong>
+  <strong>SPCE gets to know you like someone who loves you. It learns when you can handle more, when you need to slow down, and when you just need comfort.</strong>
 </p>
 
 <p align="center">
@@ -584,24 +584,8 @@ If that journey works clearly, the wider product becomes credible.
 
 ---
 
-## Submission Checklist
-
-- [ ] Replace **[Team Name]**
-- [ ] Add final team member names
-- [ ] Add the unlisted YouTube presentation link
-- [ ] Add the public presentation-slides link
-- [ ] Add the public Figma link and test it in an incognito window
-- [ ] Replace mentor-consultation placeholders with the actual consultation record
-- [ ] Export 4–8 final prototype screenshots into `/assets`
-- [ ] Confirm every screenshot and board image renders correctly in the repository
-- [ ] Confirm `images/architecture.png` renders correctly in the repository
-- [ ] Replace planned technologies with the stack actually used
-- [ ] Confirm the ILMU-based language/context layer is correctly described
-- [ ] Clearly mark which stretch goals were actually implemented
-- [ ] Final proofread so every claim matches the submitted prototype/build
-
 ---
 
 <p align="center">
-  <sub>Interface icons: <a href="https://lucide.dev/">Lucide</a> · SVG delivery via Iconify API.</sub>
+  <strong>Made with Love by EAQ 💜❤️</strong>
 </p>
