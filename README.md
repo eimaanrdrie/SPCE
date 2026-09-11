@@ -98,63 +98,38 @@ Existing tools already help organise the day — but SPCE focuses on what those 
 
 ### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="20" alt="" /> Our Solution
 
-SPCE is a human-governed **Personal Capacity AI** that learns from the user’s own approved decisions.
+> ## **SPCE learns what you can actually handle — not just what you planned.**
 
-The flow is simple:
+SPCE is a human-governed **Personal Capacity AI** designed to make capturing your day fast, learn from what actually happens, and help you make better decisions before your workload becomes too much.
 
-><p align="center">
-> <img src="https://api.iconify.design/lucide/inbox.svg?color=%2360A5FA" width="18" alt="" /> <strong>UNLOAD</strong> → 
-> <img src="https://api.iconify.design/lucide/circle-check-big.svg?color=%2334D399" width="18" alt="" /> <strong>FIT</strong> → 
-> <img src="https://api.iconify.design/lucide/search.svg?color=%238B5CF6" width="18" alt="" /> <strong>WHY</strong> → 
-> <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F59E0B" width="18" alt="" /> <strong>FIX</strong> → 
-> <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="18" alt="" /> <strong>APPROVE</strong> → 
-> <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="18" alt="" /> <strong>LEARN</strong> → 
-> <img src="https://api.iconify.design/lucide/file-search.svg?color=%2360A5FA" width="18" alt="" /> <strong>PROVE</strong> → 
-> <img src="https://api.iconify.design/lucide/heart-pulse.svg?color=%23F472B6" width="18" alt="" /> <strong>RECOVER</strong>
-> </p>
+The experience starts with **UNLOAD**. When something comes to mind, the user can **double-tap the back of their iPhone**, quickly speak or type everything they need to do, and continue with their day. SPCE can also bring in commitments from connected **Calendar and Reminders** so the user does not have to rebuild their schedule manually.
 
-A student can quickly unload hidden work, check whether a new commitment actually fits their current capacity, understand **why** it may not fit, review the smallest possible fix, and approve the change before SPCE learns from it.
+From there, SPCE learns the difference between the day you **planned** and the day you could actually **handle**.
 
-When things get heavy, **Comfort Circle** gives the student a short, privacy-preserving space to receive encouragement from peers without exposing their schedule or the reason they need support.
+| | **What SPCE does** | **Why it matters** |
+| --- | --- | --- |
+| ⚡ **Instant UNLOAD** | Double-tap the back of the iPhone → speak or type a commitment → SPCE captures it immediately. | Fast enough to use the moment something comes to mind, so commitments are less likely to be forgotten. |
+| 📅 **Connect the day** | Combines manually unloaded commitments with activities from connected Calendar and Reminders. | Gives SPCE a more complete picture of what the user is actually carrying. |
+| ✅ **Check what really happened** | SPCE asks whether planned and unloaded activities were completed, delayed, skipped, or postponed. | The system learns from actual behaviour instead of assuming every planned task was realistic. |
+| 🧠 **Learn personal capacity** | If the user repeatedly postpones certain activities, finishes them late, or struggles on similar days, SPCE identifies the pattern and estimates a more realistic capacity for future days. | Capacity becomes personal to the user rather than based on a generic productivity target. |
+| 🔍 **Explain before acting** | When SPCE thinks the day may be overloaded, it shows **WHY** — such as recent completion patterns, repeated postponements, workload, and fixed commitments — and proposes the smallest practical adjustment. | The AI stays transparent instead of giving the user an unexplained recommendation. |
+| 🙋 **User approval** | The user approves, rejects, or edits SPCE's proposed decision before it is applied or used as a learned personal rule. | **SPCE suggests. The human decides.** |
+| 💜 **Comfort Space** | When the user feels overwhelmed, they can enter a short, privacy-preserving space to receive supportive messages without sharing their full schedule or reason. | Sometimes the user needs emotional support, not another productivity tip. |
+| 🔥 **Kindness Streak** | When users have the capacity, they can comfort someone else who needs support and build a Kindness Streak through positive participation. | SPCE aims to create a community where support can move both ways. |
 
-SPCE does not try to take over the user’s life. It helps them notice overload earlier, make a better call, and recover with less friction.
+The learning can look as simple as this:
 
-
-> [!TIP]
-> **SPCE in one line:** <img src="https://api.iconify.design/lucide/eye.svg?color=%2360A5FA" width="17" alt="" /> See the hidden load → <img src="https://api.iconify.design/lucide/scale.svg?color=%238B5CF6" width="17" alt="" /> check real capacity → <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F59E0B" width="17" alt="" /> make the smallest fix → <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="17" alt="" /> recover with support.
-
-
-### <img src="https://api.iconify.design/lucide/layers-3.svg?color=%2360A5FA" width="20" alt="" /> Core Feature Set
+> You planned **6 commitments** on similar Tuesdays, but you regularly completed only **4** and postponed the last **2**.  
+> SPCE can learn that **6 may fit your calendar, but around 4 may better match your actual Tuesday capacity** — then explain that pattern before suggesting a change.
 
 <p align="center">
-  <img src="https://api.iconify.design/lucide/brain.svg?color=%238B5CF6" width="24" alt="" /> <strong>Mental</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <img src="https://api.iconify.design/lucide/clock-3.svg?color=%2360A5FA" width="24" alt="" /> <strong>Time</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <img src="https://api.iconify.design/lucide/activity.svg?color=%2334D399" width="24" alt="" /> <strong>Physical</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <img src="https://api.iconify.design/lucide/users.svg?color=%23F472B6" width="24" alt="" /> <strong>Social</strong>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <img src="https://api.iconify.design/lucide/shopping-bag.svg?color=%23F59E0B" width="24" alt="" /> <strong>Errands</strong>
+  <strong>👆 Double Tap → 🎙️ UNLOAD → 📅 Connect → ✅ Check In → 🧠 Learn Capacity → 🔍 Explain → 🙋 Approve → 💜 Comfort / Recover</strong>
 </p>
 
+> **The goal:** make capturing life almost instant, then let SPCE gradually understand **how much you can actually handle — not just how much your calendar says you can.**
 
-| Feature | What it does |
-| --- | --- |
-| **UNLOAD** | Captures hidden workload quickly through low-friction text or voice input. |
-| **Personal Capacity Model** | Represents five capacity dimensions: **Mental, Time, Physical, Social, and Errands**. |
-| **FIT / Does Not Fit** | Checks whether a commitment fits the user’s current capacity, not only their empty calendar slots. |
-| **WHY / Decision Ledger** | Shows the factors behind a recommendation instead of returning an unexplained answer. |
-| **FIX** | Proposes the smallest practical adjustment before attempting a major schedule change. |
-| **Human Approval** | Keeps the user in control of changes and what SPCE is allowed to learn from. |
-| **LEARN** | Turns repeated, approved behaviour into proposed reusable personal policies. |
-| **PROVE** | Surfaces the reasoning behind an approved recommendation. |
-| **RECOVER** | Helps the user move back toward a workable state after overload. |
-| **Fixed vs Flexible Commitments** | Distinguishes what can realistically move from what cannot. |
-| **Comfort Circle** | Provides a five-minute, opt-in, privacy-preserving peer-support experience. |
-| **Kindness Streak** | Recognises supportive participation without creating an open social network. |
-| **Glanceable State / Widget** | Makes current capacity and the next useful action visible at a glance. |
-| **Optional Wearable Context** | Can add non-medical physiological context without making a wearable mandatory. |
+> **Our community idea:** when you have capacity, you can give comfort. When you do not, the community can give some back.
+
 
 ---
 
