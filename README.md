@@ -102,180 +102,84 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 SPCE is a human-governed **Personal Capacity AI** that combines planned commitments with what actually happened, then learns repeated patterns only from evidence the user approves.
 
 
-### ✨ What can SPCE actually do?
+### ✨ Core SPCE Experience
 
-SPCE is built around a few clear experiences: **capture what your calendar misses, understand your personal patterns, protect your capacity, and give or receive support when productivity is not the answer.**
+| | **Feature** | **What it does** |
+| --- | --- | --- |
+| ⚡ | **UNLOAD** | Back Tap, speak or type what your calendar missed. |
+| 🔗 | **Your Real Day** | Brings together Calendar, Reminders, Teams / Microsoft 365, class timetable and UNLOAD. |
+| 🧠 | **Personal Pattern Insights** | Learns from what you actually finish, move, miss and how the workload felt. |
+| 🎯 | **FIT · WHY · FIX** | Checks if something fits your capacity, explains why, then suggests the smallest practical fix. |
+| 📊 | **Insights** | Shows your own capacity, focus and recovery patterns instead of a hidden score. |
+| 💜 | **Comfort Circle** | Private 5-minute support session to receive short moderated encouragement. |
+| 🪄 | **AR Comfort Wall** | Point your camera at a wall or desk and see received comfort notes as floating AR sticky notes. |
+| 💌 | **Give Comfort** | Send one anonymous supportive note to someone who needs it. |
+| 🔥 | **Kindness Streak** | One qualifying comfort action can count toward your daily streak. |
+| 🙋 | **Human Control** | You approve important changes and learning before SPCE uses them later. |
 
-| | **Core Feature** | **What SPCE does** | **Why it matters** |
-| --- | --- | --- | --- |
-| ⚡ | **UNLOAD** | Double-tap the back of your iPhone, then speak or type anything you suddenly remember. SPCE structures it and adds it to your real-day context. | Captures the invisible commitments that never make it into a calendar. |
-| 🔗 | **Your Real Day** | Combines permitted **Calendar, Reminders, Teams / Microsoft 365, class timetable**, and UNLOAD entries into one view. | SPCE sees more than just empty calendar slots. |
-| 🧠 | **Your Personal Pattern Insights** | Learns from what you actually **Done, Partly done, Not done, or Moved**, plus how the workload felt over time. | Helps SPCE understand *your* capacity instead of using a generic productivity rule. |
-| 🎯 | **FIT · WHY · FIX** | Checks whether something realistically fits your current capacity, explains **why**, and suggests the smallest practical adjustment when needed. | Turns capacity learning into useful decisions without rebuilding your whole schedule. |
-| 📊 | **Insights** | Visualises patterns such as **evening focus, deep-work load, recovery, planned vs actual capacity**, and repeated behaviour. | You can see what SPCE learned instead of trusting a hidden AI score. |
-| 💜 | **Comfort Circle** | Opens a private **5-minute support session** where other users can send short moderated encouragement. | Sometimes the right response to overload is support, not another productivity suggestion. |
-| 🪄 | **AR Comfort Wall** | Point your camera at a **wall or desk** and SPCE places received comfort messages into your space as floating AR sticky notes. | Turns anonymous support into a calming spatial experience instead of another inbox. |
-| 💌 | **Give Comfort** | Send one short supportive message to someone currently in a Comfort Circle without seeing their identity, schedule, or reason for needing support. | Support works both ways while protecting privacy. |
-| 🔥 | **Kindness Streak** | One qualifying comfort message can count toward your daily Kindness Streak. | Encourages consistent positive participation without rewarding message spam. |
-| 🙋 | **Human-Controlled Learning** | SPCE shows its reasoning and asks before approved evidence influences future personal patterns or policies. | The AI can learn, but the user stays in control. |
-
-> **In short:** SPCE helps you **capture what is really happening, understand your own patterns, make workload decisions that fit your capacity, and receive or give support when things get heavy.**
+> **Capture what is really happening. Learn your patterns. Protect your capacity. Give or receive support when things get heavy.**
 
 ### 🧩 What if I am the kind of person who...?
 
-SPCE is not built around one “ideal productive student.” Different people struggle in different ways, so SPCE looks for the pattern that is actually getting in the way.
+| **Pattern** | **How SPCE helps** |
+| --- | --- |
+| ⏳ **Leaves everything until the last minute** | Spots repeated late starts and can suggest a smaller earlier start before the final-night rush. |
+| 🗓️ **Is always busy** | Looks at actual capacity, not empty calendar slots, before adding more. |
+| 🧠 **Forgets small commitments** | **UNLOAD** captures errands, preparation work and small tasks immediately. |
+| 🙋 **Says yes too quickly** | **FIT** checks the new commitment first and **WHY** explains the trade-off. |
+| 📚 **Underestimates how long work takes** | Compares planned vs actual outcomes and surfaces repeated overruns. |
+| 🌙 **Struggles late at night** | Can surface an **Evening Focus** pattern and suggest demanding work earlier. |
+| 🔥 **Stacks too many heavy days** | Can surface a **Recovery** pattern and protect a lighter period. |
+| 🔄 **Has unpredictable days** | **Plans changed** prevents unusual days from being treated as clean capacity evidence. |
+| 😵 **Needs support, not another productivity tip** | Opens a private **Comfort Circle** instead of forcing another scheduling recommendation. |
 
-| **What if the person is...** | **What usually happens** | **How SPCE responds** |
-| --- | --- | --- |
-| ⏳ **A last-minute person** | Important work repeatedly starts close to the deadline, then the final evening becomes heavy. | SPCE can highlight the repeated late-start pattern, show when late work tends to become difficult, and suggest a smaller earlier preparation block instead of waiting for the final-night rush. |
-| 🗓️ **Always busy** | The calendar stays full, flexible work keeps moving, and “free time” never really feels free. | SPCE looks at actual capacity instead of empty slots, checks FIT before adding more, and proposes the smallest practical workload adjustment. |
-| 🧠 **Forgetful with small commitments** | Errands, preparation work, forms, calls, or small tasks are remembered too late because they never reached the calendar. | Back Tap + **UNLOAD** captures them immediately and adds them into the real-day context. |
-| 🙋 **Someone who says yes too quickly** | New commitments are accepted because the calendar technically has space. | SPCE can run **FIT** before the commitment is added, explain **WHY** it may be too much, and show a safer alternative. |
-| 🔄 **Someone whose plans change a lot** | A day changes because of cancellations, unexpected work, transport, group meetings, or emergencies. | The user can mark **Plans changed**, so SPCE does not treat that day as clean capacity evidence. |
-| 📚 **Someone who underestimates how long work takes** | One assignment or project block keeps taking longer than expected and pushes everything else later. | SPCE can compare planned duration with repeated outcomes and surface the pattern in Insights before using it in later FIT decisions. |
-| 🌙 **Someone who struggles late at night** | Evening work is repeatedly marked heavy, moved, or unfinished. | SPCE can surface an **Evening Focus** pattern and suggest demanding work earlier when the evidence supports it. |
-| 🔥 **Someone who keeps stacking high-load days** | Several demanding days happen back-to-back with little recovery, and completion starts dropping. | SPCE can surface a **Recovery** pattern and suggest a lighter period after repeated high-load days. |
-| 😵 **Someone who is overwhelmed and does not need another productivity tip** | The user may understand the plan but still feel stressed, drained, or alone. | The user can open a **5-minute Comfort Circle** and receive private moderated encouragement instead of another scheduling recommendation. |
-| 💜 **Someone having a better day who wants to help** | The user has capacity and wants to support somebody else. | **Give Comfort** lets them send one anonymous supportive note and build a **Kindness Streak** through positive participation. |
+> **SPCE does not label the user. It shows repeated evidence and lets the user decide whether a pattern should influence future recommendations.**
 
-> **The point is not to label the user. SPCE uses repeated outcomes to notice patterns, shows the evidence, and lets the user decide whether that pattern should influence future recommendations.**
+### 🔗 Your Real Day
 
-### Bring your real day into one place
-
-SPCE is designed to combine visible and invisible commitments instead of forcing the student to rebuild their life in another planner.
-
-| **Source** | **What SPCE can use it for** | **Status / approach** |
-| --- | --- | --- |
-| 📅 **Apple Calendar** | Classes, meetings, events and blocked time | Planned core connection |
-| ✅ **Apple Reminders** | Tasks, deadlines and personal reminders | Planned core connection |
-| 💼 **Microsoft Teams / Microsoft 365 Calendar** | Lectures, meetings, group work and scheduled academic activity | Planned connector |
-| 🎓 **Class Timetable** | Recurring lectures, labs and tutorials | Planned timetable import |
-| ⚡ **UNLOAD** | Commitments that never made it into a calendar | Core input |
-| 🎙️ **Voice / Text** | Fast natural-language capture | Core input |
-| 👆 **iPhone Back Tap** | Opens UNLOAD before the user forgets | Planned iOS shortcut |
-
-### Choose what you want SPCE to help improve
-
-SPCE should not force every student into the same productivity style. During setup, the user can choose what they want help with first.
-
-| **Improvement focus** | **What it may look like** | **How SPCE helps** |
-| --- | --- | --- |
-| ⏳ **I leave things until the last minute** | Work repeatedly starts close to the deadline and evenings become heavy | SPCE highlights the pattern and can suggest a small earlier starting block instead of waiting for the final-night rush |
-| 🗓️ **I am always busy** | The calendar stays full and flexible work keeps getting pushed | SPCE protects realistic capacity, checks FIT before adding more, and suggests the smallest workload adjustment |
-| 🧠 **I forget invisible commitments** | Small tasks, errands or preparation work are remembered too late | Back Tap + UNLOAD captures them immediately and adds them to the real-day picture |
-| 🙋 **I say yes before checking my capacity** | New commitments are accepted because an empty slot looks available | FIT checks the request against the user’s real capacity before it becomes another overloaded evening |
-| 🌿 **I need better recovery** | High-load days keep stacking without enough recovery | Insights surfaces recovery patterns and SPCE can recommend a lighter period when the evidence supports it |
-
-> **The user chooses the improvement goal. SPCE still learns from real behaviour, shows its reasoning, and asks before turning a pattern into a personal rule.**
+SPCE can combine permitted **Calendar, Reminders, Teams / Microsoft 365, class timetable**, and quick **UNLOAD** entries so one empty slot is not mistaken for unlimited capacity.
 
 ### How SPCE works
 
-| | **Step** | **What happens** |
-| --- | --- | --- |
-| 🔗 | **1. Connect your real day** | SPCE combines permitted calendars, reminders, Teams / Microsoft 365 commitments, class timetable data, and quick UNLOAD entries. |
-| 🎯 | **2. Choose what you want to improve** | The user can start with a focus such as last-minute work, always-busy days, forgotten commitments, overcommitting, or recovery. |
-| ⚡ | **3. Capture what calendars miss** | Double-tap the back of the iPhone, then speak or type something that suddenly needs to be remembered. |
-| ✅ | **4. Check what actually happened** | Each activity is marked **Done, Partly done, Not done, or Moved**, followed by how the overall load felt: **Comfortable, A bit heavy, Too much, or Plans changed**. |
-| 🧠 | **5. Learn your capacity** | SPCE compares what was planned with what actually happened and looks for repeated patterns across similar days. |
-| 🎯 | **6. FIT, WHY, FIX** | A new commitment is checked against current capacity. SPCE explains the reasoning and proposes the smallest practical adjustment if needed. |
-| 🙋 | **7. You approve** | The user can approve, reject, or edit important suggestions before SPCE learns from them. |
-| 💜 | **8. Comfort when productivity is not the answer** | A five-minute Comfort Circle lets the user receive short moderated support, including an AR support wall experience. |
-| 📊 | **9. See your patterns** | Insights visualises capacity, evening focus, deep-work load, recovery and other approved patterns. |
-
-#### 🧠 What does “learning your capacity” mean?
-
-SPCE compares what you **planned** with what you actually **managed to do**.
-
-> 💡 **Example:** You planned **6 commitments** on several Tuesdays, but usually finished **4** and moved **2**.  
-> SPCE can surface that pattern and suggest that **4 may be a more realistic Tuesday capacity**.
-
-SPCE can also notice *when* difficulty tends to happen.
-
-> 💡 **Last-minute example:** Presentation work repeatedly starts after 9 PM and is often marked **A bit heavy**, **Not done**, or **Moved**.  
-> SPCE can highlight the pattern and propose a smaller earlier start, such as a short preparation block before the final evening.
-
-> 💡 **Always-busy example:** Your week looks technically available, but several flexible tasks are repeatedly moved after days with classes, meetings and errands.  
-> SPCE can treat that as a capacity signal instead of assuming every empty slot is usable.
-
-SPCE does not quietly decide for you. It shows what it noticed, explains **why**, and asks for approval before the evidence influences future personal policies.
-
-### ✅ Daily Check-In: planned vs actual
-
-A calendar only records the plan. The check-in records the outcome.
-
-| **Activity outcome** | **Meaning** |
+| **Step** | **What happens** |
 | --- | --- |
-| ✅ **Done** | Completed as expected |
-| ◐ **Partly done** | Progress was made, but the activity was not fully completed |
-| − **Not done** | The planned activity did not happen |
-| ↪ **Moved** | The activity was intentionally shifted to another time |
+| **1. Capture** | Connect your real day and **UNLOAD** anything missing. |
+| **2. Observe** | Check what actually happened: **Done, Partly done, Not done, or Moved**. |
+| **3. Learn** | SPCE compares planned vs actual behaviour and looks for repeated personal patterns. |
+| **4. Decide** | **FIT** checks capacity, **WHY** explains it, and **FIX** suggests the smallest useful adjustment. |
+| **5. Approve** | You approve, reject or edit before SPCE learns from an important decision. |
+| **6. Support & reflect** | Use **Comfort + AR** when support is needed, and **Insights** to see your patterns over time. |
 
-After the activity-level check-in, SPCE asks how the overall load felt:
+#### 🧠 Learning your capacity
 
-| **Overall feel** | **Meaning** |
+> **Example:** You plan 6 commitments on several Tuesdays, but repeatedly finish 4 and move 2. SPCE can surface **4 as a more realistic pattern**, show the evidence, and ask before using it in future decisions.
+
+For a **last-minute pattern**, SPCE may notice that work repeatedly starts late and is later marked **A bit heavy, Not done, or Moved**. It can then suggest a smaller earlier start rather than simply telling the user to “be more productive.”
+
+### ✅ Daily Check-In
+
+**Activity:** `Done` · `Partly done` · `Not done` · `Moved`  
+**Overall feel:** `Comfortable` · `A bit heavy` · `Too much` · `Plans changed`
+
+The check-in separates **what happened** from **how difficult it felt** before the evidence can influence learning.
+
+### 🪄 Comfort Circle + AR
+
+| **Experience** | **What happens** |
 | --- | --- |
-| 🟢 **Comfortable** | The day felt manageable |
-| 🟡 **A bit heavy** | Most things happened, but the load felt high |
-| 🔴 **Too much** | Load or timing got in the way |
-| 🔵 **Plans changed** | The day changed enough that it should not be treated as clean capacity evidence |
+| 💜 **Receive comfort** | Open a private **5-minute Comfort Circle** and receive short moderated messages without sharing your identity, schedule or reason. |
+| 🪄 **Open AR View** | Point the camera at a **wall or desk** and place those messages into the space as floating sticky notes. |
+| 💌 **Give comfort** | Send one short anonymous encouragement to someone else and earn up to one qualifying **Kindness Streak** credit per day. |
 
-The check-in is reviewed before it can influence learning.
+> **Comfort does not have to arrive as another inbox. It can appear around you.**
 
-### 🪄 AR Comfort Wall — support you can see around you
+### 📊 Personal Pattern Insights
 
-> ### **Comfort does not arrive as another inbox. It appears around you.**
-
-**Comfort Circle is a private 5-minute support session where users can receive short moderated encouragement from others.** When the user taps **Open AR View**, they can point the camera at a nearby **wall or desk** and SPCE places those messages into the physical space as floating sticky notes.
-
-Example notes might include:
-
-- **“Someone out here is rooting for you.”**
-- **“You’re allowed to take this one step at a time.”**
-- **“You don’t have to have everything figured out tonight.”**
-
-The goal is to turn support into a calmer spatial experience instead of another message inbox.
-
-The recipient can:
-
-- open a private five-minute Comfort Circle
-- keep their identity, schedule and reason private
-- receive short moderated encouragement
-- point the camera at a nearby **wall or desk**
-- detect a surface
-- place the received comfort notes into the real space as floating AR sticky notes
-- save a note that helped
-- leave the session without entering a chat thread
-
-The sender can:
-
-- choose **Give comfort**
-- see only that *someone* could use support
-- send one short supportive message
-- never see the recipient’s identity, schedule or reason
-- earn at most one qualifying **Kindness Streak** credit per day
-
-> **When you have the capacity, give some comfort. When you need it, let the community give some back.**
-
-### 📊 Your Personal Pattern Insights — show the pattern, not a score
-
-Insights is where SPCE explains what it has learned instead of hiding it behind a single productivity score.
-
-The current prototype direction includes:
-
-- **7-day capacity pattern**
-- planned load vs actual capacity
-- **Evening focus** pattern
-- **Deep work** pattern
-- **Recovery** pattern
-- pattern evidence such as “seen across 6 similar days”
-- pattern-detail views
-- the ability to stop using a pattern
-
-> **SPCE should show what it learned, where the evidence came from, and how that pattern affects future decisions.**
+Insights keeps the learning visible with a **7-day capacity pattern**, **planned vs actual load**, **Evening Focus**, **Deep Work**, **Recovery**, supporting evidence, and controls to stop using a pattern.
 
 ### ✨ SPCE in one line
 
-> **UNLOAD what your calendar misses. Learn your own patterns. Make capacity-aware decisions. Get or give comfort when you need it.**
+> **UNLOAD what your calendar misses. Learn your patterns. Protect your capacity. Give or receive comfort.**
 
 ---
 
