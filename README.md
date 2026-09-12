@@ -251,12 +251,10 @@ We used four visual boards to show how the idea moved from **understanding the p
 
 ### <img src="https://api.iconify.design/lucide/messages-square.svg?color=%2334D399" width="20" alt="" /> 2.3 Mentor Consultation
 
-> Replace the placeholders below with the team’s actual consultation record before submission.
-
 | **Date** | **Mentor** | **Feedback Received** | **What Was Changed** |
 | --- | --- | --- | --- |
-| [Date] | [Mentor Name] | [What the mentor said] | [What we changed, or why we intentionally did not change it] |
-| [Date] | [Mentor Name] | [What the mentor said] | [What we changed, or why we intentionally did not change it] |
+| **7 Sep 2026 · 11:25 PM** | **Sim Hong Bing** | Reviewed the **Personal Capacity AI** concept and agreed that the opportunity goes beyond normal calendars and reminders by answering **“Can I realistically handle this today?”** rather than only **“What do I need to do?”**. Recommended keeping the hackathon build practical with **React Native**, **Deepgram** for voice input, a hosted AI model instead of large local inference, and a managed backend such as **Convex or Supabase**. Also highlighted iOS deployment constraints and suggested Android or a PWA as fallback options if native iOS became a blocker. | We narrowed SPCE around a realistic core loop: **connected commitments + UNLOAD → Capacity → FIT → WHY → FIX → Human Approval → Learning**. We kept AI focused on understanding context while the core capacity decision logic remains structured and explainable. We also prioritised managed services and moved heavier integrations or local-model ideas outside the core hackathon scope. |
+| **11 Sep 2026 · 11:25 PM** | **Sim Hong Bing** | Reviewed the prototype and felt that the feature set was useful but the overall experience could still look too similar to many productivity apps. Emphasised that judges may review hundreds of projects, so SPCE needed a stronger **“Why now?”** and a more memorable interaction. Suggested exploring realtime AI, generated visuals, gamification, unconventional interfaces, or a stronger conversational layer to make the experience stand out. | We strengthened the parts of SPCE that were already unique instead of adding novelty for its own sake. This led to stronger **Personal Pattern Insights**, **Comfort Circle**, **Give Comfort + Kindness Streak**, and the **AR Comfort Wall**, where supportive messages appear as floating sticky notes on a real wall or desk. We also refined the visual identity and made AI reasoning more visible through **WHY, Insights, and Human Approval**. |
 
 ---
 
