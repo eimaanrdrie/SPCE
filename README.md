@@ -286,19 +286,25 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 <table>
 <tr>
 
-<td width="33%" align="center">
+<td width="25%" align="center">
   <img src="https://api.iconify.design/lucide/messages-circle.svg?color=%23F472B6" width="30" alt="" /><br>
   <strong>Comfort Circle</strong><br>
   <sub>Private 5-minute support</sub>
 </td>
 
-<td width="33%" align="center">
+<td width="25%" align="center">
   <img src="https://api.iconify.design/lucide/send.svg?color=%2360A5FA" width="30" alt="" /><br>
   <strong>Give Comfort</strong><br>
   <sub>Send one short supportive note</sub>
 </td>
 
-<td width="33%" align="center">
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/flame.svg?color=%23F59E0B" width="30" alt="" /><br>
+  <strong>Kindness Streak</strong><br>
+  <sub>Build a daily habit of supporting others</sub>
+</td>
+
+<td width="25%" align="center">
   <img src="https://api.iconify.design/lucide/scan-line.svg?color=%238B5CF6" width="30" alt="" /><br>
   <strong>Augmented Reality (AR) Comfort Wall</strong><br>
   <sub>See supportive notes around you, not in another inbox</sub>
