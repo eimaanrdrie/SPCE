@@ -309,196 +309,60 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 ### <img src="https://api.iconify.design/lucide/gallery-horizontal-end.svg?color=%238B5CF6" width="20" alt="" /> Prototype Mockup Gallery
 
 <p align="center">
-  <strong>Explore the SPCE experience</strong><br>
-  <sub>Use the ◀ / ▶ links to move through the mockups.</sub>
+  <strong>See SPCE in action</strong><br>
+  <sub>Click any mockup to open the full-resolution image.</sub>
 </p>
 
 <p align="center">
-  <a href="#mockup-home">Home</a> ·
-  <a href="#mockup-realday">Real Day</a> ·
-  <a href="#mockup-unload">UNLOAD</a> ·
-  <a href="#mockup-fix">FIX</a> ·
-  <a href="#mockup-insights">Insights</a> ·
-  <a href="#mockup-comfortcircle">Comfort Circle</a> ·
-  <a href="#mockup-arnotes">AR Notes</a> ·
-  <a href="#mockup-streak">Streak</a> ·
-  <a href="#mockup-widget">Widget</a>
-</p>
-
-> [!NOTE]
-> GitHub README files do not run JavaScript, so this uses **GitHub-safe arrow navigation** rather than a scripted carousel. The images themselves have rounded corners baked into the PNG files.
-
-
-<a id="mockup-home"></a>
-
-<p align="center">
-  <a href="#mockup-widget">◀ Previous</a>
-  &nbsp;&nbsp;&nbsp;
-  <strong>1 / 9 · HOME</strong>
-  &nbsp;&nbsp;&nbsp;
-  <a href="#mockup-realday">Next ▶</a>
+  <a href="images/HOME.png">
+    <img src="images/HOME.png" width="480" alt="SPCE Home — Know what fits today">
+  </a>
 </p>
 
 <p align="center">
-  <img src="images/HOME.png" width="420" alt="SPCE HOME mockup">
+  <strong>Know what fits today</strong><br>
+  <sub>Your capacity, today’s commitments, and the fastest path into SPCE.</sub>
+</p>
+
+<br>
+
+<p align="center">
+  <a href="images/REALDAY.png"><img src="images/REALDAY.png" width="160" alt="SPCE Real Day"></a>
+  &nbsp;&nbsp;
+  <a href="images/UNLOAD.png"><img src="images/UNLOAD.png" width="160" alt="SPCE UNLOAD"></a>
+  &nbsp;&nbsp;
+  <a href="images/FIX.png"><img src="images/FIX.png" width="160" alt="SPCE FIX"></a>
+  &nbsp;&nbsp;
+  <a href="images/INSIGHTS.png"><img src="images/INSIGHTS.png" width="160" alt="SPCE Insights"></a>
 </p>
 
 <p align="center">
-  <strong>Know what fits today</strong>
+  <strong>Real Day</strong> &nbsp;·&nbsp;
+  <strong>UNLOAD</strong> &nbsp;·&nbsp;
+  <strong>FIX</strong> &nbsp;·&nbsp;
+  <strong>Insights</strong>
 </p>
 
-
-<a id="mockup-realday"></a>
-
-<p align="center">
-  <a href="#mockup-home">◀ Previous</a>
-  &nbsp;&nbsp;&nbsp;
-  <strong>2 / 9 · REAL DAY</strong>
-  &nbsp;&nbsp;&nbsp;
-  <a href="#mockup-unload">Next ▶</a>
-</p>
+<br>
 
 <p align="center">
-  <img src="images/REALDAY.png" width="420" alt="SPCE REAL DAY mockup">
-</p>
-
-<p align="center">
-  <strong>See your real day</strong>
-</p>
-
-
-<a id="mockup-unload"></a>
-
-<p align="center">
-  <a href="#mockup-realday">◀ Previous</a>
-  &nbsp;&nbsp;&nbsp;
-  <strong>3 / 9 · UNLOAD</strong>
-  &nbsp;&nbsp;&nbsp;
-  <a href="#mockup-fix">Next ▶</a>
+  <a href="images/COMFORTCIRCLE.png"><img src="images/COMFORTCIRCLE.png" width="160" alt="SPCE Comfort Circle"></a>
+  &nbsp;&nbsp;
+  <a href="images/ARNOTES.png"><img src="images/ARNOTES.png" width="160" alt="SPCE AR Comfort Notes"></a>
+  &nbsp;&nbsp;
+  <a href="images/STREAK.png"><img src="images/STREAK.png" width="160" alt="SPCE Kindness Streak"></a>
+  &nbsp;&nbsp;
+  <a href="images/WIDGET.png"><img src="images/WIDGET.png" width="160" alt="SPCE Widget"></a>
 </p>
 
 <p align="center">
-  <img src="images/UNLOAD.png" width="420" alt="SPCE UNLOAD mockup">
+  <strong>Comfort Circle</strong> &nbsp;·&nbsp;
+  <strong>AR Comfort</strong> &nbsp;·&nbsp;
+  <strong>Kindness Streak</strong> &nbsp;·&nbsp;
+  <strong>Widget</strong>
 </p>
 
-<p align="center">
-  <strong>Unload what calendars miss</strong>
-</p>
-
-
-<a id="mockup-fix"></a>
-
-<p align="center">
-  <a href="#mockup-unload">◀ Previous</a>
-  &nbsp;&nbsp;&nbsp;
-  <strong>4 / 9 · FIX</strong>
-  &nbsp;&nbsp;&nbsp;
-  <a href="#mockup-insights">Next ▶</a>
-</p>
-
-<p align="center">
-  <img src="images/FIX.png" width="420" alt="SPCE FIX mockup">
-</p>
-
-<p align="center">
-  <strong>Fix what doesn't fit</strong>
-</p>
-
-
-<a id="mockup-insights"></a>
-
-<p align="center">
-  <a href="#mockup-fix">◀ Previous</a>
-  &nbsp;&nbsp;&nbsp;
-  <strong>5 / 9 · INSIGHTS</strong>
-  &nbsp;&nbsp;&nbsp;
-  <a href="#mockup-comfortcircle">Next ▶</a>
-</p>
-
-<p align="center">
-  <img src="images/INSIGHTS.png" width="420" alt="SPCE INSIGHTS mockup">
-</p>
-
-<p align="center">
-  <strong>See your patterns</strong>
-</p>
-
-
-<a id="mockup-comfortcircle"></a>
-
-<p align="center">
-  <a href="#mockup-insights">◀ Previous</a>
-  &nbsp;&nbsp;&nbsp;
-  <strong>6 / 9 · COMFORT CIRCLE</strong>
-  &nbsp;&nbsp;&nbsp;
-  <a href="#mockup-arnotes">Next ▶</a>
-</p>
-
-<p align="center">
-  <img src="images/COMFORTCIRCLE.png" width="420" alt="SPCE COMFORT CIRCLE mockup">
-</p>
-
-<p align="center">
-  <strong>Open a comfort circle</strong>
-</p>
-
-
-<a id="mockup-arnotes"></a>
-
-<p align="center">
-  <a href="#mockup-comfortcircle">◀ Previous</a>
-  &nbsp;&nbsp;&nbsp;
-  <strong>7 / 9 · AR NOTES</strong>
-  &nbsp;&nbsp;&nbsp;
-  <a href="#mockup-streak">Next ▶</a>
-</p>
-
-<p align="center">
-  <img src="images/ARNOTES.png" width="420" alt="SPCE AR NOTES mockup">
-</p>
-
-<p align="center">
-  <strong>Comfort that stays with you</strong>
-</p>
-
-
-<a id="mockup-streak"></a>
-
-<p align="center">
-  <a href="#mockup-arnotes">◀ Previous</a>
-  &nbsp;&nbsp;&nbsp;
-  <strong>8 / 9 · KINDNESS STREAK</strong>
-  &nbsp;&nbsp;&nbsp;
-  <a href="#mockup-widget">Next ▶</a>
-</p>
-
-<p align="center">
-  <img src="images/STREAK.png" width="420" alt="SPCE KINDNESS STREAK mockup">
-</p>
-
-<p align="center">
-  <strong>Small acts matter</strong>
-</p>
-
-
-<a id="mockup-widget"></a>
-
-<p align="center">
-  <a href="#mockup-streak">◀ Previous</a>
-  &nbsp;&nbsp;&nbsp;
-  <strong>9 / 9 · WIDGET</strong>
-  &nbsp;&nbsp;&nbsp;
-  <a href="#mockup-home">Next ▶</a>
-</p>
-
-<p align="center">
-  <img src="images/WIDGET.png" width="420" alt="SPCE WIDGET mockup">
-</p>
-
-<p align="center">
-  <strong>See your capacity at a glance</strong>
-</p>
-
+> **Prototype story:** Understand the real day → capture what calendars miss → protect your capacity → see your patterns → receive or give support when things get heavy.
 
 ---
 
