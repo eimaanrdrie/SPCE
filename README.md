@@ -13,32 +13,21 @@
 </p>
 
 <p align="center">
-
   <a href="#-1-project-overview">
-    <img src="https://api.iconify.design/lucide/target.svg?color=%23FFFFFF" width="15" alt="" />
     <img src="https://img.shields.io/badge/1.%20PROJECT%20OVERVIEW-6D3BB6?style=for-the-badge" alt="1. Project Overview" />
   </a>
-
   <a href="#-2-ideation--process">
-    <img src="https://api.iconify.design/lucide/lightbulb.svg?color=%23FFFFFF" width="15" alt="" />
     <img src="https://img.shields.io/badge/2.%20IDEATION%20%26%20PROCESS-E84A27?style=for-the-badge" alt="2. Ideation & Process" />
   </a>
-
   <a href="#-3-design--prototype">
-    <img src="https://api.iconify.design/lucide/smartphone.svg?color=%23FFFFFF" width="15" alt="" />
     <img src="https://img.shields.io/badge/3.%20DESIGN%20%26%20PROTOTYPE-D9A514?style=for-the-badge" alt="3. Design & Prototype" />
   </a>
-
   <a href="#-4-what-makes-it-different">
-    <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23FFFFFF" width="15" alt="" />
     <img src="https://img.shields.io/badge/4.%20WHAT%20MAKES%20IT%20DIFFERENT-16A085?style=for-the-badge" alt="4. What Makes It Different" />
   </a>
-
   <a href="#-5-technical-architecture--feasibility">
-    <img src="https://api.iconify.design/lucide/workflow.svg?color=%23FFFFFF" width="15" alt="" />
     <img src="https://img.shields.io/badge/5.%20TECHNICAL%20ARCHITECTURE%20%26%20FEASIBILITY-7C3AED?style=for-the-badge" alt="5. Technical Architecture & Feasibility" />
   </a>
-
 </p>
 
 ---
@@ -53,7 +42,11 @@
 
 ---
 
+<br><br><br>
+
 # <img src="https://api.iconify.design/lucide/target.svg?color=%238B5CF6" width="28" alt="" /> 1. Project Overview
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/triangle-alert.svg?color=%23F59E0B" width="23" alt="" /> 1.1 The Problem
 
@@ -117,6 +110,8 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 > [!NOTE]
 > **SPCE is a stress and workload management tool, not a medical diagnosis tool.**
 
+<br><br>
+
 ## <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="23" alt="" /> 1.2 Our Solution
 
 
@@ -127,6 +122,8 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 <p align="center">
   <sub>A human-governed Personal Capacity AI that learns your personalized behaviour patterns through specialist agents and governed self-learning.</sub>
 </p>
+
+<br>
 
 ### <img src="https://api.iconify.design/lucide/layers-3.svg?color=%238B5CF6" width="20" alt="" /> What SPCE brings together
 
@@ -166,6 +163,8 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 </tr>
 </table>
+
+<br>
 
 ### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%2360A5FA" width="20" alt="" /> The SPCE Loop
 
@@ -222,6 +221,8 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
   <sub><strong>LangGraph</strong> coordinates the specialist agents through one shared SPCE state.</sub>
 </p>
 
+<br>
+
 ### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%23F59E0B" width="20" alt="" /> What SPCE can notice
 
 
@@ -268,6 +269,8 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 > SPCE does not label the user. It shows the pattern, the evidence behind it, and lets the user decide whether it should influence future guidance.
 
+<br>
+
 ### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="20" alt="" /> Governed Self-Learning
 
 
@@ -302,6 +305,8 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 </table>
 
 > **No silent learning. No hidden personal policy changes.**
+
+<br>
 
 ### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="20" alt="" /> What if Planning Is Not Enough?
 
@@ -340,6 +345,8 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 </tr>
 </table>
 
+<br>
+
 ### <img src="https://api.iconify.design/lucide/sparkles.svg?color=%238B5CF6" width="20" alt="" /> SPCE in One Line
 
 
@@ -349,7 +356,11 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 ---
 
+<br><br><br>
+
 # <img src="https://api.iconify.design/lucide/lightbulb.svg?color=%23F59E0B" width="28" alt="" /> 2. Ideation & Process
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="23" alt="" /> 2.1 Iteration & Idea Evolution
 
@@ -370,10 +381,14 @@ SPCE evolved through multiple documented iterations from **31 Aug to 13 Sep 2026
 
 > **🧭 Evolution summary:** SPCE began closer to a stress and productivity tool, then became a **Personal Capacity AI** centered on real-day context, explainable decision support, human approval, personal pattern learning, and focused peer comfort.
 
+<br><br>
+
 ## <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="23" alt="" /> 2.2 Ideation Boards
 
 
 We used five visual boards to document the ideation process from **understanding the problem**, to **exploring possibilities**, **clustering and refining ideas**, **mapping the user journey**, and finally **defining the SPCE ecosystem**.
+
+<br>
 
 #### 1. Problem Tree
 
@@ -384,6 +399,8 @@ We used five visual boards to document the ideation process from **understanding
 
 <sub><strong>What it shows:</strong> The root causes behind student overload, the central problem that students plan around available time rather than actual capacity, and the resulting effects such as burnout, last-minute work, missed deadlines, poor recovery, reduced focus, and schedule instability.</sub>
 
+<br>
+
 #### 2. Idea Exploration Mindmap
 
 
@@ -392,6 +409,8 @@ We used five visual boards to document the ideation process from **understanding
 </p>
 
 <sub><strong>What it shows:</strong> A broad exploration of possible directions across capacity intelligence, planning context, capture and input, explainability, learning, support, adjustments, access, and experimental ideas before the concept was narrowed.</sub>
+
+<br>
 
 #### 3. Affinity Diagram
 
@@ -402,6 +421,8 @@ We used five visual boards to document the ideation process from **understanding
 
 <sub><strong>What it shows:</strong> Raw ideas grouped into common themes, then evaluated as core, evolved, or dropped. The clustering process helped turn a broad set of possibilities into the final SPCE product pillars.</sub>
 
+<br>
+
 #### 4. SPCE User Flow
 
 
@@ -410,6 +431,8 @@ We used five visual boards to document the ideation process from **understanding
 </p>
 
 <sub><strong>What it shows:</strong> The end-to-end user journey from real-day context and UNLOAD, through FIT, WHY, FIX and Human Approval, then into daily check-in, approved learning, Personal Pattern Insights, and the Comfort experience.</sub>
+
+<br>
 
 #### 5. SPCE Ecosystem
 
@@ -422,10 +445,14 @@ We used five visual boards to document the ideation process from **understanding
 
 > **Our ideation path:** 🌳 understand the problem · 🧠 explore widely · 🗂️ cluster and refine · 🧭 map the experience · 🌐 connect the ecosystem
 
+<br><br>
+
 ## <img src="https://api.iconify.design/lucide/messages-square.svg?color=%2334D399" width="23" alt="" /> 2.3 Mentor Consultation
 
 
 We used the mentoring sessions to decide what to **adopt**, what to **pivot**, and what to **improve further**.
+
+<br>
 
 #### Session 1: Buildability
 
@@ -442,6 +469,8 @@ We used the mentoring sessions to decide what to **adopt**, what to **pivot**, a
 | **Tech stack** | Recommended **React Native**, **Deepgram**, hosted AI, and managed services such as **Convex / Supabase**. | **Adopted** | Moved toward a faster managed stack suitable for the hackathon. |
 | **AI architecture** | Use hosted AI pragmatically instead of overcomplicating the build. | **Pivoted** | Added **LangGraph** as the orchestration layer. Specialist agents handle understanding, FIT, WHY, FIX, learning, and Insights, while deterministic tools and Human Approval keep the workflow structured and explainable. |
 | **Deployment** | Flagged iOS deployment friction and suggested **Android / PWA** as fallbacks. | **Kept + Fallback** | Remained iOS-first because Back Tap UNLOAD is part of the experience, with Android/PWA as fallback options. |
+
+<br>
 
 #### Session 2: Differentiation
 
@@ -462,12 +491,16 @@ We used the mentoring sessions to decide what to **adopt**, what to **pivot**, a
 
 ---
 
+<br><br><br>
+
 # <img src="https://api.iconify.design/lucide/smartphone.svg?color=%2360A5FA" width="28" alt="" /> 3. Design & Prototype
 
 
 **UI Prototype:** [Public Figma Link]
 
 SPCE is designed as **one continuous, playable mobile experience** : not a collection of disconnected screens.
+
+<br><br>
 
 ## Primary Navigation
 
@@ -478,6 +511,8 @@ SPCE is designed as **one continuous, playable mobile experience** : not a colle
 | 💼 **Work** | Plan the real day through **UNLOAD › FIT › WHY › FIX › Approval** |
 | 💜 **Comfort** | Receive or give support through Comfort Circle, AR Notes, and Kindness Streak |
 | 📊 **Insights** | Understand capacity, focus, recovery, and learned personal patterns |
+
+<br><br>
 
 ## Core Prototype Journeys
 
@@ -492,6 +527,8 @@ SPCE is designed as **one continuous, playable mobile experience** : not a colle
 
 > The planning flow handles **what should happen next**.  
 > The later check-in records **what actually happened and how the day felt**.
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/gallery-horizontal-end.svg?color=%238B5CF6" width="23" alt="" /> Prototype Mockups
 
@@ -554,10 +591,14 @@ SPCE is designed as **one continuous, playable mobile experience** : not a colle
 
 ---
 
+<br><br><br>
+
 # <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23F472B6" width="28" alt="" /> 4. What Makes It Different
 
 
 SPCE is not trying to become another task manager. Its main difference is that it learns from the gap between **what you planned**, **what actually happened**, and **how the load felt**.
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23F472B6" width="23" alt="" /> 4.1 Originality
 
@@ -566,6 +607,8 @@ SPCE is not trying to become another task manager. Its main difference is that i
   <strong>Most productivity tools ask: “When should I do this?”</strong><br>
   <strong>SPCE asks: “Can I realistically handle this today, and what should the system learn from what actually happened?”</strong>
 </p>
+
+<br>
 
 ### <img src="https://api.iconify.design/lucide/layers-3.svg?color=%238B5CF6" width="20" alt="" /> Where the originality comes from
 
@@ -594,6 +637,8 @@ SPCE is not trying to become another task manager. Its main difference is that i
 </td>
 </tr>
 </table>
+
+<br>
 
 ### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="20" alt="" /> The SPCE closed loop
 
@@ -642,6 +687,8 @@ SPCE is not trying to become another task manager. Its main difference is that i
   <sub><strong>LangGraph</strong> coordinates the specialist agents while Human Approval and approved evidence govern what the system is allowed to learn.</sub>
 </p>
 
+<br>
+
 ### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="20" alt="" /> What “governed self-learning” means
 
 
@@ -675,6 +722,8 @@ SPCE is not trying to become another task manager. Its main difference is that i
 </tr>
 </tbody>
 </table>
+
+<br>
 
 ### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%2360A5FA" width="20" alt="" /> Why SPCE is different
 
@@ -716,6 +765,8 @@ SPCE is not trying to become another task manager. Its main difference is that i
 
 > **Originality:** SPCE combines capacity-aware planning, LangGraph specialist agents, explainable recommendations, **governed self-learning**, human approval, and spatial peer support into one Personal Capacity AI.
 
+<br><br>
+
 ## <img src="https://api.iconify.design/lucide/badge-plus.svg?color=%23F472B6" width="23" alt="" /> 4.2 Novel Features
 
 
@@ -738,6 +789,8 @@ SPCE is not trying to become another task manager. Its main difference is that i
 | 🧩 **Pattern controls** | Users can inspect what a pattern affects and stop SPCE from using it. |
 
 > **The SPCE idea in one line:** learn the person behind the calendar, help them improve the pattern that gets in the way, keep the AI explainable, keep the human in control, and make support part of the experience.
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/scan-search.svg?color=%238B5CF6" width="23" alt="" /> 4.3 Market Positioning
 
@@ -996,12 +1049,16 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
 
 ---
 
+<br><br><br>
+
 # <img src="https://api.iconify.design/lucide/workflow.svg?color=%2334D399" width="28" alt="" /> 5. Technical Architecture & Feasibility
 
 
 <p align="center">
   <strong>Build the core loop first. Keep the agents bounded. Use managed infrastructure. Protect human control.</strong>
 </p>
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/layers-3.svg?color=%2360A5FA" width="23" alt="" /> 5.1 Tech Stack at a Glance
 
@@ -1109,6 +1166,8 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
 </tbody>
 </table>
 
+<br><br>
+
 ## <img src="https://api.iconify.design/lucide/bot.svg?color=%238B5CF6" width="23" alt="" /> 5.2 Specialist Agent System
 
 
@@ -1174,6 +1233,8 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
   <sub><strong>LangGraph</strong> coordinates one shared SPCE state across bounded specialist agents.</sub>
 </p>
 
+<br>
+
 #### Governed flow
 
 
@@ -1191,6 +1252,8 @@ flowchart LR
     J --> K[Learning]
     K --> L[Insights]
 ```
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="23" alt="" /> 5.3 Governance at a Glance
 
@@ -1227,6 +1290,8 @@ flowchart LR
 
 > **ILMU understands · LangGraph orchestrates · deterministic tools verify · humans approve · approved outcomes teach the system**
 
+<br><br>
+
 ## <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="23" alt="" /> 5.4 System Architecture
 
 
@@ -1243,6 +1308,8 @@ flowchart LR
 <td align="center"><strong>Outputs</strong><br><sub>Plan · Insights · Comfort</sub></td>
 </tr>
 </table>
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/calendar-range.svg?color=%23F59E0B" width="23" alt="" /> 5.5 Build Plan
 
@@ -1296,6 +1363,8 @@ flowchart LR
 </tr>
 </table>
 
+<br>
+
 #### Priority map
 
 
@@ -1318,6 +1387,8 @@ flowchart LR
 </td>
 </tr>
 </table>
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/check-circle-2.svg?color=%2334D399" width="23" alt="" /> 5.6 Feasibility Snapshot
 
@@ -1364,6 +1435,8 @@ flowchart LR
 </tbody>
 </table>
 
+<br><br>
+
 ## <img src="https://api.iconify.design/lucide/clock-3.svg?color=%2360A5FA" width="23" alt="" /> 5.7 Resources & Constraints
 
 
@@ -1392,6 +1465,8 @@ flowchart LR
 </tr>
 </table>
 
+<br>
+
 #### Fallbacks
 
 
@@ -1404,6 +1479,8 @@ flowchart LR
 | Realtime Comfort | Controlled demo flow | No |
 
 > **Priority rule:** if time becomes constrained, protect **UNLOAD · FIT · WHY · FIX · Human Approval · Check-In · Learning · Insights** first.
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/target.svg?color=%23F472B6" width="23" alt="" /> 5.8 Definition of Done
 
@@ -1455,6 +1532,8 @@ flowchart LR
 </td>
 </tr>
 </table>
+
+<br><br>
 
 ## <img src="https://api.iconify.design/lucide/flag.svg?color=%238B5CF6" width="23" alt="" /> 5.9 Scope Boundary
 
