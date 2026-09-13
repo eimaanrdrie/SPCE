@@ -1070,6 +1070,172 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
 
 <br>
 
+
+## <img src="https://api.iconify.design/lucide/shield.svg?color=%238B5CF6" width="23" alt="" /> 4.4 Defensibility: Why SPCE Gets Harder to Copy
+
+<p align="center">
+  <strong>The moat is not the AI model. It is the growing, user-approved understanding of how that individual actually works.</strong>
+</p>
+
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/fingerprint.svg?color=%23F472B6" width="34" alt="" /><br>
+  <strong>Personal Behaviour Memory</strong><br>
+  <sub>Focus · recovery · overruns · late starts · realistic capacity</sub>
+</td>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/refresh-cw.svg?color=%238B5CF6" width="34" alt="" /><br>
+  <strong>Governed Learning Loop</strong><br>
+  <sub>Plan · outcome · feeling · approval · future guidance</sub>
+</td>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="34" alt="" /><br>
+  <strong>Real-Day Context</strong><br>
+  <sub>Calendar · Reminders · Teams · timetable · UNLOAD</sub>
+</td>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%2334D399" width="34" alt="" /><br>
+  <strong>Human + Social Layer</strong><br>
+  <sub>Approval · Comfort Circle · Kindness Streak · AR support</sub>
+</td>
+</tr>
+</table>
+
+### <img src="https://api.iconify.design/lucide/boxes.svg?color=%23F59E0B" width="20" alt="" /> What can be copied vs what compounds
+
+<table>
+<tr>
+<th width="50%" align="center">
+  <img src="https://api.iconify.design/lucide/copy.svg?color=%239CA3AF" width="20" alt="" />
+  EASY TO COPY
+</th>
+<th width="50%" align="center">
+  <img src="https://api.iconify.design/lucide/layers-3.svg?color=%2322C55E" width="20" alt="" />
+  COMPOUNDS WITH USE
+</th>
+</tr>
+
+<tr>
+<td>
+  <img src="https://api.iconify.design/lucide/message-square.svg?color=%239CA3AF" width="17" alt="" />
+  Generic AI chat
+</td>
+<td>
+  <img src="https://api.iconify.design/lucide/fingerprint.svg?color=%2322C55E" width="17" alt="" />
+  Approved personal behaviour patterns
+</td>
+</tr>
+
+<tr>
+<td>
+  <img src="https://api.iconify.design/lucide/calendar.svg?color=%239CA3AF" width="17" alt="" />
+  Calendar connection
+</td>
+<td>
+  <img src="https://api.iconify.design/lucide/gauge.svg?color=%2322C55E" width="17" alt="" />
+  Individual capacity history
+</td>
+</tr>
+
+<tr>
+<td>
+  <img src="https://api.iconify.design/lucide/bot.svg?color=%239CA3AF" width="17" alt="" />
+  LLM recommendations
+</td>
+<td>
+  <img src="https://api.iconify.design/lucide/search-check.svg?color=%2322C55E" width="17" alt="" />
+  Decision evidence + WHY history
+</td>
+</tr>
+
+<tr>
+<td>
+  <img src="https://api.iconify.design/lucide/list-checks.svg?color=%239CA3AF" width="17" alt="" />
+  Task rescheduling
+</td>
+<td>
+  <img src="https://api.iconify.design/lucide/refresh-cw.svg?color=%2322C55E" width="17" alt="" />
+  Governed plan-to-outcome learning loop
+</td>
+</tr>
+
+<tr>
+<td>
+  <img src="https://api.iconify.design/lucide/layout-template.svg?color=%239CA3AF" width="17" alt="" />
+  Similar UI features
+</td>
+<td>
+  <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%2322C55E" width="17" alt="" />
+  Capacity + support experience in one system
+</td>
+</tr>
+</table>
+
+### <img src="https://api.iconify.design/lucide/hourglass.svg?color=%2360A5FA" width="20" alt="" /> The moat deepens over time
+
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/calendar-days.svg?color=%2360A5FA" width="28" alt="" /><br>
+  <strong>Day 1</strong><br>
+  <sub>SPCE understands today's commitments</sub>
+</td>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/activity.svg?color=%238B5CF6" width="28" alt="" /><br>
+  <strong>Week 2</strong><br>
+  <sub>Repeated patterns begin to appear</sub>
+</td>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/user-check.svg?color=%23F59E0B" width="28" alt="" /><br>
+  <strong>Month 2</strong><br>
+  <sub>The user has approved useful personal patterns</sub>
+</td>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%2334D399" width="28" alt="" /><br>
+  <strong>Later</strong><br>
+  <sub>Guidance reflects a richer history of how this user actually works</sub>
+</td>
+</tr>
+</table>
+
+### <img src="https://api.iconify.design/lucide/lock-keyhole.svg?color=%23F472B6" width="20" alt="" /> Why switching gets harder
+
+<table>
+<tr>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/database.svg?color=%2360A5FA" width="28" alt="" /><br>
+  <strong>History</strong><br>
+  <sub>Past plans, outcomes and workload feel</sub>
+</td>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/fingerprint.svg?color=%238B5CF6" width="28" alt="" /><br>
+  <strong>Personal Patterns</strong><br>
+  <sub>What the user has explicitly approved</sub>
+</td>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/file-search.svg?color=%23F59E0B" width="28" alt="" /><br>
+  <strong>Decision Context</strong><br>
+  <sub>Why previous FIT, WHY and FIX decisions were made</sub>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <strong>A generic planner can copy a feature. Rebuilding a trusted, user-approved capacity history takes time.</strong>
+</p>
+
+> **Defensibility today:** workflow design + governed personalization.  
+> **Defensibility later:** deeper personal history, approved patterns, decision context and trusted support behaviour.
+
+<br>
+
 # <img src="https://api.iconify.design/lucide/workflow.svg?color=%2334D399" width="28" alt="" /> 5. Technical Architecture & Feasibility
 
 
