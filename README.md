@@ -98,91 +98,221 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 ### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="20" alt="" /> Our Solution
 
-> ## **SPCE learns how much you can realistically handle each day, not just what fits on your calendar.**
+<p align="center">
+  <strong>SPCE learns how much you can realistically handle each day, not just what fits on your calendar.</strong>
+</p>
 
-SPCE is a human-governed **Personal Capacity AI** that combines planned commitments with what actually happened, then learns repeated patterns only from evidence the user approves.
+<p align="center">
+  <sub>A human-governed Personal Capacity AI powered by specialist agents and governed self-learning.</sub>
+</p>
 
-Under the hood, **LangGraph orchestrates specialist agents** for understanding context, checking FIT, explaining WHY, proposing FIX options, learning from approved outcomes, and generating Insights. The user still experiences one coherent SPCE assistant rather than a collection of chatbots.
+#### <img src="https://api.iconify.design/lucide/layers-3.svg?color=%238B5CF6" width="18" alt="" /> What SPCE brings together
 
+<table>
+<tr>
 
-### ✨ Core SPCE Experience
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/calendar-days.svg?color=%2360A5FA" width="34" alt="" /><br>
+  <strong>Your Real Day</strong><br>
+  <sub>Calendar · Reminders · Teams · Timetable · UNLOAD</sub>
+</td>
 
-| | **Feature** | **What it does** |
-| --- | --- | --- |
-| ⚡ | **UNLOAD** | Back Tap, speak or type what your calendar missed. |
-| 🔗 | **Your Real Day** | Brings together Calendar, Reminders, Teams / Microsoft 365, class timetable and UNLOAD. |
-| 🧠 | **Personal Pattern Insights** | Learns from what you actually finish, move, miss and how the workload felt. |
-| 🎯 | **FIT · WHY · FIX** | Checks if something fits your capacity, explains why, then suggests the smallest practical fix. |
-| 📊 | **Insights** | Shows your own capacity, focus and recovery patterns instead of a hidden score. |
-| 💜 | **Comfort Circle** | Private 5-minute support session to receive short moderated encouragement. |
-| 🪄 | **AR Comfort Wall** | Point your camera at a wall or desk and see received comfort notes as floating AR sticky notes. |
-| 💌 | **Give Comfort** | Send one anonymous supportive note to someone who needs it. |
-| 🔥 | **Kindness Streak** | One qualifying comfort action can count toward your daily streak. |
-| 🙋 | **Human Control** | You approve important changes and learning before SPCE uses them later. |
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/gauge.svg?color=%238B5CF6" width="34" alt="" /><br>
+  <strong>Personal Capacity</strong><br>
+  <sub>Time · Mental · Physical · Social · Errands</sub>
+</td>
 
-> **Capture what is really happening. Learn your patterns. Protect your capacity. Give or receive support when things get heavy.**
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/network.svg?color=%2334D399" width="34" alt="" /><br>
+  <strong>Specialist Agents</strong><br>
+  <sub>FIT · WHY · FIX · Learning · Insights</sub>
+</td>
 
-### 🧩 What if I am the kind of person who...?
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/refresh-cw.svg?color=%23F59E0B" width="34" alt="" /><br>
+  <strong>Governed Learning</strong><br>
+  <sub>Only approved evidence changes future guidance</sub>
+</td>
 
-| **Pattern** | **How SPCE helps** |
-| --- | --- |
-| ⏳ **Leaves everything until the last minute** | Spots repeated late starts and can suggest a smaller earlier start before the final-night rush. |
-| 🗓️ **Is always busy** | Looks at actual capacity, not empty calendar slots, before adding more. |
-| 🧠 **Forgets small commitments** | **UNLOAD** captures errands, preparation work and small tasks immediately. |
-| 🙋 **Says yes too quickly** | **FIT** checks the new commitment first and **WHY** explains the trade-off. |
-| 📚 **Underestimates how long work takes** | Compares planned vs actual outcomes and surfaces repeated overruns. |
-| 🌙 **Struggles late at night** | Can surface an **Evening Focus** pattern and suggest demanding work earlier. |
-| 🔥 **Stacks too many heavy days** | Can surface a **Recovery** pattern and protect a lighter period. |
-| 🔄 **Has unpredictable days** | **Plans changed** prevents unusual days from being treated as clean capacity evidence. |
-| 😵 **Needs support, not another productivity tip** | Opens a private **Comfort Circle** instead of forcing another scheduling recommendation. |
+</tr>
+</table>
 
-> **SPCE does not label the user. It shows repeated evidence and lets the user decide whether a pattern should influence future recommendations.**
+#### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%2360A5FA" width="18" alt="" /> The SPCE Loop
 
-### 🔗 Your Real Day
+<table>
+<tr>
 
-SPCE can combine permitted **Calendar, Reminders, Teams / Microsoft 365, class timetable**, and quick **UNLOAD** entries so one empty slot is not mistaken for unlimited capacity.
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/mic.svg?color=%2360A5FA" width="27" alt="" /><br>
+  <strong>UNLOAD</strong><br>
+  <sub>Capture hidden work</sub>
+</td>
 
-### How SPCE works
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/gauge.svg?color=%238B5CF6" width="27" alt="" /><br>
+  <strong>FIT</strong><br>
+  <sub>Can I handle it?</sub>
+</td>
 
-| **Step** | **What happens** |
-| --- | --- |
-| **1. Capture** | Connect your real day and **UNLOAD** anything missing. |
-| **2. Observe** | Check what actually happened: **Done, Partly done, Not done, or Moved**. |
-| **3. Learn** | SPCE compares planned vs actual behaviour and looks for repeated personal patterns. |
-| **4. Decide** | **FIT** checks capacity, **WHY** explains it, and **FIX** suggests the smallest useful adjustment. |
-| **5. Approve** | You approve, reject or edit before SPCE learns from an important decision. |
-| **6. Support & reflect** | Use **Comfort + AR** when support is needed, and **Insights** to see your patterns over time. |
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/search-check.svg?color=%23F59E0B" width="27" alt="" /><br>
+  <strong>WHY</strong><br>
+  <sub>Show the evidence</sub>
+</td>
 
-#### 🧠 Learning your capacity
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F472B6" width="27" alt="" /><br>
+  <strong>FIX</strong><br>
+  <sub>Smallest useful change</sub>
+</td>
 
-> **Example:** You plan 6 commitments on several Tuesdays, but repeatedly finish 4 and move 2. SPCE can surface **4 as a more realistic pattern**, show the evidence, and ask before using it in future decisions.
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="27" alt="" /><br>
+  <strong>APPROVE</strong><br>
+  <sub>You stay in control</sub>
+</td>
 
-For a **last-minute pattern**, SPCE may notice that work repeatedly starts late and is later marked **A bit heavy, Not done, or Moved**. It can then suggest a smaller earlier start rather than simply telling the user to “be more productive.”
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/clipboard-check.svg?color=%2360A5FA" width="27" alt="" /><br>
+  <strong>CHECK-IN</strong><br>
+  <sub>Record what happened</sub>
+</td>
 
-### ✅ Daily Check-In
+<td align="center" width="16%">
+  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="27" alt="" /><br>
+  <strong>LEARN</strong><br>
+  <sub>Use approved outcomes</sub>
+</td>
 
-**Activity:** `Done` · `Partly done` · `Not done` · `Moved`  
-**Overall feel:** `Comfortable` · `A bit heavy` · `Too much` · `Plans changed`
+</tr>
+</table>
 
-The check-in separates **what happened** from **how difficult it felt** before the evidence can influence learning.
+<p align="center">
+  <sub><strong>LangGraph</strong> coordinates the specialist agents through one shared SPCE state.</sub>
+</p>
 
-### 🪄 Comfort Circle + AR
+#### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%23F59E0B" width="18" alt="" /> What SPCE can notice
 
-| **Experience** | **What happens** |
-| --- | --- |
-| 💜 **Receive comfort** | Open a private **5-minute Comfort Circle** and receive short moderated messages without sharing your identity, schedule or reason. |
-| 🪄 **Open AR View** | Point the camera at a **wall or desk** and place those messages into the space as floating sticky notes. |
-| 💌 **Give comfort** | Send one short anonymous encouragement to someone else and earn up to one qualifying **Kindness Streak** credit per day. |
+<table>
+<tr>
+<td width="50%">
+  <img src="https://api.iconify.design/lucide/clock-alert.svg?color=%23F59E0B" width="18" alt="" />
+  <strong>Last-minute work</strong><br>
+  <sub>Repeated late starts and deadline pressure</sub>
+</td>
+<td width="50%">
+  <img src="https://api.iconify.design/lucide/calendar-range.svg?color=%2360A5FA" width="18" alt="" />
+  <strong>Always-busy days</strong><br>
+  <sub>Too many commitments stacked together</sub>
+</td>
+</tr>
 
-> **Comfort does not have to arrive as another inbox. It can appear around you.**
+<tr>
+<td>
+  <img src="https://api.iconify.design/lucide/brain.svg?color=%238B5CF6" width="18" alt="" />
+  <strong>Forgotten commitments</strong><br>
+  <sub>Tasks and errands that never reached the calendar</sub>
+</td>
+<td>
+  <img src="https://api.iconify.design/lucide/hourglass.svg?color=%23F472B6" width="18" alt="" />
+  <strong>Underestimated work</strong><br>
+  <sub>Tasks repeatedly taking longer than planned</sub>
+</td>
+</tr>
 
-### 📊 Personal Pattern Insights
+<tr>
+<td>
+  <img src="https://api.iconify.design/lucide/moon.svg?color=%2360A5FA" width="18" alt="" />
+  <strong>Evening focus</strong><br>
+  <sub>When demanding work tends to become harder</sub>
+</td>
+<td>
+  <img src="https://api.iconify.design/lucide/battery-medium.svg?color=%2334D399" width="18" alt="" />
+  <strong>Recovery patterns</strong><br>
+  <sub>When repeated heavy days need lighter space</sub>
+</td>
+</tr>
+</table>
 
-Insights keeps the learning visible with a **7-day capacity pattern**, **planned vs actual load**, **Evening Focus**, **Deep Work**, **Recovery**, supporting evidence, and controls to stop using a pattern.
+> SPCE does not label the user. It shows the pattern, the evidence behind it, and lets the user decide whether it should influence future guidance.
 
-### ✨ SPCE in one line
+#### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="18" alt="" /> Governed Self-Learning
 
-> **UNLOAD what your calendar misses. Learn your patterns. Protect your capacity. Give or receive comfort.**
+<table>
+<tr>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/list-checks.svg?color=%2360A5FA" width="28" alt="" /><br>
+  <strong>Observe</strong><br>
+  <sub>Done · Partly done · Not done · Moved</sub>
+</td>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/activity.svg?color=%23F59E0B" width="28" alt="" /><br>
+  <strong>Feel</strong><br>
+  <sub>Comfortable · Heavy · Too much · Plans changed</sub>
+</td>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/search-check.svg?color=%238B5CF6" width="28" alt="" /><br>
+  <strong>Propose</strong><br>
+  <sub>SPCE surfaces a repeated pattern</sub>
+</td>
+
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="28" alt="" /><br>
+  <strong>Approve</strong><br>
+  <sub>You decide what SPCE is allowed to learn</sub>
+</td>
+
+</tr>
+</table>
+
+> **No silent learning. No hidden personal policy changes.**
+
+#### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="18" alt="" /> When Planning Is Not the Answer
+
+<table>
+<tr>
+
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/messages-circle.svg?color=%23F472B6" width="30" alt="" /><br>
+  <strong>Comfort Circle</strong><br>
+  <sub>Private 5-minute support</sub>
+</td>
+
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/send.svg?color=%2360A5FA" width="30" alt="" /><br>
+  <strong>Give Comfort</strong><br>
+  <sub>Send one short supportive note</sub>
+</td>
+
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/scan-line.svg?color=%238B5CF6" width="30" alt="" /><br>
+  <strong>AR Comfort Wall</strong><br>
+  <sub>See support around you, not in another inbox</sub>
+</td>
+
+</tr>
+</table>
+
+#### <img src="https://api.iconify.design/lucide/chart-no-axes-combined.svg?color=%2360A5FA" width="18" alt="" /> Personal Pattern Insights
+
+<table>
+<tr>
+<td align="center"><strong>Capacity</strong><br><sub>Planned vs actual load</sub></td>
+<td align="center"><strong>Focus</strong><br><sub>When deep work works best</sub></td>
+<td align="center"><strong>Recovery</strong><br><sub>When lighter time is needed</sub></td>
+<td align="center"><strong>Evidence</strong><br><sub>Why SPCE believes the pattern</sub></td>
+</tr>
+</table>
+
+### <img src="https://api.iconify.design/lucide/sparkles.svg?color=%238B5CF6" width="18" alt="" /> SPCE in One Line
+
+<p align="center">
+  <strong>Capture the real day · Check capacity · Explain decisions · Make the smallest fix · Learn only with approval · Support the person behind the plan</strong>
+</p>
 
 ---
 
