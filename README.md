@@ -1578,88 +1578,113 @@ flowchart LR
 
 # <img src="https://api.iconify.design/lucide/chart-no-axes-combined.svg?color=%23F472B6" width="28" alt="" /> 6. Impact
 
-> **SPCE is designed for students whose calendar may look manageable while their actual capacity is already overloaded.**
-
-<br><br>
-
-## <img src="https://api.iconify.design/lucide/search.svg?color=%2360A5FA" width="23" alt="" /> 6.1 Understanding the Problem Context
-
-University students rarely manage only classes.
-
-Their real day can include:
+<p align="center">
+  <strong>SPCE targets a simple gap: a calendar can show free time while the student has no real capacity left.</strong>
+</p>
 
 <table>
 <tr>
-<td align="center"><strong>Academic</strong><br><sub>Classes · Assignments · Exams</sub></td>
-<td align="center"><strong>Group Work</strong><br><sub>Meetings · Projects · Team deadlines</sub></td>
-<td align="center"><strong>Personal</strong><br><sub>Errands · Travel · Family</sub></td>
-<td align="center"><strong>Recovery</strong><br><sub>Sleep · Rest · Mental energy</sub></td>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%238B5CF6" width="34" alt="" /><br>
+  <strong>1,251,552</strong><br>
+  <sub>students enrolled in Malaysian public + private higher education institutions at 31 Dec 2024</sub><br><br>
+  <a href="https://mohe.gov.my/en/broadcast/media-statements/kenyataan-media-dasar-kemasukan-pelajar-antarabangsa-tidak-ketepi-pelajar-tempatan-tingkat-persaingan-global"><sub>Source: Ministry of Higher Education</sub></a>
+</td>
+
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/wifi.svg?color=%2360A5FA" width="34" alt="" /><br>
+  <strong>99.6%</strong><br>
+  <sub>Internet usage among Malaysians aged 20 to 24 in 2024</sub><br><br>
+  <a href="https://www.dosm.gov.my/portal-main/release-content/ict-use-and-access-by-individuals-and-households-survey-report-2024"><sub>Source: DOSM</sub></a>
+</td>
+
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/heart-pulse.svg?color=%23F472B6" width="34" alt="" /><br>
+  <strong>1 in 8</strong><br>
+  <sub>Malaysians aged 15+ reported with depression in NHMS 2023, with higher prevalence among ages 16 to 29</sub><br><br>
+  <a href="https://iku.gov.my/nhms-2023"><sub>Source: NHMS 2023 · Ministry of Health</sub></a>
+</td>
 </tr>
 </table>
 
-Most planning tools answer:
+> **Why this matters:** Malaysia has a large, highly connected student population, while younger people also face meaningful mental-health pressure. SPCE does not diagnose or treat mental-health conditions. It focuses on everyday workload, capacity, decision-making and peer support.
 
-> **“When are you free?”**
+<br><br>
 
-But students often need a different answer:
+## <img src="https://api.iconify.design/lucide/search-check.svg?color=%2360A5FA" width="23" alt="" /> 6.1 Understanding the Problem Context
 
-> **“Can I realistically handle this today?”**
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/calendar-x-2.svg?color=%23EF4444" width="30" alt="" /><br>
+  <strong>Calendar Blind Spot</strong><br>
+  <sub>Free slot ≠ free capacity</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/layers-3.svg?color=%23F59E0B" width="30" alt="" /><br>
+  <strong>Fragmented Day</strong><br>
+  <sub>Classes · Teams · errands · hidden work</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/clock-alert.svg?color=%23F472B6" width="30" alt="" /><br>
+  <strong>Behaviour Patterns</strong><br>
+  <sub>Late starts · overruns · heavy days</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/battery-low.svg?color=%238B5CF6" width="30" alt="" /><br>
+  <strong>Capacity Mismatch</strong><br>
+  <sub>Time exists, energy may not</sub>
+</td>
+</tr>
+</table>
 
-The problem is not only poor scheduling. It is the gap between **planned workload and actual human capacity**.
-
-### What causes the gap?
-
-| Cause | Real-world effect |
-| --- | --- |
-| Hidden commitments | The calendar underestimates the real day |
-| Overcommitment | Students say yes because a time slot appears free |
-| Poor time estimation | Tasks take longer than expected |
-| Last-minute behaviour | Work accumulates near deadlines |
-| Repeated heavy days | Recovery disappears from the schedule |
-| Generic productivity advice | Recommendations ignore personal behaviour patterns |
-
-SPCE addresses this gap without positioning itself as a medical diagnosis tool.
+<p align="center">
+  <strong>The challenge is not only scheduling more efficiently. It is making better commitments before overload happens.</strong>
+</p>
 
 <br><br>
 
 ## <img src="https://api.iconify.design/lucide/users.svg?color=%238B5CF6" width="23" alt="" /> 6.2 Target Group Alignment
 
-### Primary users
-
 <p align="center">
-<strong>University students managing academic, personal and social commitments across fragmented tools.</strong>
+  <strong>Primary user: Malaysian university students managing academic, personal and social commitments across multiple tools.</strong>
 </p>
-
-SPCE is especially relevant to students who:
 
 <table>
 <tr>
-<td align="center">
-<strong>Overcommit</strong><br>
-<sub>Say yes before checking capacity</sub>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/book-open-check.svg?color=%2360A5FA" width="28" alt="" /><br>
+  <strong>Assignments</strong>
 </td>
-<td align="center">
-<strong>Procrastinate</strong><br>
-<sub>Start important work too late</sub>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/users-round.svg?color=%238B5CF6" width="28" alt="" /><br>
+  <strong>Group Work</strong>
 </td>
-<td align="center">
-<strong>Underestimate</strong><br>
-<sub>Plan less time than work actually requires</sub>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23F59E0B" width="28" alt="" /><br>
+  <strong>Classes</strong>
 </td>
-<td align="center">
-<strong>Feel constantly busy</strong><br>
-<sub>Even when the calendar shows free space</sub>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/shopping-bag.svg?color=%23F472B6" width="28" alt="" /><br>
+  <strong>Errands</strong>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/moon.svg?color=%2334D399" width="28" alt="" /><br>
+  <strong>Recovery</strong>
 </td>
 </tr>
 </table>
 
-### Why SPCE fits this group
+### Who benefits most?
 
-SPCE is designed around the tools and behaviours students already have:
-
-**Calendar · Reminders · Microsoft 365 / Teams · Class Timetable · Voice / Text UNLOAD**
-
-It does not ask students to completely rebuild their planning habits in another productivity system.
+<table>
+<tr>
+<td width="25%" align="center"><strong>Overcommits</strong><br><sub>Says yes before checking capacity</sub></td>
+<td width="25%" align="center"><strong>Procrastinates</strong><br><sub>Starts important work too late</sub></td>
+<td width="25%" align="center"><strong>Underestimates</strong><br><sub>Work takes longer than planned</sub></td>
+<td width="25%" align="center"><strong>Always feels busy</strong><br><sub>Even when the calendar looks open</sub></td>
+</tr>
+</table>
 
 <br><br>
 
@@ -1667,50 +1692,85 @@ It does not ask students to completely rebuild their planning habits in another 
 
 ### Before SPCE vs With SPCE
 
-| Before SPCE | With SPCE |
-| --- | --- |
-| Calendar shows an empty slot | **FIT** checks whether the commitment actually fits |
-| Small tasks stay in the student's head | **UNLOAD** captures hidden commitments |
-| Overload is noticed too late | SPCE identifies pressure before another commitment is added |
-| Recommendation feels arbitrary | **WHY** shows the evidence |
-| Solution is “work harder” | **FIX** proposes the smallest practical adjustment |
-| Behaviour patterns remain invisible | Check-ins reveal personalized patterns |
-| AI silently adapts | Important learning requires **Human Approval** |
-| Stress gets another productivity tip | Student can enter **Comfort Circle** instead |
-
-### The impact loop
-
 <table>
 <tr>
-<td align="center"><strong>Capture</strong><br><sub>Real Day + UNLOAD</sub></td>
-<td align="center"><strong>Understand</strong><br><sub>Personal Capacity</sub></td>
-<td align="center"><strong>Prevent</strong><br><sub>FIT · WHY · FIX</sub></td>
-<td align="center"><strong>Learn</strong><br><sub>Check-In + Patterns</sub></td>
-<td align="center"><strong>Support</strong><br><sub>Comfort Circle</sub></td>
+<th width="50%" align="center">
+  <img src="https://api.iconify.design/lucide/circle-x.svg?color=%23EF4444" width="20" alt="" />
+  BEFORE SPCE
+</th>
+<th width="50%" align="center">
+  <img src="https://api.iconify.design/lucide/circle-check-big.svg?color=%2322C55E" width="20" alt="" />
+  WITH SPCE
+</th>
+</tr>
+
+<tr>
+<td><img src="https://api.iconify.design/lucide/calendar.svg?color=%23EF4444" width="17" alt="" /> Empty slot looks available</td>
+<td><img src="https://api.iconify.design/lucide/gauge.svg?color=%2322C55E" width="17" alt="" /> <strong>FIT</strong> checks actual capacity first</td>
+</tr>
+
+<tr>
+<td><img src="https://api.iconify.design/lucide/brain.svg?color=%23EF4444" width="17" alt="" /> Small commitments stay in your head</td>
+<td><img src="https://api.iconify.design/lucide/mic.svg?color=%2322C55E" width="17" alt="" /> <strong>UNLOAD</strong> captures hidden work</td>
+</tr>
+
+<tr>
+<td><img src="https://api.iconify.design/lucide/help-circle.svg?color=%23EF4444" width="17" alt="" /> Recommendation feels random</td>
+<td><img src="https://api.iconify.design/lucide/search-check.svg?color=%2322C55E" width="17" alt="" /> <strong>WHY</strong> shows the evidence</td>
+</tr>
+
+<tr>
+<td><img src="https://api.iconify.design/lucide/flame.svg?color=%23EF4444" width="17" alt="" /> Overload is discovered too late</td>
+<td><img src="https://api.iconify.design/lucide/wrench.svg?color=%2322C55E" width="17" alt="" /> <strong>FIX</strong> suggests the smallest practical change</td>
+</tr>
+
+<tr>
+<td><img src="https://api.iconify.design/lucide/eye-off.svg?color=%23EF4444" width="17" alt="" /> Personal patterns stay invisible</td>
+<td><img src="https://api.iconify.design/lucide/fingerprint.svg?color=%2322C55E" width="17" alt="" /> Check-ins reveal personalized behaviour patterns</td>
+</tr>
+
+<tr>
+<td><img src="https://api.iconify.design/lucide/bot.svg?color=%23EF4444" width="17" alt="" /> AI silently changes behaviour</td>
+<td><img src="https://api.iconify.design/lucide/user-check.svg?color=%2322C55E" width="17" alt="" /> <strong>Human Approval</strong> keeps learning governed</td>
+</tr>
+
+<tr>
+<td><img src="https://api.iconify.design/lucide/message-circle-off.svg?color=%23EF4444" width="17" alt="" /> Another productivity tip when support is needed</td>
+<td><img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%2322C55E" width="17" alt="" /> <strong>Comfort Circle</strong> switches from productivity to support</td>
 </tr>
 </table>
 
-### Example impact
+### What success looks like
 
-> A student sees two free hours and accepts another commitment.  
-> SPCE sees that similar Tuesdays repeatedly ended with two tasks being moved and the workload marked **Too much**.  
-> Instead of simply blocking the commitment, SPCE explains the pattern and suggests the smallest change.
-
-The difference is not simply a better calendar.
-
-**SPCE helps the student make a more realistic decision before overload happens.**
-
-### What we would measure
-
-| Metric | What success looks like |
-| --- | --- |
-| Planned vs actual completion | Smaller gap over time |
-| Tasks repeatedly moved | Fewer avoidable carry-overs |
-| Overloaded days | Fewer days marked Too much |
-| FIT usefulness | Users understand why something fits or does not |
-| FIX acceptance | Suggested changes feel practical |
-| Pattern usefulness | Users choose to keep useful learned patterns |
-| Comfort usefulness | Users report that support helped |
+<table>
+<tr>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/trending-down.svg?color=%2322C55E" width="28" alt="" /><br>
+  <strong>Fewer carry-overs</strong><br>
+  <sub>Less avoidable task moving</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/scale.svg?color=%2360A5FA" width="28" alt="" /><br>
+  <strong>Better fit</strong><br>
+  <sub>Planned load closer to actual capacity</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/search-check.svg?color=%23F59E0B" width="28" alt="" /><br>
+  <strong>Clearer decisions</strong><br>
+  <sub>Users understand WHY</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/wrench.svg?color=%238B5CF6" width="28" alt="" /><br>
+  <strong>Useful fixes</strong><br>
+  <sub>Users accept practical FIX options</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="28" alt="" /><br>
+  <strong>Useful support</strong><br>
+  <sub>Users say Comfort helped</sub>
+</td>
+</tr>
+</table>
 
 > These are prototype success metrics, not claimed clinical outcomes.
 
@@ -1718,53 +1778,130 @@ The difference is not simply a better calendar.
 
 ## <img src="https://api.iconify.design/lucide/expand.svg?color=%23F59E0B" width="23" alt="" /> 6.4 Reach and Scalability
 
-SPCE starts with **university students**, but the underlying problem is broader:
+### Start where students already are
 
-> People often have enough calendar space without having enough actual capacity.
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/users-round.svg?color=%238B5CF6" width="30" alt="" /><br>
+  <strong>Student Clubs</strong><br>
+  <sub>Faculty societies · tech clubs · study communities · residential-college committees</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/megaphone.svg?color=%23F59E0B" width="30" alt="" /><br>
+  <strong>Campus Ambassadors</strong><br>
+  <sub>Student reps demo SPCE and collect feedback from peers</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/video.svg?color=%23F472B6" width="30" alt="" /><br>
+  <strong>Short-form Content</strong><br>
+  <sub>TikTok · Instagram Reels · student-community content</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/qr-code.svg?color=%2360A5FA" width="30" alt="" /><br>
+  <strong>Campus Activations</strong><br>
+  <sub>Orientation · exam weeks · club booths · QR prototype trials</sub>
+</td>
+</tr>
+</table>
+
+### Content that students would actually share
+
+<table>
+<tr>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/calendar-x.svg?color=%23EF4444" width="26" alt="" /><br>
+  <strong>“Calendar said free”</strong><br>
+  <sub>Relatable overloaded-day scenarios</sub>
+</td>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/gauge.svg?color=%238B5CF6" width="26" alt="" /><br>
+  <strong>30-second FIT check</strong><br>
+  <sub>Show how SPCE judges one new commitment</sub>
+</td>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/fingerprint.svg?color=%23F472B6" width="26" alt="" /><br>
+  <strong>“SPCE caught my pattern”</strong><br>
+  <sub>Short stories about late starts, heavy Tuesdays or recovery</sub>
+</td>
+</tr>
+</table>
+
+### Proposed first-campus pilot
+
+<table>
+<tr>
+<td width="20%" align="center">
+  <strong>3</strong><br>
+  <sub>student clubs / societies</sub>
+</td>
+<td width="20%" align="center">
+  <strong>10</strong><br>
+  <sub>student ambassadors</sub>
+</td>
+<td width="20%" align="center">
+  <strong>200</strong><br>
+  <sub>pilot sign-ups</sub>
+</td>
+<td width="20%" align="center">
+  <strong>4 weeks</strong><br>
+  <sub>pilot period</sub>
+</td>
+<td width="20%" align="center">
+  <strong>1 feedback loop</strong><br>
+  <sub>weekly product iteration</sub>
+</td>
+</tr>
+</table>
+
+<sub>These are proposed pilot targets, not achieved traction.</sub>
 
 ### Scale path
 
 <table>
 <tr>
-<td width="33%" align="center">
-<strong>01 · Campus</strong><br><br>
-<sub>University students<br>Academic + personal workload</sub>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/school.svg?color=%2360A5FA" width="28" alt="" /><br>
+  <strong>01 · One Campus</strong><br>
+  <sub>Validate daily capacity + FIT</sub>
 </td>
-
-<td width="33%" align="center">
-<strong>02 · Universities</strong><br><br>
-<sub>More timetable systems<br>More academic integrations</sub>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/network.svg?color=%238B5CF6" width="28" alt="" /><br>
+  <strong>02 · Club Network</strong><br>
+  <sub>Expand through student societies and ambassadors</sub>
 </td>
-
-<td width="33%" align="center">
-<strong>03 · Beyond Campus</strong><br><br>
-<sub>Interns · Early-career professionals<br>People managing fragmented commitments</sub>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/graduation-cap.svg?color=%23F59E0B" width="28" alt="" /><br>
+  <strong>03 · Multi-University</strong><br>
+  <sub>Add timetable + campus-specific integrations</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/building-2.svg?color=%2334D399" width="28" alt="" /><br>
+  <strong>04 · Beyond Campus</strong><br>
+  <sub>Interns · graduate trainees · early-career teams</sub>
 </td>
 </tr>
 </table>
 
-### Why it can scale
+### Why this distribution can work in Malaysia
 
-| Foundation | Scale advantage |
-| --- | --- |
-| LangGraph specialist agents | New workflows can be added without rebuilding the entire system |
-| Shared SPCE state | Agents work from one consistent user context |
-| Pluggable context sources | New calendar, timetable and work integrations can be added |
-| Supabase backend | Managed infrastructure can grow with usage |
-| Personalized patterns | The same system adapts to different users instead of requiring one fixed routine |
-| Human-governed learning | Personalization can scale without removing user control |
+<table>
+<tr>
+<td width="50%">
+  <img src="https://api.iconify.design/lucide/wifi.svg?color=%2360A5FA" width="19" alt="" />
+  <strong>20 to 24-year-olds are already highly digital:</strong> 99.6% Internet usage in 2024.
+</td>
+<td width="50%">
+  <img src="https://api.iconify.design/lucide/share-2.svg?color=%23F472B6" width="19" alt="" />
+  <strong>Social networks are already a dominant online behaviour:</strong> DOSM reported social networking as the most common Internet activity nationally in 2024.
+</td>
+</tr>
+</table>
 
-### Long-term impact
+<p align="center">
+  <strong>Reach strategy: clubs create trust · ambassadors create peer proof · content creates discovery · the product creates retention.</strong>
+</p>
 
-SPCE could move from:
-
-> **“How do I fit everything into my day?”**
-
-to:
-
-> **“What is actually realistic for me today?”**
-
-That shift can help users make better commitments before overload becomes the default.
 
 ---
 
