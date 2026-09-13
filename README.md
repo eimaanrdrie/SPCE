@@ -209,49 +209,50 @@ SPCE evolved through multiple documented iterations from **31 Aug to 13 Sep 2026
 ### <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="20" alt="" /> 2.2 Ideation Boards
 
 
-We used five visual boards to document how SPCE moved from **understanding the problem**, to **exploring and clustering ideas**, then into the **solution flow** and final **product ecosystem**.
 
-#### 1. Problem Exploration
+We used five visual boards to document the ideation process from **understanding the problem**, to **exploring possibilities**, **clustering and refining ideas**, **mapping the user journey**, and finally **defining the SPCE ecosystem**.
 
-<p align="center">
-  <img src="images/Problem_Board.png" alt="SPCE Problem Exploration Board" width="100%">
-</p>
-
-<sub>Mapped the student problems behind overload, forgotten commitments, unrealistic planning, and repeated last-minute work.</sub>
-
-#### 2. Idea Exploration
+#### 1. Problem Tree
 
 <p align="center">
-  <img src="images/Idea_Board.png" alt="SPCE Idea Exploration Board" width="100%">
+  <img src="images/problem_tree.png" alt="SPCE Problem Tree" width="100%">
 </p>
 
-<sub>Explored multiple directions before narrowing the concept around personal capacity, explainable planning, learning, and support.</sub>
+<sub><strong>What it shows:</strong> The root causes behind student overload, the central problem that students plan around available time rather than actual capacity, and the resulting effects such as burnout, last-minute work, missed deadlines, poor recovery, reduced focus, and schedule instability.</sub>
+
+#### 2. Idea Exploration Mindmap
+
+<p align="center">
+  <img src="images/idea_exploration.png" alt="SPCE Idea Exploration Mindmap" width="100%">
+</p>
+
+<sub><strong>What it shows:</strong> A broad exploration of possible directions across capacity intelligence, planning context, capture and input, explainability, learning, support, adjustments, access, and experimental ideas before the concept was narrowed.</sub>
 
 #### 3. Affinity Diagram
 
 <p align="center">
-  <img src="images/affinity.png" alt="SPCE Affinity Diagram for Iteration and Idea Evolution" width="100%">
+  <img src="images/affinity.png" alt="SPCE Affinity Diagram" width="100%">
 </p>
 
-<sub>Grouped raw ideas into common themes, evaluated what should be adopted, evolved, or dropped, and clarified the final SPCE product pillars.</sub>
+<sub><strong>What it shows:</strong> Raw ideas grouped into common themes, then evaluated as core, evolved, or dropped. The clustering process helped turn a broad set of possibilities into the final SPCE product pillars.</sub>
 
-#### 4. SPCE Solution Flow
+#### 4. SPCE User Flow
 
 <p align="center">
-  <img src="images/SPCE_feature.png" alt="How SPCE Works Board" width="100%">
+  <img src="images/user_flow.png" alt="SPCE User Flow Diagram" width="100%">
 </p>
 
-<sub>Turned the selected ideas into one connected experience built around capacity, FIT, WHY, FIX, Human Approval, learning, and comfort.</sub>
+<sub><strong>What it shows:</strong> The end-to-end user journey from real-day context and UNLOAD, through FIT, WHY, FIX and Human Approval, then into daily check-in, approved learning, Personal Pattern Insights, and the Comfort experience.</sub>
 
-#### 5. Product Ecosystem
+#### 5. SPCE Ecosystem
 
 <p align="center">
-  <img src="images/Product_EcoSystem.png" alt="SPCE Product Ecosystem Board" width="100%">
+  <img src="images/ecosystem.png" alt="SPCE Ecosystem Diagram" width="100%">
 </p>
 
-<sub>Shows how the final product areas connect across Home, Work, Comfort, Insights, integrations, and supporting experiences.</sub>
+<sub><strong>What it shows:</strong> The final SPCE ecosystem connecting primary users, input sources, the Personal Capacity Engine, daily check-ins, Comfort, Insights, user control, and the supporting technologies that enable the experience.</sub>
 
-> **Our ideation path:** understand the problem, explore possibilities, cluster and refine the ideas, define the solution flow, then connect everything into one product ecosystem.
+> **Our ideation path:** 🌳 understand the problem · 🧠 explore widely · 🗂️ cluster and refine · 🧭 map the experience · 🌐 connect the ecosystem
 
 ### <img src="https://api.iconify.design/lucide/messages-square.svg?color=%2334D399" width="20" alt="" /> 2.3 Mentor Consultation
 
