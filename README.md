@@ -819,317 +819,473 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
 
 ## <img src="https://api.iconify.design/lucide/workflow.svg?color=%2334D399" width="22" alt="" /> 5. Technical Architecture & Feasibility
 
-SPCE is designed to be **ambitious in experience but conservative in implementation**. The build uses managed services, bounded specialist agents, deterministic validation, and a strict P0/P1 scope so the core experience can be completed within the hackathon window.
+<p align="center">
+  <strong>Build the core loop first. Keep the agents bounded. Use managed infrastructure. Protect human control.</strong>
+</p>
 
-### <img src="https://api.iconify.design/lucide/code-2.svg?color=%2334D399" width="20" alt="" /> 5.1 Technical Viability & Tech Stack
+### <img src="https://api.iconify.design/lucide/layers-3.svg?color=%2360A5FA" width="20" alt="" /> 5.1 Tech Stack at a Glance
 
-We selected technologies that reduce custom infrastructure work while keeping the core reasoning inspectable.
+<table>
+<thead>
+<tr>
+<th align="left">Layer</th>
+<th align="left">Stack</th>
+<th align="left">Purpose</th>
+</tr>
+</thead>
+<tbody>
 
-> [!IMPORTANT]
-> **LangGraph coordinates the workflow, but it is not given unrestricted authority.** Specialist agents can understand, explain, propose, and learn from approved evidence. Deterministic tools validate capacity and scheduling constraints, and important changes stop at a **Human Approval Gate** before they are committed.
+<tr>
+<td><strong>Mobile</strong></td>
+<td>
+  <img src="https://cdn.simpleicons.org/react/61DAFB" width="18" alt="React Native" />
+  <strong>React Native</strong>
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/expo/FFFFFF" width="18" alt="Expo" />
+  <strong>Expo</strong>
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/typescript/3178C6" width="18" alt="TypeScript" />
+  <strong>TypeScript</strong>
+</td>
+<td>Fast iOS-first development</td>
+</tr>
 
-| **Layer** | **Technology / approach** | **Why it is viable for the build** |
-| --- | --- | --- |
-| **Mobile app** | React Native + TypeScript + Expo Development Build | One mobile codebase, fast iteration, direct iOS testing |
-| **Navigation** | Expo Router | Simple routing for Home, Work, Comfort, Insights and deep links |
-| **Back Tap UNLOAD** | iOS Back Tap + Shortcut / App Intent + Deep Link | Uses existing iOS behaviour instead of custom hardware integration |
-| **Calendar + Reminders** | Apple EventKit | Native permitted access to planned commitments |
-| **Teams / Microsoft 365** | Planned Microsoft calendar connector | Adds academic schedule context without rebuilding calendar infrastructure |
-| **Class timetable** | Recurring schedule adapter / import | Lightweight representation of lectures, labs and tutorials |
-| **Voice capture** | Deepgram | Avoids building speech recognition from scratch |
-| **Primary LLM** | ILMU | Natural-language understanding and bounded agent reasoning |
-| **Agent orchestration** | **LangGraph.js / TypeScript** | Shared state, branching, retries, interrupts and bounded specialist agents |
-| **Agent contracts** | TypeScript + Zod | Validates structured agent input/output before the graph continues |
-| **Capacity tool** | Deterministic TypeScript rules + approved history | Keeps core capacity evidence inspectable and testable |
-| **Constraint validator** | Deterministic schedule + policy checks | Rejects invalid FIX suggestions before user review |
-| **Human Approval Gate** | LangGraph interrupt / approval state | Stops important changes until the user approves, rejects or edits |
-| **Pattern learning** | Behaviour history + lightweight scoring | Supports self-learning without custom model training |
-| **Database** | Supabase Postgres | Managed persistence for commitments, graph state, check-ins and patterns |
-| **Auth + access** | Supabase Auth + Row Level Security | Avoids building custom identity and access control |
-| **Realtime Comfort** | Supabase Realtime | Supports temporary Comfort Circle delivery |
-| **Comfort moderation** | Rules + moderation service | Screens messages before delivery |
-| **AR Support Wall** | Focused mobile AR surface detection + anchored notes | Keeps AR limited to one demonstrable wall / desk use case |
-| **Notifications** | Expo Notifications + APNs | Uses existing mobile notification infrastructure |
-| **Secure proxy** | Cloudflare Workers | Protects external service credentials |
-| **Local state** | Secure local storage | Fast app response and lightweight local persistence |
-| **Optional wearable context** | Garmin, stretch only | Explicitly non-critical to the core demo |
-| **Build / distribution** | Expo EAS Build / TestFlight | Practical installable iOS test workflow |
+<tr>
+<td><strong>Agent orchestration</strong></td>
+<td>
+  <img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="18" alt="LangGraph" />
+  <strong>LangGraph</strong>
+</td>
+<td>Routes FIT, WHY, FIX, Learning and Insights agents</td>
+</tr>
 
-#### <img src="https://api.iconify.design/lucide/bot.svg?color=%238B5CF6" width="18" alt="" /> Specialist Agent Graph
+<tr>
+<td><strong>Language model</strong></td>
+<td>
+  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="18" alt="ILMU" />
+  <strong>ILMU</strong>
+</td>
+<td>Understands input and supports bounded reasoning</td>
+</tr>
 
-SPCE uses **one shared graph state** and bounded specialist agents. Each agent has one job and returns structured output that can be validated before the graph continues.
+<tr>
+<td><strong>Voice</strong></td>
+<td>
+  <img src="https://cdn.simpleicons.org/deepgram/13E5C8" width="18" alt="Deepgram" />
+  <strong>Deepgram</strong>
+</td>
+<td>Speech-to-text for UNLOAD</td>
+</tr>
 
-| **Agent / node** | **Responsibility** | **Directly changes the plan?** |
-| --- | --- | --- |
-| **Intake Agent** | Converts UNLOAD voice/text into a structured commitment | No |
-| **Context Agent** | Merges Calendar, Reminders, Teams, timetable and current-day context | No |
-| **Capacity Agent** | Calls the deterministic Capacity Tool and prepares the current capacity snapshot | No |
-| **FIT Agent** | Determines whether the new commitment fits the available capacity evidence | No |
-| **WHY Agent** | Explains the decision trace and supporting evidence | No |
-| **FIX Agent** | Generates the smallest practical candidate changes | No |
-| **Constraint Validator** | Rejects candidates that break protected events or user policies | No |
-| **Human Approval Gate** | Pauses execution for approve, reject or edit | **User decides** |
-| **Learning Agent** | Compares planned vs actual outcomes and proposes pattern updates | No |
-| **Insights Agent** | Turns approved patterns into capacity, focus and recovery insights | No |
-| **Comfort Moderation Agent** | Screens incoming Comfort Circle messages | No |
+<tr>
+<td><strong>Backend</strong></td>
+<td>
+  <img src="https://cdn.simpleicons.org/supabase/3ECF8E" width="18" alt="Supabase" />
+  <strong>Supabase</strong>
+</td>
+<td>Auth, Postgres and Realtime</td>
+</tr>
 
-> **Boundary:** agents may **understand, explain, propose and learn from approved evidence**, but they cannot silently rewrite the user's plan or personal policies.
+<tr>
+<td><strong>Secure edge</strong></td>
+<td>
+  <img src="https://cdn.simpleicons.org/cloudflare/F38020" width="18" alt="Cloudflare" />
+  <strong>Cloudflare Workers</strong>
+</td>
+<td>Protects service credentials and lightweight API logic</td>
+</tr>
 
-#### LangGraph workflow
+<tr>
+<td><strong>Calendar context</strong></td>
+<td>
+  <img src="https://cdn.simpleicons.org/apple/FFFFFF" width="18" alt="Apple" />
+  Apple Calendar / Reminders
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/microsoft/5E5E5E" width="18" alt="Microsoft" />
+  Microsoft 365 / Teams
+</td>
+<td>Builds the user's real-day context</td>
+</tr>
+
+<tr>
+<td><strong>AR support</strong></td>
+<td>
+  <img src="https://api.iconify.design/lucide/scan-line.svg?color=%23F59E0B" width="18" alt="AR" />
+  <strong>Mobile AR surface detection</strong>
+</td>
+<td>Places Comfort notes on a wall or desk</td>
+</tr>
+
+<tr>
+<td><strong>Build & distribution</strong></td>
+<td>
+  <img src="https://cdn.simpleicons.org/expo/FFFFFF" width="18" alt="Expo EAS" />
+  <strong>Expo EAS / TestFlight</strong>
+</td>
+<td>Installable iOS prototype</td>
+</tr>
+
+</tbody>
+</table>
+
+### <img src="https://api.iconify.design/lucide/bot.svg?color=%238B5CF6" width="20" alt="" /> 5.2 Specialist Agent System
+
+<table>
+<tr>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/mic.svg?color=%2360A5FA" width="30" alt="" /><br>
+  <strong>Intake</strong><br>
+  <sub>Structure UNLOAD</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/layers.svg?color=%2360A5FA" width="30" alt="" /><br>
+  <strong>Context</strong><br>
+  <sub>Build the real day</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/gauge.svg?color=%238B5CF6" width="30" alt="" /><br>
+  <strong>Capacity</strong><br>
+  <sub>Prepare capacity evidence</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/circle-check-big.svg?color=%2334D399" width="30" alt="" /><br>
+  <strong>FIT</strong><br>
+  <sub>Does it fit?</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/search-check.svg?color=%23F59E0B" width="30" alt="" /><br>
+  <strong>WHY</strong><br>
+  <sub>Explain the evidence</sub>
+</td>
+</tr>
+
+<tr>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F472B6" width="30" alt="" /><br>
+  <strong>FIX</strong><br>
+  <sub>Suggest the smallest change</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="30" alt="" /><br>
+  <strong>Validate</strong><br>
+  <sub>Check constraints</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="30" alt="" /><br>
+  <strong>Approve</strong><br>
+  <sub>User decides</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/refresh-cw.svg?color=%238B5CF6" width="30" alt="" /><br>
+  <strong>Learning</strong><br>
+  <sub>Use approved outcomes</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/chart-no-axes-combined.svg?color=%2360A5FA" width="30" alt="" /><br>
+  <strong>Insights</strong><br>
+  <sub>Surface patterns</sub>
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <sub><strong>LangGraph</strong> coordinates one shared SPCE state across bounded specialist agents.</sub>
+</p>
+
+#### Governed flow
 
 ```mermaid
 flowchart LR
-    A[UNLOAD / New Commitment] --> B[Intake Agent]
-    B --> C[Context Agent]
-    C --> D[Capacity Agent]
-    D --> E[FIT Agent]
-
-    E -->|Fits| F[Best Placement / Continue]
-    E -->|Does Not Fit| G[WHY Agent]
-    G --> H[FIX Agent]
-    H --> I[Constraint Validator]
-
-    F --> J[Human Approval Gate]
-    I --> J
-
-    J -->|Approve| K[Apply Approved Change]
-    J -->|Reject / Edit| L[Keep Current Plan or Revise]
-
-    K --> M[Real Day Happens]
-    L --> M
-
-    M --> N[Daily Check-In]
-    N --> O[Learning Agent]
-    O --> P[Approved Pattern Update]
-    P --> Q[Insights Agent]
-    Q --> R[Future Capacity Context]
-    R --> D
+    A[UNLOAD] --> B[Intake]
+    B --> C[Context]
+    C --> D[Capacity]
+    D --> E[FIT]
+    E --> F[WHY]
+    F --> G[FIX]
+    G --> H[Validate]
+    H --> I[Human Approval]
+    I --> J[Check-In]
+    J --> K[Learning]
+    K --> L[Insights]
 ```
 
-#### Shared SPCE graph state
+### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="20" alt="" /> 5.3 Governance at a Glance
 
-```text
-SPCEState
-  user_id
-  improvement_focus
-  current_commitments
-  real_day_context
-  unload_request
-  parsed_commitment
-  capacity_snapshot
-  fit_result
-  evidence
-  why_explanation
-  fix_candidates
-  validated_fix
-  approval_decision
-  activity_outcomes
-  overall_feel
-  proposed_pattern_updates
-  approved_patterns
-```
+<table>
+<tr>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/eye.svg?color=%2360A5FA" width="28" alt="" /><br>
+  <strong>Visible WHY</strong><br>
+  <sub>Reasoning stays inspectable</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F472B6" width="28" alt="" /><br>
+  <strong>Bounded FIX</strong><br>
+  <sub>Suggest, never silently change</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="28" alt="" /><br>
+  <strong>Human Approval</strong><br>
+  <sub>Important changes pause</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/refresh-cw.svg?color=%238B5CF6" width="28" alt="" /><br>
+  <strong>Governed Learning</strong><br>
+  <sub>Approved evidence only</sub>
+</td>
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/file-search.svg?color=%23F59E0B" width="28" alt="" /><br>
+  <strong>Decision Trace</strong><br>
+  <sub>See what changed and why</sub>
+</td>
+</tr>
+</table>
 
-### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="20" alt="" /> 5.2 Architecture Principle
+> **ILMU understands · LangGraph orchestrates · deterministic tools verify · humans approve · approved outcomes teach the system**
 
-> **ILMU understands. LangGraph orchestrates. Deterministic tools verify. Specialist agents explain and propose. Humans approve. Approved outcomes teach the system.**
-
-A user might UNLOAD:
-
-> “I still need to finish my assignment, I have a Teams meeting later, I need groceries, and I’m exhausted after class.”
-
-SPCE does not accept one opaque model response. The request moves through a governed sequence:
-
-**Intake Agent · Context Agent · Capacity Agent · FIT Agent · WHY Agent · FIX Agent · Human Approval · Check-In · Learning Agent · Insights Agent**
-
-| **Control** | **Why it matters** |
-| --- | --- |
-| **Structured state** | Prevents free-form agent handoffs from becoming the source of truth |
-| **Deterministic Capacity Tool** | Keeps core capacity evidence inspectable |
-| **Constraint Validator** | Stops invalid FIX candidates before user review |
-| **Human Approval Gate** | Prevents silent schedule or policy changes |
-| **Approved learning evidence** | Makes self-learning visible and user-governed |
-| **Decision Ledger** | Preserves important reasoning, approvals and pattern updates |
-
-### <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="20" alt="" /> 5.3 System Architecture
+### <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="20" alt="" /> 5.4 System Architecture
 
 <p align="center">
   <img src="images/architecture.png" alt="SPCE System Architecture Diagram" width="100%">
 </p>
 
-The final architecture diagram should reflect these zones:
-
-| **Zone** | **Include** |
-| --- | --- |
-| **Users & Inputs** | Student, Back Tap, voice/text, Apple Calendar, Reminders, Teams / Microsoft 365, class timetable, optional Garmin |
-| **SPCE Mobile App** | Home, Work, Comfort, Insights, UNLOAD, Check-In, Kindness Streak |
-| **Input Layer** | Deepgram, structured commitment schema, context adapters |
-| **LangGraph Orchestrator** | Shared SPCEState, routing, branching, retries, approval interrupts |
-| **Specialist Agents** | Intake, Context, Capacity, FIT, WHY, FIX, Learning, Insights |
-| **Deterministic Tools** | Capacity rules, scheduling constraints, protected-event checks, personal policy checks |
-| **Human Governance** | Approval Gate, edit / reject / approve, Decision Ledger |
-| **Learning & Insights** | Approved outcome history, pattern store, Insights summaries |
-| **Comfort & Community** | Comfort Circle, moderation, Give Comfort, Kindness Streak |
-| **AR Layer** | Wall / desk detection, anchored comfort notes |
-| **Backend & Data** | Supabase Auth, Postgres, Realtime, graph checkpoints, secure edge proxy |
+<table>
+<tr>
+<td align="center"><strong>Inputs</strong><br><sub>Voice · Calendar · Reminders · Teams · Timetable</sub></td>
+<td align="center"><strong>LangGraph</strong><br><sub>State · Routing · Approval pause</sub></td>
+<td align="center"><strong>Agents</strong><br><sub>Capacity · FIT · WHY · FIX · Learning</sub></td>
+<td align="center"><strong>Tools</strong><br><sub>Rules · Constraints · Policies</sub></td>
+<td align="center"><strong>Outputs</strong><br><sub>Plan · Insights · Comfort</sub></td>
+</tr>
+</table>
 
 > [!NOTE]
-> `images/architecture.png` should be updated before final submission so the visual architecture matches the LangGraph agent design documented here.
+> `images/architecture.png` should reflect the LangGraph agent architecture before final submission.
 
-### <img src="https://api.iconify.design/lucide/calendar-range.svg?color=%23F59E0B" width="20" alt="" /> 5.4 Planning & Scope Realism
+### <img src="https://api.iconify.design/lucide/calendar-range.svg?color=%23F59E0B" width="20" alt="" /> 5.5 Build Plan
 
-| **Build window** | **21 September 2026 to 11 October 2026** |
-| --- | --- |
-| **Goal** | Prove one complete governed SPCE loop from real-day context to FIT, WHY, FIX, Human Approval, check-in and learning |
-| **Platform** | iOS-first hackathon build |
-| **Scope rule** | Core loop ships before optional integrations or visual extras |
-| **Success standard** | Working end-to-end experience with visible reasoning and user control |
+<table>
+<tr>
+<td width="33%" valign="top">
+  <p align="center">
+    <img src="https://api.iconify.design/lucide/calendar-days.svg?color=%2360A5FA" width="34" alt="" /><br>
+    <strong>21 to 27 Sep</strong><br>
+    <sub>PHASE 01</sub>
+  </p>
+  <strong>Foundation</strong><br><br>
+  App setup<br>
+  Supabase<br>
+  Deepgram<br>
+  ILMU adapter<br>
+  LangGraph state<br>
+  Intake + Context
+</td>
 
-#### Core build priorities
+<td width="33%" valign="top">
+  <p align="center">
+    <img src="https://api.iconify.design/lucide/calendar-days.svg?color=%238B5CF6" width="34" alt="" /><br>
+    <strong>28 Sep to 4 Oct</strong><br>
+    <sub>PHASE 02</sub>
+  </p>
+  <strong>Core Intelligence</strong><br><br>
+  Capacity Agent<br>
+  FIT Agent<br>
+  WHY Agent<br>
+  FIX Agent<br>
+  Validator<br>
+  Human Approval
+</td>
 
-| **Priority** | **Feature** | **Done when** |
+<td width="33%" valign="top">
+  <p align="center">
+    <img src="https://api.iconify.design/lucide/calendar-days.svg?color=%23F472B6" width="34" alt="" /><br>
+    <strong>5 to 11 Oct</strong><br>
+    <sub>PHASE 03</sub>
+  </p>
+  <strong>Learning + Support</strong><br><br>
+  Check-In<br>
+  Learning Agent<br>
+  Insights Agent<br>
+  Comfort Circle<br>
+  AR Wall<br>
+  Final polish
+</td>
+</tr>
+</table>
+
+#### Priority map
+
+<table>
+<tr>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/circle-dot.svg?color=%23EF4444" width="22" alt="" /><br>
+  <strong>P0 · Must Ship</strong><br>
+  <sub>UNLOAD · FIT · WHY · FIX · Approval · Check-In · Learning · Insights</sub>
+</td>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/circle-dot.svg?color=%23F59E0B" width="22" alt="" /><br>
+  <strong>P1 · Should Ship</strong><br>
+  <sub>Comfort Circle · Give Comfort · Kindness Streak · AR Wall</sub>
+</td>
+<td width="33%" align="center">
+  <img src="https://api.iconify.design/lucide/circle-dot.svg?color=%2360A5FA" width="22" alt="" /><br>
+  <strong>P2 · Stretch</strong><br>
+  <sub>Widget · Garmin · richer AR · deeper integrations</sub>
+</td>
+</tr>
+</table>
+
+### <img src="https://api.iconify.design/lucide/check-circle-2.svg?color=%2334D399" width="20" alt="" /> 5.6 Feasibility Snapshot
+
+<table>
+<thead>
+<tr>
+<th align="left">Area</th>
+<th align="center">Status</th>
+<th align="left">Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tech stack</strong></td>
+<td align="center"><img src="https://api.iconify.design/lucide/check-circle-2.svg?color=%2322C55E" width="18" alt="Strong" /></td>
+<td>Managed, practical tools</td>
+</tr>
+<tr>
+<td><strong>Scope</strong></td>
+<td align="center"><img src="https://api.iconify.design/lucide/check-circle-2.svg?color=%2322C55E" width="18" alt="Strong" /></td>
+<td>Clear P0 / P1 / P2 boundary</td>
+</tr>
+<tr>
+<td><strong>Agent architecture</strong></td>
+<td align="center"><img src="https://api.iconify.design/lucide/check-circle-2.svg?color=%2322C55E" width="18" alt="Strong" /></td>
+<td>Bounded agents, shared state</td>
+</tr>
+<tr>
+<td><strong>Governance</strong></td>
+<td align="center"><img src="https://api.iconify.design/lucide/check-circle-2.svg?color=%2322C55E" width="18" alt="Strong" /></td>
+<td>Human approval + visible learning</td>
+</tr>
+<tr>
+<td><strong>AR</strong></td>
+<td align="center"><img src="https://api.iconify.design/lucide/triangle-alert.svg?color=%23F59E0B" width="18" alt="Moderate risk" /></td>
+<td>Limited to one wall / desk prototype</td>
+</tr>
+<tr>
+<td><strong>Garmin / deeper connectors</strong></td>
+<td align="center"><img src="https://api.iconify.design/lucide/minus-circle.svg?color=%239CA3AF" width="18" alt="Optional" /></td>
+<td>Not required for the core demo</td>
+</tr>
+</tbody>
+</table>
+
+### <img src="https://api.iconify.design/lucide/clock-3.svg?color=%2360A5FA" width="20" alt="" /> 5.7 Resources & Constraints
+
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/clock-3.svg?color=%2360A5FA" width="28" alt="" /><br>
+  <strong>Time</strong><br>
+  <sub>3 focused build phases</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/users.svg?color=%238B5CF6" width="28" alt="" /><br>
+  <strong>Team</strong><br>
+  <sub>Mobile · AI · backend · testing</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/wallet-cards.svg?color=%2334D399" width="28" alt="" /><br>
+  <strong>Cost</strong><br>
+  <sub>Free / student / low-usage tiers</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/server-cog.svg?color=%23F59E0B" width="28" alt="" /><br>
+  <strong>Infrastructure</strong><br>
+  <sub>No custom model training</sub>
+</td>
+</tr>
+</table>
+
+#### Fallbacks
+
+| **Risk** | **Fallback** | **Core loop affected?** |
 | --- | --- | --- |
-| **P0** | **LangGraph Core** | Shared SPCEState, routing and graph execution work end to end |
-| **P0** | **UNLOAD + Intake Agent** | Voice/text becomes a validated structured commitment |
-| **P0** | **Context Agent** | Calendar, reminders, timetable and UNLOAD produce one normalized real-day context |
-| **P0** | **Improvement focus** | User can choose the pattern they want SPCE to help improve |
-| **P0** | **Capacity Agent** | Agent calls the deterministic Capacity Tool and produces traceable evidence |
-| **P0** | **FIT Agent** | New commitment returns FIT or Does Not Fit |
-| **P0** | **WHY Agent** | User can inspect the evidence behind the FIT result |
-| **P0** | **FIX Agent** | Agent generates minimum-disruption candidates |
-| **P0** | **Constraint Validator** | Invalid candidates are removed before review |
-| **P0** | **Human Approval Gate** | Graph pauses and resumes after approve, reject or edit |
-| **P0** | **Activity Check-In** | User records Done, Partly done, Not done or Moved |
-| **P0** | **Overall Feel** | User records Comfortable, A bit heavy, Too much or Plans changed |
-| **P0** | **Learning Agent** | Check-in evidence produces a proposed pattern update |
-| **P0** | **Decision / Agent Trace** | Important evidence, agent outputs and approvals can be inspected |
-| **P1** | **Insights Agent** | Approved patterns become capacity, focus and recovery summaries |
-| **P1** | **Comfort Circle** | Private five-minute support flow works |
-| **P1** | **Comfort Moderation** | Supportive notes are screened before delivery |
-| **P1** | **AR Support Wall** | Received comfort notes can appear on a wall / desk surface |
-| **P1** | **Give Comfort + Kindness Streak** | One supportive note can be sent and reflected in the streak |
+| Teams / timetable integration | Seeded academic schedule | No |
+| Voice input | Typed UNLOAD | No |
+| AR polish | Simpler anchored-note demo | No |
+| Garmin | Remove from build | No |
+| Realtime Comfort | Controlled demo flow | No |
 
-#### Three-phase build plan
+> **Priority rule:** if time becomes constrained, protect **UNLOAD · FIT · WHY · FIX · Human Approval · Check-In · Learning · Insights** first.
 
-| **Dates** | **Focus** | **Concrete output** |
-| --- | --- | --- |
-| **21 to 27 Sep** | Foundation + Agent State | App setup, Supabase, Deepgram, ILMU adapter, LangGraph.js, SPCEState, Intake Agent, Context Agent, Calendar/Reminders/timetable inputs |
-| **28 Sep to 4 Oct** | Core Agent Graph | Capacity Agent, FIT Agent, WHY Agent, FIX Agent, Constraint Validator, Human Approval interrupt, Decision Ledger |
-| **5 to 11 Oct** | Learning + Support + Polish | Check-In, Learning Agent, Insights Agent, Comfort Circle, moderation, AR Support Wall, testing, UI polish and final demo |
+### <img src="https://api.iconify.design/lucide/target.svg?color=%23F472B6" width="20" alt="" /> 5.8 Definition of Done
 
-#### Scope boundary
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/mic.svg?color=%2360A5FA" width="25" alt="" /><br>
+  <strong>Capture</strong><br>
+  <sub>UNLOAD becomes structured input</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/gauge.svg?color=%238B5CF6" width="25" alt="" /><br>
+  <strong>Decide</strong><br>
+  <sub>FIT returns a result</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/search-check.svg?color=%23F59E0B" width="25" alt="" /><br>
+  <strong>Explain</strong><br>
+  <sub>WHY shows evidence</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F472B6" width="25" alt="" /><br>
+  <strong>Adjust</strong><br>
+  <sub>FIX proposes the smallest change</sub>
+</td>
+</tr>
 
-| **In scope** | **Stretch / later** |
-| --- | --- |
-| Bounded LangGraph specialist-agent workflow | Fully autonomous multi-agent planning |
-| Shared structured SPCEState | Unrestricted free-form agent-to-agent conversation |
-| Intake, Context, Capacity, FIT, WHY, FIX, Learning and Insights agents | Large agent count without clear user value |
-| Deterministic capacity and constraint tools | LLM-controlled protected schedule changes |
-| Human Approval Gate | Silent autonomous rescheduling |
-| Decision / agent trace | Production observability platform |
-| UNLOAD + connected commitments | Many third-party connectors |
-| Activity + load check-in | Complex long-term ML |
-| Basic Comfort Circle | Large-scale community matching |
-| AR Support Wall prototype | Persistent multi-user spatial rooms |
-| Supabase persistence | Production-scale multi-region backend |
-| Optional Garmin later | Medical / physiological interpretation |
+<tr>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="25" alt="" /><br>
+  <strong>Approve</strong><br>
+  <sub>User can approve, reject or edit</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/clipboard-check.svg?color=%2360A5FA" width="25" alt="" /><br>
+  <strong>Check-In</strong><br>
+  <sub>Actual outcome is recorded</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/refresh-cw.svg?color=%238B5CF6" width="25" alt="" /><br>
+  <strong>Learn</strong><br>
+  <sub>Approved evidence updates patterns</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/chart-no-axes-combined.svg?color=%2360A5FA" width="25" alt="" /><br>
+  <strong>Insights</strong><br>
+  <sub>Patterns become visible</sub>
+</td>
+</tr>
+</table>
 
-### <img src="https://api.iconify.design/lucide/clock-3.svg?color=%2360A5FA" width="20" alt="" /> 5.5 Resource & Time Awareness
+### <img src="https://api.iconify.design/lucide/flag.svg?color=%238B5CF6" width="20" alt="" /> 5.9 Scope Boundary
 
-The implementation plan deliberately avoids building infrastructure that already exists and protects the core SPCE loop if time, integration, or API constraints appear.
+<table>
+<tr>
+<td width="50%" align="center">
+  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="30" alt="" /><br>
+  <strong>Core Capacity Loop</strong><br><br>
+  UNLOAD · Context · FIT · WHY · FIX · Approval · Check-In · Governed Learning · Insights
+</td>
+<td width="50%" align="center">
+  <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="30" alt="" /><br>
+  <strong>Support Loop</strong><br><br>
+  Comfort Circle · Give Comfort · Kindness Streak · AR Comfort Wall
+</td>
+</tr>
+</table>
 
-| **Resource / constraint** | **Practical approach** |
-| --- | --- |
-| **Time** | Three-week build window split into foundation, core intelligence, and learning/support phases |
-| **Team capacity** | Work can be split across mobile/UI, agent workflow, backend/integration, and testing/demo rather than everyone working on every layer |
-| **AI engineering** | Use ILMU + LangGraph with bounded agents instead of training a custom foundation model |
-| **Backend engineering** | Use Supabase for Auth, Postgres and Realtime instead of building backend primitives from scratch |
-| **Voice** | Use Deepgram instead of creating speech recognition infrastructure |
-| **AR effort** | Limit AR to one focused wall / desk comfort-note prototype |
-| **Cost strategy** | Prioritize free, student, hackathon or usage-limited tiers and keep API calls scoped to the demo |
-| **Compute** | No custom model training or dedicated GPU infrastructure required for the core build |
-| **Integration risk** | Teams, Garmin and deeper timetable integrations can be mocked or simplified without breaking the core SPCE loop |
-| **Testing effort** | Prioritize deterministic tool tests, graph-path tests, approval-gate tests and one complete demo journey |
-| **Deployment risk** | iOS-first via Expo EAS / TestFlight, with non-core platform expansion deferred |
-| **Data scope** | Store only the commitments, check-ins, approved patterns and graph state needed for the prototype |
-
-#### Risk and fallback plan
-
-| **If this becomes a blocker** | **Fallback** | **What remains intact** |
-| --- | --- | --- |
-| **Microsoft / timetable integration** | Use seeded or imported academic commitments | Real-Day Context + agent workflow |
-| **Deepgram availability** | Fall back to typed UNLOAD | Intake → FIT → WHY → FIX loop |
-| **ILMU instability** | Use structured sample inputs for the demo path | LangGraph orchestration and governance |
-| **AR takes too long** | Demo a limited anchored-note prototype or defer richer persistence | Comfort Circle remains functional |
-| **Garmin integration** | Remove from build | No impact on core capacity model |
-| **Realtime Comfort complexity** | Use a controlled demo room / seeded messages | Receive / Give Comfort journey |
-| **Time pressure** | Cut P1 features before any P0 feature | Core governed capacity loop ships |
-
-> **Priority rule:** if time becomes constrained, SPCE protects **UNLOAD → FIT → WHY → FIX → Human Approval → Check-In → Learning → Insights** first. Optional integrations and visual extras are reduced before the core reasoning experience.
-
-#### Cost posture
-
-| **Area** | **Cost approach** |
-| --- | --- |
-| **Mobile development** | Expo / local development tooling |
-| **Backend** | Supabase free / hackathon tier where available |
-| **Agent orchestration** | LangGraph open-source library |
-| **Voice** | Limited Deepgram API usage during development and demo |
-| **LLM** | Controlled ILMU requests with structured prompts and bounded graph calls |
-| **Edge proxy** | Cloudflare Workers free / low-usage tier where available |
-| **AR** | Device-native prototype, no custom spatial infrastructure |
-| **Infrastructure principle** | Avoid paid production infrastructure until the prototype proves the core loop |
-
-### <img src="https://api.iconify.design/lucide/check-check.svg?color=%2334D399" width="20" alt="" /> 5.6 Definition of Done
-
-| **Reviewer should be able to...** | **Expected result** |
-| --- | --- |
-| UNLOAD something missing | Intake Agent converts it into structured context |
-| Connect / import the day | Context Agent builds the real-day state |
-| Add another commitment | Capacity + FIT agents return FIT or Does Not Fit |
-| Open WHY | WHY Agent shows the evidence behind the result |
-| Review FIX | FIX Agent proposes a minimum-disruption option |
-| Inspect the candidate | Constraint Validator confirms the option respects protected rules |
-| Approve, reject or edit | LangGraph pauses at the Human Approval Gate and resumes from the user's choice |
-| Live the plan | Approved changes are applied while rejected suggestions leave the plan unchanged |
-| Complete activity check-in | SPCE records what actually happened |
-| Record overall feel | SPCE separates completion from perceived workload |
-| Return later | Learning Agent uses only approved evidence to propose pattern updates |
-| Open Insights | Insights Agent shows a capacity / focus / recovery pattern with supporting evidence |
-| Inspect history | Decision Ledger shows agent reasoning, human decisions and approved learning |
-| Open Comfort Circle | A five-minute private support session works |
-| Give comfort | Moderation screens the note before delivery |
-| Open AR view | Received comfort messages appear spatially on a wall or desk |
-
-### <img src="https://api.iconify.design/lucide/rocket.svg?color=%23F472B6" width="20" alt="" /> 5.7 Stretch Goals
-
-- More advanced LangGraph routing and agent evaluation.
-- Automated regression tests for WHY and FIX agent outputs.
-- Richer graph checkpoint recovery and replay.
-- Deeper Microsoft Teams / Microsoft 365 and university timetable integrations.
-- Glanceable capacity widget.
-- Optional Garmin context.
-- More advanced realtime voice interaction.
-- Richer AR note interaction and spatial persistence.
-- Advanced long-term capacity-pattern modelling.
-- Production-scale community matching and moderation.
-
-### <img src="https://api.iconify.design/lucide/flag.svg?color=%238B5CF6" width="20" alt="" /> 5.8 Hackathon Scope Boundary
-
-The goal is not to build the largest multi-agent system.
-
-The goal is to demonstrate one **governed specialist-agent loop**:
-
-> **UNLOAD · INTAKE AGENT · CONTEXT AGENT · CAPACITY AGENT · FIT AGENT · WHY AGENT · FIX AGENT · HUMAN APPROVAL · CHECK-IN · LEARNING AGENT · INSIGHTS AGENT**
-
-with a separate support loop:
-
-> **NEED COMFORT · COMFORT CIRCLE · MODERATION · AR SUPPORT WALL · RECOVER**
-
-and the community side:
-
-> **GIVE COMFORT · MODERATED NOTE · KINDNESS STREAK**
-
-If those journeys work clearly, SPCE proves that **agentic AI can coordinate a Personal Capacity workflow without giving up explainability, governed self-learning, or human control**.
+> **Success means proving these two loops clearly, not building every possible SPCE feature.**
 
 ---
 
