@@ -42,7 +42,7 @@
 
 ---
 
-<br><br><br>
+<br>
 
 # <img src="https://api.iconify.design/lucide/target.svg?color=%238B5CF6" width="28" alt="" /> 1. Project Overview
 
@@ -356,7 +356,7 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 ---
 
-<br><br><br>
+<br>
 
 # <img src="https://api.iconify.design/lucide/lightbulb.svg?color=%23F59E0B" width="28" alt="" /> 2. Ideation & Process
 
@@ -491,7 +491,7 @@ We used the mentoring sessions to decide what to **adopt**, what to **pivot**, a
 
 ---
 
-<br><br><br>
+<br>
 
 # <img src="https://api.iconify.design/lucide/smartphone.svg?color=%2360A5FA" width="28" alt="" /> 3. Design & Prototype
 
@@ -591,7 +591,7 @@ SPCE is designed as **one continuous, playable mobile experience** : not a colle
 
 ---
 
-<br><br><br>
+<br>
 
 # <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23F472B6" width="28" alt="" /> 4. What Makes It Different
 
@@ -1049,7 +1049,7 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
 
 ---
 
-<br><br><br>
+<br>
 
 # <img src="https://api.iconify.design/lucide/workflow.svg?color=%2334D399" width="28" alt="" /> 5. Technical Architecture & Feasibility
 
