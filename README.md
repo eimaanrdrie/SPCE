@@ -16,6 +16,7 @@
   <a href="#-1-project-overview">Overview</a> •
   <a href="#-2-ideation--process">Ideation</a> •
   <a href="#-3-design--prototype">Prototype</a> •
+  <a href="#prototype-mockup-gallery">Gallery</a> •
   <a href="#-4-what-makes-it-different">Difference</a> •
   <a href="#-5-technical-architecture--feasibility">Architecture</a>
 </p>
@@ -303,39 +304,201 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 
 > **Insights → 7-day capacity pattern → Pattern detail → evidence / what it affects**
 
-### <img src="https://api.iconify.design/lucide/panels-top-left.svg?color=%2360A5FA" width="20" alt="" /> Key Screens to Showcase
+<a id="prototype-mockup-gallery"></a>
 
-> Export final screenshots into an `/assets` folder before submission.
+### <img src="https://api.iconify.design/lucide/gallery-horizontal-end.svg?color=%238B5CF6" width="20" alt="" /> Prototype Mockup Gallery
 
-1. **Home — Capacity at a Glance**  
-   Current capacity, today’s commitments, Quick UNLOAD and Check in today.
+<p align="center">
+  <strong>Explore the SPCE experience</strong><br>
+  <sub>Use the ◀ / ▶ links to move through the mockups.</sub>
+</p>
 
-2. **Work — Your Real Day**  
-   Connected calendar, reminders, timetable and unloaded commitments.
+<p align="center">
+  <a href="#mockup-home">Home</a> ·
+  <a href="#mockup-realday">Real Day</a> ·
+  <a href="#mockup-unload">UNLOAD</a> ·
+  <a href="#mockup-fix">FIX</a> ·
+  <a href="#mockup-insights">Insights</a> ·
+  <a href="#mockup-comfortcircle">Comfort Circle</a> ·
+  <a href="#mockup-arnotes">AR Notes</a> ·
+  <a href="#mockup-streak">Streak</a> ·
+  <a href="#mockup-widget">Widget</a>
+</p>
 
-3. **Does Not Fit — The Core Moment**  
-   A commitment can fit the calendar but still exceed actual capacity.
+> [!NOTE]
+> GitHub README files do not run JavaScript, so this uses **GitHub-safe arrow navigation** rather than a scripted carousel. The images themselves have rounded corners baked into the PNG files.
 
-4. **WHY / Decision Ledger**  
-   Shows the evidence and reasoning behind the recommendation.
 
-5. **FIX / Human Approval**  
-   Proposes the smallest practical adjustment and waits for user approval.
+<a id="mockup-home"></a>
 
-6. **Daily Check-In**  
-   Records activity outcomes and how the overall load actually felt.
+<p align="center">
+  <a href="#mockup-widget">◀ Previous</a>
+  &nbsp;&nbsp;&nbsp;
+  <strong>1 / 9 · HOME</strong>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#mockup-realday">Next ▶</a>
+</p>
 
-7. **Comfort Circle**  
-   Five-minute private support session with anonymous moderated messages.
+<p align="center">
+  <img src="assets/mockups/HOME.png" width="420" alt="SPCE HOME mockup">
+</p>
 
-8. **AR Support Wall**  
-   Camera-based wall / desk surface setup with comfort messages visualised as spatial sticky notes.
+<p align="center">
+  <strong>Know what fits today</strong>
+</p>
 
-9. **Give Comfort / Kindness Streak**  
-   Send one short anonymous encouragement and build a kindness streak.
 
-10. **Insights**  
-    Visualise the 7-day capacity pattern plus evening focus, deep work and recovery signals.
+<a id="mockup-realday"></a>
+
+<p align="center">
+  <a href="#mockup-home">◀ Previous</a>
+  &nbsp;&nbsp;&nbsp;
+  <strong>2 / 9 · REAL DAY</strong>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#mockup-unload">Next ▶</a>
+</p>
+
+<p align="center">
+  <img src="assets/mockups/REALDAY.png" width="420" alt="SPCE REAL DAY mockup">
+</p>
+
+<p align="center">
+  <strong>See your real day</strong>
+</p>
+
+
+<a id="mockup-unload"></a>
+
+<p align="center">
+  <a href="#mockup-realday">◀ Previous</a>
+  &nbsp;&nbsp;&nbsp;
+  <strong>3 / 9 · UNLOAD</strong>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#mockup-fix">Next ▶</a>
+</p>
+
+<p align="center">
+  <img src="assets/mockups/UNLOAD.png" width="420" alt="SPCE UNLOAD mockup">
+</p>
+
+<p align="center">
+  <strong>Unload what calendars miss</strong>
+</p>
+
+
+<a id="mockup-fix"></a>
+
+<p align="center">
+  <a href="#mockup-unload">◀ Previous</a>
+  &nbsp;&nbsp;&nbsp;
+  <strong>4 / 9 · FIX</strong>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#mockup-insights">Next ▶</a>
+</p>
+
+<p align="center">
+  <img src="assets/mockups/FIX.png" width="420" alt="SPCE FIX mockup">
+</p>
+
+<p align="center">
+  <strong>Fix what doesn't fit</strong>
+</p>
+
+
+<a id="mockup-insights"></a>
+
+<p align="center">
+  <a href="#mockup-fix">◀ Previous</a>
+  &nbsp;&nbsp;&nbsp;
+  <strong>5 / 9 · INSIGHTS</strong>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#mockup-comfortcircle">Next ▶</a>
+</p>
+
+<p align="center">
+  <img src="assets/mockups/INSIGHTS.png" width="420" alt="SPCE INSIGHTS mockup">
+</p>
+
+<p align="center">
+  <strong>See your patterns</strong>
+</p>
+
+
+<a id="mockup-comfortcircle"></a>
+
+<p align="center">
+  <a href="#mockup-insights">◀ Previous</a>
+  &nbsp;&nbsp;&nbsp;
+  <strong>6 / 9 · COMFORT CIRCLE</strong>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#mockup-arnotes">Next ▶</a>
+</p>
+
+<p align="center">
+  <img src="assets/mockups/COMFORTCIRCLE.png" width="420" alt="SPCE COMFORT CIRCLE mockup">
+</p>
+
+<p align="center">
+  <strong>Open a comfort circle</strong>
+</p>
+
+
+<a id="mockup-arnotes"></a>
+
+<p align="center">
+  <a href="#mockup-comfortcircle">◀ Previous</a>
+  &nbsp;&nbsp;&nbsp;
+  <strong>7 / 9 · AR NOTES</strong>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#mockup-streak">Next ▶</a>
+</p>
+
+<p align="center">
+  <img src="assets/mockups/ARNOTES.png" width="420" alt="SPCE AR NOTES mockup">
+</p>
+
+<p align="center">
+  <strong>Comfort that stays with you</strong>
+</p>
+
+
+<a id="mockup-streak"></a>
+
+<p align="center">
+  <a href="#mockup-arnotes">◀ Previous</a>
+  &nbsp;&nbsp;&nbsp;
+  <strong>8 / 9 · KINDNESS STREAK</strong>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#mockup-widget">Next ▶</a>
+</p>
+
+<p align="center">
+  <img src="assets/mockups/STREAK.png" width="420" alt="SPCE KINDNESS STREAK mockup">
+</p>
+
+<p align="center">
+  <strong>Small acts matter</strong>
+</p>
+
+
+<a id="mockup-widget"></a>
+
+<p align="center">
+  <a href="#mockup-streak">◀ Previous</a>
+  &nbsp;&nbsp;&nbsp;
+  <strong>9 / 9 · WIDGET</strong>
+  &nbsp;&nbsp;&nbsp;
+  <a href="#mockup-home">Next ▶</a>
+</p>
+
+<p align="center">
+  <img src="assets/mockups/WIDGET.png" width="420" alt="SPCE WIDGET mockup">
+</p>
+
+<p align="center">
+  <strong>See your capacity at a glance</strong>
+</p>
+
 
 ---
 
