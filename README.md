@@ -563,22 +563,107 @@ SPCE is not trying to become another task manager. Its main difference is that i
 
 ### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%238B5CF6" width="20" alt="" /> 4.3 Market Positioning
 
-| **Capability** | **SPCE** | **Akiflow** | **Tiimo** |
-| --- | --- | --- | --- |
-| Task / calendar planning | ✅ Capacity-aware | ✅ Scheduling / time blocking | ✅ Visual planning |
-| Multi-source student context | ✅ Calendar + reminders + planned Teams / timetable inputs | ◐ Calendar integrations | ◐ Calendar / planning integrations |
-| Fast invisible-commitment capture | ✅ Back Tap + voice/text UNLOAD | ✅ Inbox + shortcuts | ✅ Quick planning tools |
-| Daily activity outcome check-in | ✅ Feeds capacity learning | ◐ Review / stats | ◐ Daily review |
-| Personal capacity model | ✅ Five capacity dimensions + history | ❌ Primarily task / time focus | ◐ Wellbeing + planning |
-| Last-minute / always-busy pattern focus | ✅ Explicit improvement goal + learned evidence | ◐ General productivity planning | ◐ Flexible routine support |
-| Explains why something does not fit | ✅ WHY / Decision Ledger | ❌ No SPCE-style capacity ledger | ❌ No SPCE-style capacity ledger |
-| Human approval before learning policy | ✅ Explicit approval | ❌ No SPCE capacity-policy gate | ❌ No SPCE capacity-policy gate |
-| Smallest workload fix | ✅ Minimum disruption | ◐ Rescheduling | ◐ Reshuffling |
-| Private peer support | ✅ Comfort Circle | ❌ | ❌ |
-| AR comfort message experience | ✅ Planned AR Support Wall | ❌ | ❌ |
-| Capacity pattern visualisation | ✅ Insights | ◐ Productivity stats | ◐ Planning / wellbeing views |
+<table>
+<thead>
+<tr>
+<th align="left">Capability</th>
+<th align="center">
+  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="42" alt="SPCE app icon"><br>
+  <strong>SPCE</strong>
+</th>
+<th align="center">
+  <img src="https://www.google.com/s2/favicons?domain=akiflow.com&sz=128" width="42" alt="Akiflow app icon"><br>
+  <strong>Akiflow</strong>
+</th>
+<th align="center">
+  <img src="https://www.google.com/s2/favicons?domain=tiimoapp.com&sz=128" width="42" alt="Tiimo app icon"><br>
+  <strong>Tiimo</strong>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Task / calendar planning</strong></td>
+<td align="center">Capacity-aware</td>
+<td align="center">Scheduling / time blocking</td>
+<td align="center">Visual planning</td>
+</tr>
+<tr>
+<td><strong>Multi-source student context</strong></td>
+<td align="center">Calendar + reminders + Teams / timetable</td>
+<td align="center">Calendar integrations</td>
+<td align="center">Calendar / planning integrations</td>
+</tr>
+<tr>
+<td><strong>Fast invisible-commitment capture</strong></td>
+<td align="center">Back Tap + voice/text UNLOAD</td>
+<td align="center">Inbox + shortcuts</td>
+<td align="center">Quick planning tools</td>
+</tr>
+<tr>
+<td><strong>Daily activity outcome check-in</strong></td>
+<td align="center">Feeds capacity learning</td>
+<td align="center">Review / stats</td>
+<td align="center">Daily review</td>
+</tr>
+<tr>
+<td><strong>Personal capacity model</strong></td>
+<td align="center">Five capacity dimensions + history</td>
+<td align="center">Primarily task / time focus</td>
+<td align="center">Wellbeing + planning</td>
+</tr>
+<tr>
+<td><strong>Last-minute / always-busy pattern focus</strong></td>
+<td align="center">Explicit improvement goal + learned evidence</td>
+<td align="center">General productivity planning</td>
+<td align="center">Flexible routine support</td>
+</tr>
+<tr>
+<td><strong>Explains why something does not fit</strong></td>
+<td align="center">WHY Agent + Decision Ledger</td>
+<td align="center">No SPCE-style capacity ledger</td>
+<td align="center">No SPCE-style capacity ledger</td>
+</tr>
+<tr>
+<td><strong>Governed self-learning</strong></td>
+<td align="center">Approved outcomes + visible pattern updates</td>
+<td align="center">No SPCE-style governed learning loop</td>
+<td align="center">No SPCE-style governed learning loop</td>
+</tr>
+<tr>
+<td><strong>Human approval before learning policy</strong></td>
+<td align="center">Explicit approval gate</td>
+<td align="center">No SPCE capacity-policy gate</td>
+<td align="center">No SPCE capacity-policy gate</td>
+</tr>
+<tr>
+<td><strong>Smallest workload fix</strong></td>
+<td align="center">FIX Agent + minimum disruption</td>
+<td align="center">Rescheduling</td>
+<td align="center">Reshuffling</td>
+</tr>
+<tr>
+<td><strong>Private peer support</strong></td>
+<td align="center">Comfort Circle</td>
+<td align="center">Not core</td>
+<td align="center">Not core</td>
+</tr>
+<tr>
+<td><strong>AR comfort message experience</strong></td>
+<td align="center">AR Comfort Wall</td>
+<td align="center">Not core</td>
+<td align="center">Not core</td>
+</tr>
+<tr>
+<td><strong>Capacity pattern visualisation</strong></td>
+<td align="center">Insights Agent + evidence</td>
+<td align="center">Productivity stats</td>
+<td align="center">Planning / wellbeing views</td>
+</tr>
+</tbody>
+</table>
 
-> **The key difference:** SPCE is built around the question **“What can this person realistically handle?”** rather than only **“Where can this task fit?”**
+> **The key difference:** SPCE is built around the question **“What can this person realistically handle?”** and then uses **governed self-learning** to improve future decisions from approved real-world outcomes.
 
 ---
 
