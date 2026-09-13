@@ -340,7 +340,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 </p>
 
 <p align="center">
-  <img src="assets/mockups/HOME.png" width="420" alt="SPCE HOME mockup">
+  <img src="assets/HOME.png" width="420" alt="SPCE HOME mockup">
 </p>
 
 <p align="center">
@@ -359,7 +359,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 </p>
 
 <p align="center">
-  <img src="assets/mockups/REALDAY.png" width="420" alt="SPCE REAL DAY mockup">
+  <img src="assets/REALDAY.png" width="420" alt="SPCE REAL DAY mockup">
 </p>
 
 <p align="center">
@@ -378,7 +378,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 </p>
 
 <p align="center">
-  <img src="assets/mockups/UNLOAD.png" width="420" alt="SPCE UNLOAD mockup">
+  <img src="assets/UNLOAD.png" width="420" alt="SPCE UNLOAD mockup">
 </p>
 
 <p align="center">
@@ -397,7 +397,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 </p>
 
 <p align="center">
-  <img src="assets/mockups/FIX.png" width="420" alt="SPCE FIX mockup">
+  <img src="assets/FIX.png" width="420" alt="SPCE FIX mockup">
 </p>
 
 <p align="center">
@@ -416,7 +416,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 </p>
 
 <p align="center">
-  <img src="assets/mockups/INSIGHTS.png" width="420" alt="SPCE INSIGHTS mockup">
+  <img src="assets/INSIGHTS.png" width="420" alt="SPCE INSIGHTS mockup">
 </p>
 
 <p align="center">
@@ -435,7 +435,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 </p>
 
 <p align="center">
-  <img src="assets/mockups/COMFORTCIRCLE.png" width="420" alt="SPCE COMFORT CIRCLE mockup">
+  <img src="assets/COMFORTCIRCLE.png" width="420" alt="SPCE COMFORT CIRCLE mockup">
 </p>
 
 <p align="center">
@@ -454,7 +454,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 </p>
 
 <p align="center">
-  <img src="assets/mockups/ARNOTES.png" width="420" alt="SPCE AR NOTES mockup">
+  <img src="assets/ARNOTES.png" width="420" alt="SPCE AR NOTES mockup">
 </p>
 
 <p align="center">
@@ -473,7 +473,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 </p>
 
 <p align="center">
-  <img src="assets/mockups/STREAK.png" width="420" alt="SPCE KINDNESS STREAK mockup">
+  <img src="assets/STREAK.png" width="420" alt="SPCE KINDNESS STREAK mockup">
 </p>
 
 <p align="center">
@@ -492,7 +492,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 </p>
 
 <p align="center">
-  <img src="assets/mockups/WIDGET.png" width="420" alt="SPCE WIDGET mockup">
+  <img src="assets/WIDGET.png" width="420" alt="SPCE WIDGET mockup">
 </p>
 
 <p align="center">
