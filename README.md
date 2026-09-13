@@ -32,9 +32,11 @@
 
 ---
 
+## SPCE by EAQ
+
 <table>
 <tr>
-<td><strong>Team</strong></td>
+<td><strong>Team Members</strong></td>
 <td>Eimaan Ardrie · Danish Hafriz</td>
 </tr>
 <tr>
