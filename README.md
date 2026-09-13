@@ -391,7 +391,7 @@ SPCE is not trying to become another task manager. Its main difference is that i
 
 <p align="center">
   <strong>Most productivity tools ask: “When should I do this?”</strong><br>
-  <strong>SPCE asks: “Can I realistically handle this today?”</strong>
+  <strong>SPCE asks: “Can I realistically handle this today, and what should the system learn from what actually happened?”</strong>
 </p>
 
 #### <img src="https://api.iconify.design/lucide/layers-3.svg?color=%238B5CF6" width="18" alt="" /> Where the originality comes from
@@ -399,70 +399,108 @@ SPCE is not trying to become another task manager. Its main difference is that i
 <table>
 <tr>
 <td width="25%" align="center">
-  <img src="https://api.iconify.design/lucide/calendar-days.svg?color=%2360A5FA" width="34" alt=""><br>
-  <strong>Planning</strong><br>
-  <sub>From finding free time to checking real capacity</sub>
+  <img src="https://api.iconify.design/lucide/gauge.svg?color=%2360A5FA" width="34" alt=""><br>
+  <strong>Capacity-Aware Planning</strong><br>
+  <sub>Plans around real capacity, not just empty time</sub>
 </td>
 <td width="25%" align="center">
   <img src="https://api.iconify.design/lucide/network.svg?color=%238B5CF6" width="34" alt=""><br>
-  <strong>Agentic AI</strong><br>
-  <sub>From one chatbot to bounded specialist agents</sub>
+  <strong>Agentic Reasoning</strong><br>
+  <sub>LangGraph coordinates bounded specialist agents</sub>
 </td>
 <td width="25%" align="center">
-  <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="34" alt=""><br>
-  <strong>Human Control</strong><br>
-  <sub>From auto-rescheduling to explain, propose, approve</sub>
+  <img src="https://api.iconify.design/lucide/refresh-cw.svg?color=%2334D399" width="34" alt=""><br>
+  <strong>Governed Self-Learning</strong><br>
+  <sub>Learns from outcomes only through approved evidence</sub>
 </td>
 <td width="25%" align="center">
   <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="34" alt=""><br>
-  <strong>Support</strong><br>
-  <sub>From productivity only to planning + comfort</sub>
+  <strong>Human + Support Layer</strong><br>
+  <sub>Human approval, Comfort Circle and AR support stay connected</sub>
 </td>
 </tr>
 </table>
 
-#### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="18" alt="" /> The SPCE loop
+#### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="18" alt="" /> The SPCE closed loop
 
 <table>
 <tr>
-<td align="center" width="16%">
-  <img src="https://api.iconify.design/lucide/mic.svg?color=%2360A5FA" width="28" alt=""><br>
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/mic.svg?color=%2360A5FA" width="27" alt=""><br>
   <strong>UNLOAD</strong><br>
-  <sub>Capture what the calendar missed</sub>
+  <sub>Capture hidden load</sub>
 </td>
-<td align="center" width="17%">
-  <img src="https://api.iconify.design/lucide/gauge.svg?color=%238B5CF6" width="28" alt=""><br>
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/gauge.svg?color=%238B5CF6" width="27" alt=""><br>
   <strong>FIT</strong><br>
-  <sub>Check real capacity</sub>
+  <sub>Check capacity</sub>
 </td>
-<td align="center" width="17%">
-  <img src="https://api.iconify.design/lucide/search-check.svg?color=%23F59E0B" width="28" alt=""><br>
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/search-check.svg?color=%23F59E0B" width="27" alt=""><br>
   <strong>WHY</strong><br>
-  <sub>Explain the evidence</sub>
+  <sub>Explain evidence</sub>
 </td>
-<td align="center" width="17%">
-  <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F472B6" width="28" alt=""><br>
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F472B6" width="27" alt=""><br>
   <strong>FIX</strong><br>
-  <sub>Suggest the smallest change</sub>
+  <sub>Suggest smallest change</sub>
+</td>
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="27" alt=""><br>
+  <strong>APPROVE</strong><br>
+  <sub>User governs changes</sub>
+</td>
+<td align="center" width="14%">
+  <img src="https://api.iconify.design/lucide/clipboard-check.svg?color=%2360A5FA" width="27" alt=""><br>
+  <strong>CHECK-IN</strong><br>
+  <sub>Record actual outcome</sub>
 </td>
 <td align="center" width="16%">
-  <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="28" alt=""><br>
-  <strong>APPROVE</strong><br>
-  <sub>User stays in control</sub>
-</td>
-<td align="center" width="17%">
-  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="28" alt=""><br>
+  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="27" alt=""><br>
   <strong>LEARN</strong><br>
-  <sub>Use approved outcomes</sub>
+  <sub>Update only from approved evidence</sub>
 </td>
 </tr>
 </table>
 
 <p align="center">
-  <sub><strong>LangGraph</strong> coordinates the specialist agents through one shared SPCE state.</sub>
+  <sub><strong>LangGraph</strong> coordinates the specialist agents while Human Approval and approved evidence govern what the system is allowed to learn.</sub>
 </p>
 
-#### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%2360A5FA" width="18" alt="" /> What changes compared with a normal productivity app?
+#### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="18" alt="" /> What “governed self-learning” means
+
+<table>
+<thead>
+<tr>
+<th width="36%">Typical adaptive system</th>
+<th width="64%">SPCE governed self-learning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Learns silently from behaviour</td>
+<td><strong>Uses explicit check-ins and approved outcomes as learning evidence</strong></td>
+</tr>
+<tr>
+<td>Updates recommendations automatically</td>
+<td><strong>Proposes a pattern first and lets the user approve, reject or stop using it</strong></td>
+</tr>
+<tr>
+<td>Hides why the model changed</td>
+<td><strong>Keeps evidence, reasoning and decisions inspectable through WHY, Insights and the Decision Ledger</strong></td>
+</tr>
+<tr>
+<td>Treats unusual days as normal data</td>
+<td><strong>“Plans changed” prevents abnormal days from becoming clean capacity evidence</strong></td>
+</tr>
+<tr>
+<td>Optimises for completion</td>
+<td><strong>Learns both what was completed and how heavy the workload felt</strong></td>
+</tr>
+</tbody>
+</table>
+
+#### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%2360A5FA" width="18" alt="" /> Why SPCE is different
 
 <table>
 <thead>
@@ -485,17 +523,21 @@ SPCE is not trying to become another task manager. Its main difference is that i
 <td><strong>Explains, proposes a minimum-disruption FIX, then waits for approval</strong></td>
 </tr>
 <tr>
-<td>Tracks tasks and productivity scores</td>
-<td><strong>Learns from planned vs actual outcomes and how the workload felt</strong></td>
+<td>Tracks productivity</td>
+<td><strong>Builds a governed personal capacity model from planned vs actual outcomes</strong></td>
 </tr>
 <tr>
-<td>Treats wellbeing as a separate feature</td>
-<td><strong>Connects capacity planning, personal learning and Comfort in one experience</strong></td>
+<td>Learns in the background</td>
+<td><strong>Learning is visible, evidence-based and user-governed</strong></td>
+</tr>
+<tr>
+<td>Treats wellbeing as separate</td>
+<td><strong>Connects capacity planning, self-learning and Comfort in one experience</strong></td>
 </tr>
 </tbody>
 </table>
 
-> **Originality:** SPCE combines capacity-aware planning, specialist agent orchestration, explainable recommendations, human approval, outcome-based learning, and spatial peer support into one governed Personal Capacity AI.
+> **Originality:** SPCE combines capacity-aware planning, LangGraph specialist agents, explainable recommendations, **governed self-learning**, human approval, and spatial peer support into one Personal Capacity AI.
 
 ### <img src="https://api.iconify.design/lucide/badge-plus.svg?color=%23F472B6" width="20" alt="" /> 4.2 Novel Features
 
