@@ -28,6 +28,9 @@
   <a href="#-5-technical-architecture--feasibility">
     <img src="https://img.shields.io/badge/5.%20TECHNICAL%20ARCHITECTURE%20%26%20FEASIBILITY-7C3AED?style=for-the-badge" alt="5. Technical Architecture & Feasibility" />
   </a>
+  <a href="#-6-impact">
+    <img src="https://img.shields.io/badge/6.%20IMPACT-F472B6?style=for-the-badge" alt="6. Impact" />
+  </a>
 </p>
 
 ---
@@ -1570,6 +1573,198 @@ flowchart LR
 </table>
 
 > **Success means proving these two loops clearly, not building every possible SPCE feature.**
+
+<br>
+
+# <img src="https://api.iconify.design/lucide/chart-no-axes-combined.svg?color=%23F472B6" width="28" alt="" /> 6. Impact
+
+> **SPCE is designed for students whose calendar may look manageable while their actual capacity is already overloaded.**
+
+<br><br>
+
+## <img src="https://api.iconify.design/lucide/search.svg?color=%2360A5FA" width="23" alt="" /> 6.1 Understanding the Problem Context
+
+University students rarely manage only classes.
+
+Their real day can include:
+
+<table>
+<tr>
+<td align="center"><strong>Academic</strong><br><sub>Classes · Assignments · Exams</sub></td>
+<td align="center"><strong>Group Work</strong><br><sub>Meetings · Projects · Team deadlines</sub></td>
+<td align="center"><strong>Personal</strong><br><sub>Errands · Travel · Family</sub></td>
+<td align="center"><strong>Recovery</strong><br><sub>Sleep · Rest · Mental energy</sub></td>
+</tr>
+</table>
+
+Most planning tools answer:
+
+> **“When are you free?”**
+
+But students often need a different answer:
+
+> **“Can I realistically handle this today?”**
+
+The problem is not only poor scheduling. It is the gap between **planned workload and actual human capacity**.
+
+### What causes the gap?
+
+| Cause | Real-world effect |
+| --- | --- |
+| Hidden commitments | The calendar underestimates the real day |
+| Overcommitment | Students say yes because a time slot appears free |
+| Poor time estimation | Tasks take longer than expected |
+| Last-minute behaviour | Work accumulates near deadlines |
+| Repeated heavy days | Recovery disappears from the schedule |
+| Generic productivity advice | Recommendations ignore personal behaviour patterns |
+
+SPCE addresses this gap without positioning itself as a medical diagnosis tool.
+
+<br><br>
+
+## <img src="https://api.iconify.design/lucide/users.svg?color=%238B5CF6" width="23" alt="" /> 6.2 Target Group Alignment
+
+### Primary users
+
+<p align="center">
+<strong>University students managing academic, personal and social commitments across fragmented tools.</strong>
+</p>
+
+SPCE is especially relevant to students who:
+
+<table>
+<tr>
+<td align="center">
+<strong>Overcommit</strong><br>
+<sub>Say yes before checking capacity</sub>
+</td>
+<td align="center">
+<strong>Procrastinate</strong><br>
+<sub>Start important work too late</sub>
+</td>
+<td align="center">
+<strong>Underestimate</strong><br>
+<sub>Plan less time than work actually requires</sub>
+</td>
+<td align="center">
+<strong>Feel constantly busy</strong><br>
+<sub>Even when the calendar shows free space</sub>
+</td>
+</tr>
+</table>
+
+### Why SPCE fits this group
+
+SPCE is designed around the tools and behaviours students already have:
+
+**Calendar · Reminders · Microsoft 365 / Teams · Class Timetable · Voice / Text UNLOAD**
+
+It does not ask students to completely rebuild their planning habits in another productivity system.
+
+<br><br>
+
+## <img src="https://api.iconify.design/lucide/arrow-right-left.svg?color=%2334D399" width="23" alt="" /> 6.3 Effectiveness of the Solution
+
+### Before SPCE vs With SPCE
+
+| Before SPCE | With SPCE |
+| --- | --- |
+| Calendar shows an empty slot | **FIT** checks whether the commitment actually fits |
+| Small tasks stay in the student's head | **UNLOAD** captures hidden commitments |
+| Overload is noticed too late | SPCE identifies pressure before another commitment is added |
+| Recommendation feels arbitrary | **WHY** shows the evidence |
+| Solution is “work harder” | **FIX** proposes the smallest practical adjustment |
+| Behaviour patterns remain invisible | Check-ins reveal personalized patterns |
+| AI silently adapts | Important learning requires **Human Approval** |
+| Stress gets another productivity tip | Student can enter **Comfort Circle** instead |
+
+### The impact loop
+
+<table>
+<tr>
+<td align="center"><strong>Capture</strong><br><sub>Real Day + UNLOAD</sub></td>
+<td align="center"><strong>Understand</strong><br><sub>Personal Capacity</sub></td>
+<td align="center"><strong>Prevent</strong><br><sub>FIT · WHY · FIX</sub></td>
+<td align="center"><strong>Learn</strong><br><sub>Check-In + Patterns</sub></td>
+<td align="center"><strong>Support</strong><br><sub>Comfort Circle</sub></td>
+</tr>
+</table>
+
+### Example impact
+
+> A student sees two free hours and accepts another commitment.  
+> SPCE sees that similar Tuesdays repeatedly ended with two tasks being moved and the workload marked **Too much**.  
+> Instead of simply blocking the commitment, SPCE explains the pattern and suggests the smallest change.
+
+The difference is not simply a better calendar.
+
+**SPCE helps the student make a more realistic decision before overload happens.**
+
+### What we would measure
+
+| Metric | What success looks like |
+| --- | --- |
+| Planned vs actual completion | Smaller gap over time |
+| Tasks repeatedly moved | Fewer avoidable carry-overs |
+| Overloaded days | Fewer days marked Too much |
+| FIT usefulness | Users understand why something fits or does not |
+| FIX acceptance | Suggested changes feel practical |
+| Pattern usefulness | Users choose to keep useful learned patterns |
+| Comfort usefulness | Users report that support helped |
+
+> These are prototype success metrics, not claimed clinical outcomes.
+
+<br><br>
+
+## <img src="https://api.iconify.design/lucide/expand.svg?color=%23F59E0B" width="23" alt="" /> 6.4 Reach and Scalability
+
+SPCE starts with **university students**, but the underlying problem is broader:
+
+> People often have enough calendar space without having enough actual capacity.
+
+### Scale path
+
+<table>
+<tr>
+<td width="33%" align="center">
+<strong>01 · Campus</strong><br><br>
+<sub>University students<br>Academic + personal workload</sub>
+</td>
+
+<td width="33%" align="center">
+<strong>02 · Universities</strong><br><br>
+<sub>More timetable systems<br>More academic integrations</sub>
+</td>
+
+<td width="33%" align="center">
+<strong>03 · Beyond Campus</strong><br><br>
+<sub>Interns · Early-career professionals<br>People managing fragmented commitments</sub>
+</td>
+</tr>
+</table>
+
+### Why it can scale
+
+| Foundation | Scale advantage |
+| --- | --- |
+| LangGraph specialist agents | New workflows can be added without rebuilding the entire system |
+| Shared SPCE state | Agents work from one consistent user context |
+| Pluggable context sources | New calendar, timetable and work integrations can be added |
+| Supabase backend | Managed infrastructure can grow with usage |
+| Personalized patterns | The same system adapts to different users instead of requiring one fixed routine |
+| Human-governed learning | Personalization can scale without removing user control |
+
+### Long-term impact
+
+SPCE could move from:
+
+> **“How do I fit everything into my day?”**
+
+to:
+
+> **“What is actually realistic for me today?”**
+
+That shift can help users make better commitments before overload becomes the default.
 
 ---
 
