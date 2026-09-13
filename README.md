@@ -309,16 +309,20 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 ### <img src="https://api.iconify.design/lucide/gallery-horizontal-end.svg?color=%238B5CF6" width="20" alt="" /> Interactive Prototype Gallery
 
 <p align="center">
-  <a href="https://eimaanrdrie.github.io/SPCE/docs/">
+  <a href="https://spceprototype.vercel.app/">
     <img src="images/HOME.png" width="480" alt="Open the interactive SPCE prototype gallery">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://eimaanrdrie.github.io/SPCE/docs/">
+  <a href="https://spceprototype.vercel.app/">
     <strong>↔ Explore the swipeable SPCE prototype</strong>
   </a><br>
   <sub>Swipe on mobile · drag / scroll on desktop · ◀ / ▶ · keyboard arrows</sub>
+</p>
+
+<p align="center">
+  <a href="https://spceprototype.vercel.app/"><strong>Open Live Prototype ↗</strong></a>
 </p>
 
 > **Gallery flow:** Home → Real Day → UNLOAD → FIX → Insights → Comfort Circle → AR Notes → Kindness Streak → Widget
