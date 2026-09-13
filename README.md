@@ -819,62 +819,63 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
 
 ## <img src="https://api.iconify.design/lucide/workflow.svg?color=%2334D399" width="22" alt="" /> 5. Technical Architecture & Feasibility
 
-### <img src="https://api.iconify.design/lucide/code-2.svg?color=%2334D399" width="20" alt="" /> Planned Tech Stack
+SPCE is designed to be **ambitious in experience but conservative in implementation**. The build uses managed services, bounded specialist agents, deterministic validation, and a strict P0/P1 scope so the core experience can be completed within the hackathon window.
 
-We designed the stack around five priorities: **fast mobile interaction, specialist agent orchestration, explainable decisions, human control, and a realistic hackathon build**.
+### <img src="https://api.iconify.design/lucide/code-2.svg?color=%2334D399" width="20" alt="" /> 5.1 Technical Viability & Tech Stack
+
+We selected technologies that reduce custom infrastructure work while keeping the core reasoning inspectable.
 
 > [!IMPORTANT]
 > **LangGraph coordinates the workflow, but it is not given unrestricted authority.** Specialist agents can understand, explain, propose, and learn from approved evidence. Deterministic tools validate capacity and scheduling constraints, and important changes stop at a **Human Approval Gate** before they are committed.
 
-| **Layer** | **Planned technology / approach** | **Role in SPCE** |
+| **Layer** | **Technology / approach** | **Why it is viable for the build** |
 | --- | --- | --- |
-| 📱 **Mobile App** | React Native + TypeScript + Expo Development Build | Main iPhone experience |
-| 🧭 **Navigation** | Expo Router | Home, Work, Comfort, Insights and deep links |
-| 👆 **Back Tap UNLOAD** | iOS Back Tap + Shortcut / App Intent + Deep Link | Fast entry into UNLOAD |
-| 📅 **Apple Calendar + Reminders** | Apple EventKit integration | Reads permitted planned commitments |
-| 💼 **Teams / Microsoft 365 Calendar** | Planned Microsoft calendar connector | Adds academic meetings and Teams-linked schedule context |
-| 🎓 **Class Timetable** | Planned timetable import / recurring schedule adapter | Adds lectures, labs and tutorials |
-| 🎙️ **Voice Capture** | Deepgram | Speech to text for fast UNLOAD |
-| 🧠 **Primary LLM** | ILMU | Natural-language understanding and bounded agent reasoning |
-| 🕸️ **Agent Orchestration** | **LangGraph.js / TypeScript** | Coordinates specialist agents, branching, shared state, retries, and approval pauses |
-| 🧾 **Agent State + Contracts** | TypeScript + Zod | Defines the shared SPCE graph state and validates every agent output |
-| 🧩 **Context Tools** | Structured calendar / reminder / timetable adapters | Give agents a normalized view of the real day |
-| 📐 **Capacity Tool** | Deterministic TypeScript rules + approved user history | Calculates capacity evidence used by the Capacity and FIT agents |
-| 🎯 **Constraint Validator** | Deterministic scheduling and policy checks | Verifies FIX candidates before they reach the user |
-| 🙋 **Human Approval Gate** | LangGraph interrupt / approval state | Pauses the graph before important schedule or learning changes |
-| 📈 **Pattern Store** | Behaviour history + lightweight scoring | Stores approved outcome patterns for later learning |
-| 🗄️ **Database** | Supabase Postgres | Commitments, graph state, check-ins, patterns, approvals and Comfort data |
-| 🔐 **Auth + Access** | Supabase Auth + Row Level Security | Per-user account isolation |
-| ⚡ **Realtime Comfort** | Supabase Realtime | Temporary Comfort Circle message delivery |
-| 🛡️ **Comfort Moderation** | Rules + moderation service | Screens supportive messages before delivery |
-| 🪄 **AR Support Wall** | Planned iOS AR surface detection + anchored note rendering | Places received comfort notes on a wall or desk |
-| 🔔 **Notifications** | Expo Notifications + APNs | Check-in reminders and Comfort events |
-| ☁️ **Secure Edge Proxy** | Cloudflare Workers | Protects external service credentials and handles secure calls |
-| 🗃️ **Local Cache** | Secure local storage | Small local state and faster app response |
-| ⌚ **Wearable Context** | Optional Garmin integration | Stretch context only; not required for SPCE |
-| 🚀 **Build / Distribution** | Expo EAS Build / TestFlight | Installable iOS testing build |
+| **Mobile app** | React Native + TypeScript + Expo Development Build | One mobile codebase, fast iteration, direct iOS testing |
+| **Navigation** | Expo Router | Simple routing for Home, Work, Comfort, Insights and deep links |
+| **Back Tap UNLOAD** | iOS Back Tap + Shortcut / App Intent + Deep Link | Uses existing iOS behaviour instead of custom hardware integration |
+| **Calendar + Reminders** | Apple EventKit | Native permitted access to planned commitments |
+| **Teams / Microsoft 365** | Planned Microsoft calendar connector | Adds academic schedule context without rebuilding calendar infrastructure |
+| **Class timetable** | Recurring schedule adapter / import | Lightweight representation of lectures, labs and tutorials |
+| **Voice capture** | Deepgram | Avoids building speech recognition from scratch |
+| **Primary LLM** | ILMU | Natural-language understanding and bounded agent reasoning |
+| **Agent orchestration** | **LangGraph.js / TypeScript** | Shared state, branching, retries, interrupts and bounded specialist agents |
+| **Agent contracts** | TypeScript + Zod | Validates structured agent input/output before the graph continues |
+| **Capacity tool** | Deterministic TypeScript rules + approved history | Keeps core capacity evidence inspectable and testable |
+| **Constraint validator** | Deterministic schedule + policy checks | Rejects invalid FIX suggestions before user review |
+| **Human Approval Gate** | LangGraph interrupt / approval state | Stops important changes until the user approves, rejects or edits |
+| **Pattern learning** | Behaviour history + lightweight scoring | Supports self-learning without custom model training |
+| **Database** | Supabase Postgres | Managed persistence for commitments, graph state, check-ins and patterns |
+| **Auth + access** | Supabase Auth + Row Level Security | Avoids building custom identity and access control |
+| **Realtime Comfort** | Supabase Realtime | Supports temporary Comfort Circle delivery |
+| **Comfort moderation** | Rules + moderation service | Screens messages before delivery |
+| **AR Support Wall** | Focused mobile AR surface detection + anchored notes | Keeps AR limited to one demonstrable wall / desk use case |
+| **Notifications** | Expo Notifications + APNs | Uses existing mobile notification infrastructure |
+| **Secure proxy** | Cloudflare Workers | Protects external service credentials |
+| **Local state** | Secure local storage | Fast app response and lightweight local persistence |
+| **Optional wearable context** | Garmin, stretch only | Explicitly non-critical to the core demo |
+| **Build / distribution** | Expo EAS Build / TestFlight | Practical installable iOS test workflow |
 
-### <img src="https://api.iconify.design/lucide/bot.svg?color=%238B5CF6" width="20" alt="" /> Specialist Agent Graph
+#### <img src="https://api.iconify.design/lucide/bot.svg?color=%238B5CF6" width="18" alt="" /> Specialist Agent Graph
 
-SPCE uses **one shared graph state** and a set of bounded agents. Each agent has one job, receives only the state it needs, and returns structured output that can be validated before the graph continues.
+SPCE uses **one shared graph state** and bounded specialist agents. Each agent has one job and returns structured output that can be validated before the graph continues.
 
-| **Agent / Node** | **Responsibility** | **Can it directly change the user’s plan?** |
+| **Agent / node** | **Responsibility** | **Directly changes the plan?** |
 | --- | --- | --- |
-| 🗣️ **Intake Agent** | Turns UNLOAD voice/text into a structured commitment | No |
-| 🔗 **Context Agent** | Merges the request with Calendar, Reminders, Teams, timetable and current-day context | No |
-| 🧠 **Capacity Agent** | Calls the deterministic Capacity Tool and prepares the current capacity snapshot | No |
-| 🎯 **FIT Agent** | Determines whether the new commitment fits the current capacity evidence | No |
-| 🔍 **WHY Agent** | Converts the decision trace and evidence into a clear explanation | No |
-| 🛠️ **FIX Agent** | Generates the smallest practical candidate changes when something does not fit | No |
-| ✅ **Constraint Validator** | Rejects FIX candidates that break protected events, user policies or schedule rules | No |
-| 🙋 **Human Approval Gate** | Pauses execution so the user can approve, reject or edit | **User decides** |
-| 📈 **Learning Agent** | Compares planned vs actual outcomes and proposes pattern updates | No |
-| 📊 **Insights Agent** | Turns approved patterns into capacity, focus and recovery insights | No |
-| 🛡️ **Comfort Moderation Agent** | Screens incoming Comfort Circle messages before delivery | No |
+| **Intake Agent** | Converts UNLOAD voice/text into a structured commitment | No |
+| **Context Agent** | Merges Calendar, Reminders, Teams, timetable and current-day context | No |
+| **Capacity Agent** | Calls the deterministic Capacity Tool and prepares the current capacity snapshot | No |
+| **FIT Agent** | Determines whether the new commitment fits the available capacity evidence | No |
+| **WHY Agent** | Explains the decision trace and supporting evidence | No |
+| **FIX Agent** | Generates the smallest practical candidate changes | No |
+| **Constraint Validator** | Rejects candidates that break protected events or user policies | No |
+| **Human Approval Gate** | Pauses execution for approve, reject or edit | **User decides** |
+| **Learning Agent** | Compares planned vs actual outcomes and proposes pattern updates | No |
+| **Insights Agent** | Turns approved patterns into capacity, focus and recovery insights | No |
+| **Comfort Moderation Agent** | Screens incoming Comfort Circle messages | No |
 
-> **Important boundary:** a specialist agent may **propose** or **explain**, but only the user can authorize an important schedule change or approve evidence that should affect future personal policies.
+> **Boundary:** agents may **understand, explain, propose and learn from approved evidence**, but they cannot silently rewrite the user's plan or personal policies.
 
-### How the LangGraph workflow runs
+#### LangGraph workflow
 
 ```mermaid
 flowchart LR
@@ -905,9 +906,7 @@ flowchart LR
     R --> D
 ```
 
-### Shared SPCE graph state
-
-The graph carries a structured state rather than passing free-form chat between agents.
+#### Shared SPCE graph state
 
 ```text
 SPCEState
@@ -930,9 +929,7 @@ SPCEState
   approved_patterns
 ```
 
-This keeps agent responsibilities inspectable and makes it possible to show **where a recommendation came from**.
-
-### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="20" alt="" /> Architecture Principle
+### <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="20" alt="" /> 5.2 Architecture Principle
 
 > **ILMU understands. LangGraph orchestrates. Deterministic tools verify. Specialist agents explain and propose. Humans approve. Approved outcomes teach the system.**
 
@@ -940,20 +937,20 @@ A user might UNLOAD:
 
 > “I still need to finish my assignment, I have a Teams meeting later, I need groceries, and I’m exhausted after class.”
 
-The architecture does not send that sentence to one model and accept a single opaque answer. Instead:
+SPCE does not accept one opaque model response. The request moves through a governed sequence:
 
 **Intake Agent · Context Agent · Capacity Agent · FIT Agent · WHY Agent · FIX Agent · Human Approval · Check-In · Learning Agent · Insights Agent**
 
-The core rules remain inspectable:
+| **Control** | **Why it matters** |
+| --- | --- |
+| **Structured state** | Prevents free-form agent handoffs from becoming the source of truth |
+| **Deterministic Capacity Tool** | Keeps core capacity evidence inspectable |
+| **Constraint Validator** | Stops invalid FIX candidates before user review |
+| **Human Approval Gate** | Prevents silent schedule or policy changes |
+| **Approved learning evidence** | Makes self-learning visible and user-governed |
+| **Decision Ledger** | Preserves important reasoning, approvals and pattern updates |
 
-- **Capacity Agent** must use structured capacity evidence.
-- **FIT Agent** cannot silently change the schedule.
-- **WHY Agent** explains existing evidence rather than inventing a new decision.
-- **FIX Agent** proposes candidate adjustments but cannot apply them.
-- **Human Approval Gate** controls important changes.
-- **Learning Agent** only proposes updates from approved outcomes and check-ins.
-
-### <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="20" alt="" /> System Architecture
+### <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="20" alt="" /> 5.3 System Architecture
 
 <p align="center">
   <img src="images/architecture.png" alt="SPCE System Architecture Diagram" width="100%">
@@ -978,65 +975,111 @@ The final architecture diagram should reflect these zones:
 > [!NOTE]
 > `images/architecture.png` should be updated before final submission so the visual architecture matches the LangGraph agent design documented here.
 
-### <img src="https://api.iconify.design/lucide/hammer.svg?color=%23F59E0B" width="20" alt="" /> Build Plan & Scope
+### <img src="https://api.iconify.design/lucide/calendar-range.svg?color=%23F59E0B" width="20" alt="" /> 5.4 Planning & Scope Realism
 
-| **Build Window** | **21 September 2026 to 11 October 2026** |
+| **Build window** | **21 September 2026 to 11 October 2026** |
 | --- | --- |
-| **Goal** | Prove one complete LangGraph-orchestrated SPCE loop from real-day context to FIT, WHY, FIX, Human Approval, check-in and learning |
+| **Goal** | Prove one complete governed SPCE loop from real-day context to FIT, WHY, FIX, Human Approval, check-in and learning |
 | **Platform** | iOS-first hackathon build |
-| **Success Standard** | Working end-to-end agent graph with visible reasoning and user control, not maximum agent count |
+| **Scope rule** | Core loop ships before optional integrations or visual extras |
+| **Success standard** | Working end-to-end experience with visible reasoning and user control |
 
-#### Core Build
+#### Core build priorities
 
 | **Priority** | **Feature** | **Done when** |
 | --- | --- | --- |
-| P0 | 🕸️ **LangGraph Core** | Shared SPCEState, routing and graph execution work end to end |
-| P0 | ⚡ **UNLOAD + Intake Agent** | Voice/text becomes a validated structured commitment |
-| P0 | 🔗 **Context Agent** | Calendar, reminders, timetable and UNLOAD appear in one normalized real-day context |
-| P0 | 🎯 **Improvement focus** | User can choose the pattern they want SPCE to help improve |
-| P0 | 🧠 **Capacity Agent** | Agent calls the deterministic Capacity Tool and produces a traceable capacity snapshot |
-| P0 | 🎯 **FIT Agent** | New commitment returns FIT or Does Not Fit from structured evidence |
-| P0 | 🔍 **WHY Agent** | User can inspect the evidence behind the FIT result |
-| P0 | 🛠️ **FIX Agent** | Agent generates one or more minimum-disruption candidates |
-| P0 | ✅ **Constraint Validator** | Invalid or unsafe FIX candidates are removed before review |
-| P0 | 🙋 **Human Approval Gate** | Graph pauses and resumes after approve, reject or edit |
-| P0 | ✅ **Activity Check-In** | User records Done, Partly done, Not done or Moved |
-| P0 | 🌡️ **Overall Feel** | User records Comfortable, A bit heavy, Too much or Plans changed |
-| P0 | 📈 **Learning Agent** | Check-in evidence produces a proposed pattern update without silently applying it |
-| P0 | 📖 **Decision / Agent Trace** | Important agent outputs, evidence and approvals can be inspected |
-| P1 | 📊 **Insights Agent** | Approved patterns become capacity, focus and recovery summaries |
-| P1 | 💜 **Comfort Circle** | Private five-minute support flow works |
-| P1 | 🛡️ **Comfort Moderation Agent** | Supportive notes are screened before delivery |
-| P1 | 🪄 **AR Support Wall** | Received comfort notes can appear on a wall / desk surface |
-| P1 | 🔥 **Give Comfort + Kindness Streak** | User can send one supportive note and receive streak credit |
+| **P0** | **LangGraph Core** | Shared SPCEState, routing and graph execution work end to end |
+| **P0** | **UNLOAD + Intake Agent** | Voice/text becomes a validated structured commitment |
+| **P0** | **Context Agent** | Calendar, reminders, timetable and UNLOAD produce one normalized real-day context |
+| **P0** | **Improvement focus** | User can choose the pattern they want SPCE to help improve |
+| **P0** | **Capacity Agent** | Agent calls the deterministic Capacity Tool and produces traceable evidence |
+| **P0** | **FIT Agent** | New commitment returns FIT or Does Not Fit |
+| **P0** | **WHY Agent** | User can inspect the evidence behind the FIT result |
+| **P0** | **FIX Agent** | Agent generates minimum-disruption candidates |
+| **P0** | **Constraint Validator** | Invalid candidates are removed before review |
+| **P0** | **Human Approval Gate** | Graph pauses and resumes after approve, reject or edit |
+| **P0** | **Activity Check-In** | User records Done, Partly done, Not done or Moved |
+| **P0** | **Overall Feel** | User records Comfortable, A bit heavy, Too much or Plans changed |
+| **P0** | **Learning Agent** | Check-in evidence produces a proposed pattern update |
+| **P0** | **Decision / Agent Trace** | Important evidence, agent outputs and approvals can be inspected |
+| **P1** | **Insights Agent** | Approved patterns become capacity, focus and recovery summaries |
+| **P1** | **Comfort Circle** | Private five-minute support flow works |
+| **P1** | **Comfort Moderation** | Supportive notes are screened before delivery |
+| **P1** | **AR Support Wall** | Received comfort notes can appear on a wall / desk surface |
+| **P1** | **Give Comfort + Kindness Streak** | One supportive note can be sent and reflected in the streak |
 
-#### Build Timeline
+#### Three-phase build plan
 
-| **Dates** | **Focus** | **Output** |
+| **Dates** | **Focus** | **Concrete output** |
 | --- | --- | --- |
 | **21 to 27 Sep** | Foundation + Agent State | App setup, Supabase, Deepgram, ILMU adapter, LangGraph.js, SPCEState, Intake Agent, Context Agent, Calendar/Reminders/timetable inputs |
 | **28 Sep to 4 Oct** | Core Agent Graph | Capacity Agent, FIT Agent, WHY Agent, FIX Agent, Constraint Validator, Human Approval interrupt, Decision Ledger |
 | **5 to 11 Oct** | Learning + Support + Polish | Check-In, Learning Agent, Insights Agent, Comfort Circle, moderation, AR Support Wall, testing, UI polish and final demo |
 
-#### Scope Boundary
+#### Scope boundary
 
-| **In Scope** | **Stretch / expansion** |
+| **In scope** | **Stretch / later** |
 | --- | --- |
 | Bounded LangGraph specialist-agent workflow | Fully autonomous multi-agent planning |
-| Shared structured SPCEState | Unrestricted agent-to-agent free-form conversation |
-| Intake, Context, Capacity, FIT, WHY, FIX, Learning, Insights agents | Large number of specialized agents without clear need |
-| Deterministic capacity and constraint tools | Letting an LLM directly decide protected schedule changes |
+| Shared structured SPCEState | Unrestricted free-form agent-to-agent conversation |
+| Intake, Context, Capacity, FIT, WHY, FIX, Learning and Insights agents | Large agent count without clear user value |
+| Deterministic capacity and constraint tools | LLM-controlled protected schedule changes |
 | Human Approval Gate | Silent autonomous rescheduling |
-| Decision / agent trace | Complex production observability platform |
+| Decision / agent trace | Production observability platform |
 | UNLOAD + connected commitments | Many third-party connectors |
 | Activity + load check-in | Complex long-term ML |
 | Basic Comfort Circle | Large-scale community matching |
-| Comfort moderation | Production-scale moderation infrastructure |
 | AR Support Wall prototype | Persistent multi-user spatial rooms |
-| Supabase persistence | Full multi-region production backend |
+| Supabase persistence | Production-scale multi-region backend |
 | Optional Garmin later | Medical / physiological interpretation |
 
-#### Definition of Done
+### <img src="https://api.iconify.design/lucide/clock-3.svg?color=%2360A5FA" width="20" alt="" /> 5.5 Resource & Time Awareness
+
+The implementation plan deliberately avoids building infrastructure that already exists and protects the core SPCE loop if time, integration, or API constraints appear.
+
+| **Resource / constraint** | **Practical approach** |
+| --- | --- |
+| **Time** | Three-week build window split into foundation, core intelligence, and learning/support phases |
+| **Team capacity** | Work can be split across mobile/UI, agent workflow, backend/integration, and testing/demo rather than everyone working on every layer |
+| **AI engineering** | Use ILMU + LangGraph with bounded agents instead of training a custom foundation model |
+| **Backend engineering** | Use Supabase for Auth, Postgres and Realtime instead of building backend primitives from scratch |
+| **Voice** | Use Deepgram instead of creating speech recognition infrastructure |
+| **AR effort** | Limit AR to one focused wall / desk comfort-note prototype |
+| **Cost strategy** | Prioritize free, student, hackathon or usage-limited tiers and keep API calls scoped to the demo |
+| **Compute** | No custom model training or dedicated GPU infrastructure required for the core build |
+| **Integration risk** | Teams, Garmin and deeper timetable integrations can be mocked or simplified without breaking the core SPCE loop |
+| **Testing effort** | Prioritize deterministic tool tests, graph-path tests, approval-gate tests and one complete demo journey |
+| **Deployment risk** | iOS-first via Expo EAS / TestFlight, with non-core platform expansion deferred |
+| **Data scope** | Store only the commitments, check-ins, approved patterns and graph state needed for the prototype |
+
+#### Risk and fallback plan
+
+| **If this becomes a blocker** | **Fallback** | **What remains intact** |
+| --- | --- | --- |
+| **Microsoft / timetable integration** | Use seeded or imported academic commitments | Real-Day Context + agent workflow |
+| **Deepgram availability** | Fall back to typed UNLOAD | Intake → FIT → WHY → FIX loop |
+| **ILMU instability** | Use structured sample inputs for the demo path | LangGraph orchestration and governance |
+| **AR takes too long** | Demo a limited anchored-note prototype or defer richer persistence | Comfort Circle remains functional |
+| **Garmin integration** | Remove from build | No impact on core capacity model |
+| **Realtime Comfort complexity** | Use a controlled demo room / seeded messages | Receive / Give Comfort journey |
+| **Time pressure** | Cut P1 features before any P0 feature | Core governed capacity loop ships |
+
+> **Priority rule:** if time becomes constrained, SPCE protects **UNLOAD → FIT → WHY → FIX → Human Approval → Check-In → Learning → Insights** first. Optional integrations and visual extras are reduced before the core reasoning experience.
+
+#### Cost posture
+
+| **Area** | **Cost approach** |
+| --- | --- |
+| **Mobile development** | Expo / local development tooling |
+| **Backend** | Supabase free / hackathon tier where available |
+| **Agent orchestration** | LangGraph open-source library |
+| **Voice** | Limited Deepgram API usage during development and demo |
+| **LLM** | Controlled ILMU requests with structured prompts and bounded graph calls |
+| **Edge proxy** | Cloudflare Workers free / low-usage tier where available |
+| **AR** | Device-native prototype, no custom spatial infrastructure |
+| **Infrastructure principle** | Avoid paid production infrastructure until the prototype proves the core loop |
+
+### <img src="https://api.iconify.design/lucide/check-check.svg?color=%2334D399" width="20" alt="" /> 5.6 Definition of Done
 
 | **Reviewer should be able to...** | **Expected result** |
 | --- | --- |
@@ -1046,7 +1089,7 @@ The final architecture diagram should reflect these zones:
 | Open WHY | WHY Agent shows the evidence behind the result |
 | Review FIX | FIX Agent proposes a minimum-disruption option |
 | Inspect the candidate | Constraint Validator confirms the option respects protected rules |
-| Approve, reject or edit | LangGraph pauses at the Human Approval Gate and resumes from the user’s choice |
+| Approve, reject or edit | LangGraph pauses at the Human Approval Gate and resumes from the user's choice |
 | Live the plan | Approved changes are applied while rejected suggestions leave the plan unchanged |
 | Complete activity check-in | SPCE records what actually happened |
 | Record overall feel | SPCE separates completion from perceived workload |
@@ -1057,7 +1100,7 @@ The final architecture diagram should reflect these zones:
 | Give comfort | Moderation screens the note before delivery |
 | Open AR view | Received comfort messages appear spatially on a wall or desk |
 
-### <img src="https://api.iconify.design/lucide/rocket.svg?color=%23F472B6" width="20" alt="" /> Stretch Goals
+### <img src="https://api.iconify.design/lucide/rocket.svg?color=%23F472B6" width="20" alt="" /> 5.7 Stretch Goals
 
 - More advanced LangGraph routing and agent evaluation.
 - Automated regression tests for WHY and FIX agent outputs.
@@ -1070,7 +1113,7 @@ The final architecture diagram should reflect these zones:
 - Advanced long-term capacity-pattern modelling.
 - Production-scale community matching and moderation.
 
-### <img src="https://api.iconify.design/lucide/flag.svg?color=%238B5CF6" width="20" alt="" /> Hackathon Scope Boundary
+### <img src="https://api.iconify.design/lucide/flag.svg?color=%238B5CF6" width="20" alt="" /> 5.8 Hackathon Scope Boundary
 
 The goal is not to build the largest multi-agent system.
 
@@ -1086,7 +1129,7 @@ and the community side:
 
 > **GIVE COMFORT · MODERATED NOTE · KINDNESS STREAK**
 
-If those journeys work clearly, SPCE proves that **agentic AI can coordinate a personal capacity workflow without giving up explainability or human control**.
+If those journeys work clearly, SPCE proves that **agentic AI can coordinate a Personal Capacity workflow without giving up explainability, governed self-learning, or human control**.
 
 ---
 
