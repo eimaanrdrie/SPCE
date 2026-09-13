@@ -265,46 +265,32 @@ We used the mentoring sessions to decide what to **adopt**, what to **pivot**, a
 
 ## <img src="https://api.iconify.design/lucide/smartphone.svg?color=%2360A5FA" width="22" alt="" /> 3. Design & Prototype
 
+
 **UI Prototype:** [Public Figma Link]
 
-SPCE is designed as **one continuous, playable mobile experience**, not a collection of disconnected concept screens.
+SPCE is designed as **one continuous, playable mobile experience** — not a collection of disconnected screens.
 
-### Primary navigation
+### Primary Navigation
 
-| **Area** | **Role** |
-| --- | --- |
-| 🏠 **Home** | Current state, today at a glance, rapid UNLOAD and **Check in today** |
-| 💼 **Work** | The real-day planning flow, connected commitments, FIT, WHY, FIX and approval |
-| 💜 **Comfort** | Need comfort, Give comfort, Kindness Streak, five-minute Circle and AR support wall |
-| 📊 **Insights** | Capacity visualisation, focus patterns, recovery patterns and learning history |
+| Area | Purpose |
+|---|---|
+| 🏠 **Home** | See today’s capacity, commitments, UNLOAD, and start a daily check-in |
+| 💼 **Work** | Plan the real day through **UNLOAD → FIT → WHY → FIX → Approval** |
+| 💜 **Comfort** | Receive or give support through Comfort Circle, AR Notes, and Kindness Streak |
+| 📊 **Insights** | Understand capacity, focus, recovery, and learned personal patterns |
 
-### Core prototype journeys
+### Core Prototype Journeys
 
-#### Work / planning loop
+| Journey | Flow |
+|---|---|
+| 💼 **Planning** | Real Day → UNLOAD → FIT → WHY → FIX → Human Approval → Confirmation |
+| 🧠 **Daily Learning** | Check in today → Activity outcomes → Overall feel → Review → Approved learning |
+| 💜 **Receive Comfort** | I need comfort → 5-minute Circle → Live session → AR setup → AR comfort notes |
+| 🤝 **Give Comfort** | Give comfort → Send note → Comfort sent → Kindness Streak |
+| 📊 **Insights** | 7-day capacity pattern → Pattern detail → Evidence → What it affects |
 
-> **Work → Real Day → UNLOAD → FIT → WHY → FIX → Human Approval → Confirmation**
-
-The planning journey ends after the approved plan is confirmed. The later outcome check-in is entered separately from Home.
-
-#### Daily learning loop
-
-> **Home → Check in today → Activity outcomes → Overall feel → Review → Approved learning evidence**
-
-This separates the **plan**, the **actual activity outcomes**, and the **subjective load**.
-
-#### Comfort receiving loop
-
-> **Comfort → I need comfort → Start 5-minute Circle → Live session → AR surface setup → AR comfort notes**
-
-#### Comfort giving loop
-
-> **Comfort → Give comfort → Send one supportive note → Comfort sent → Kindness Streak**
-
-#### Insights loop
-
-> **Insights → 7-day capacity pattern → Pattern detail → evidence / what it affects**
-
-<a id="prototype-mockup-gallery"></a>
+> The planning flow handles **what should happen next**.  
+> The later check-in records **what actually happened and how the day felt**.
 
 ### <img src="https://api.iconify.design/lucide/gallery-horizontal-end.svg?color=%238B5CF6" width="20" alt="" /> Prototype Mockups
 
