@@ -385,7 +385,40 @@ SPCE is designed as **one continuous, playable mobile experience** : not a colle
 
 SPCE is not trying to become another task manager. Its main difference is that it learns from the gap between **what you planned**, **what actually happened**, and **how the load felt**.
 
-### <img src="https://api.iconify.design/lucide/badge-plus.svg?color=%23F472B6" width="20" alt="" /> Novel Features
+### <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23F472B6" width="20" alt="" /> 4.1 Originality
+
+SPCE does not depend on one completely new technology. Its originality comes from combining familiar capabilities into a different decision model centered on **personal capacity**.
+
+Most productivity tools begin with:
+
+> **“When should I do this?”**
+
+SPCE begins with:
+
+> **“Can I realistically handle this today?”**
+
+| Existing idea | SPCE reframes it as |
+| --- | --- |
+| 📅 **Calendar planning** | Capacity-aware planning based on more than free time |
+| ✅ **Task completion tracking** | Evidence for learning the user’s realistic capacity |
+| 🤖 **AI assistance** | Structured **FIT, WHY, FIX** reasoning instead of an open-ended chatbot |
+| 🔄 **Rescheduling** | Minimum-disruption suggestions that require **Human Approval** |
+| 📊 **Productivity analytics** | Personal patterns such as evening focus, recovery and repeated overload |
+| 💬 **Peer support** | A private five-minute **Comfort Circle**, not a social feed |
+| 🥽 **AR interaction** | Supportive messages placed around the user as an **AR Comfort Wall** |
+| 📱 **Quick capture** | iPhone Back Tap **UNLOAD** for commitments calendars may miss |
+
+#### What is novel about the combination?
+
+SPCE connects these ideas into one closed loop:
+
+**Capture context · understand capacity · check FIT · explain WHY · suggest a small FIX · ask for approval · learn from the actual outcome · support the user when planning is not enough**
+
+The distinctive part is not simply AI, calendars, AR, or peer support individually. It is the way they work together around a **Personal Capacity AI** that learns from the gap between **what the user planned** and **what they actually managed to do**, while keeping the user in control.
+
+> **SPCE is not trying to make students more productive at any cost. It is trying to help them understand what is realistically sustainable for them.**
+
+### <img src="https://api.iconify.design/lucide/badge-plus.svg?color=%23F472B6" width="20" alt="" /> 4.2 Novel Features
 
 | **Feature** | **What makes it different** |
 | --- | --- |
@@ -406,7 +439,7 @@ SPCE is not trying to become another task manager. Its main difference is that i
 
 > **The SPCE idea in one line:** learn the person behind the calendar, help them improve the pattern that gets in the way, keep the AI explainable, keep the human in control, and make support part of the experience.
 
-### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%238B5CF6" width="20" alt="" /> Market Positioning
+### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%238B5CF6" width="20" alt="" /> 4.3 Market Positioning
 
 | **Capability** | **SPCE** | **Akiflow** | **Tiimo** |
 | --- | --- | --- | --- |
