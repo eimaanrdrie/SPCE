@@ -35,7 +35,7 @@
 
 ---
 
-## SPCE by EAQ
+## SPCE by 𝐄𝐀𝐐
 
 <table>
 <tr>
@@ -515,7 +515,7 @@ We used the mentoring sessions to decide what to **adopt**, what to **pivot**, a
 # <img src="https://api.iconify.design/lucide/smartphone.svg?color=%2360A5FA" width="28" alt="" /> 3. Design & Prototype
 
 
-**UI Prototype:** [Public Figma Link]
+**UI Prototype:** [Open Interactive Figma Prototype](https://www.figma.com/proto/QZE8gmPaPXSJHeG0o0ltbI/SPCE--protoype-?page-id=150%3A38761&node-id=150-38792&viewport=120%2C-456%2C0.71&t=j3Ygr6uF5lauWI0T-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=150%3A38802)
 
 SPCE is designed as **one continuous, playable mobile experience** : not a collection of disconnected screens.
 
@@ -2072,5 +2072,5 @@ flowchart LR
 ---
 
 <p align="center">
-  <strong>Made with Love by EAQ 💜❤️</strong>
+  <strong>Made with Love by 𝐄𝐀𝐐 💜❤️</strong>
 </p>
