@@ -389,38 +389,50 @@ SPCE is not trying to become another task manager. Its main difference is that i
 
 ### <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23F472B6" width="20" alt="" /> 4.1 Originality
 
-SPCE does not depend on one completely new technology. Its originality comes from combining familiar capabilities into a different decision model centered on **personal capacity**.
-
-Most productivity tools begin with:
-
-> **“When should I do this?”**
-
-SPCE begins with:
+SPCE’s originality comes from combining familiar capabilities around one different question:
 
 > **“Can I realistically handle this today?”**
 
-| Existing idea | SPCE reframes it as |
-| --- | --- |
-| 📅 **Calendar planning** | Capacity-aware planning based on more than free time |
-| ✅ **Task completion tracking** | Evidence for learning the user’s realistic capacity |
-| 🤖 **AI assistance** | A **LangGraph-orchestrated specialist agent system** where FIT, WHY, FIX, Learning, and Insights have bounded roles instead of one open-ended chatbot |
-| 🔄 **Rescheduling** | Minimum-disruption suggestions that require **Human Approval** |
-| 📊 **Productivity analytics** | Personal patterns such as evening focus, recovery and repeated overload |
-| 💬 **Peer support** | A private five-minute **Comfort Circle**, not a social feed |
-| 🥽 **AR interaction** | Supportive messages placed around the user as an **AR Comfort Wall** |
-| 📱 **Quick capture** | iPhone Back Tap **UNLOAD** for commitments calendars may miss |
+| Existing idea | Typical use | SPCE reframes it as |
+|---|---|---|
+| 📅 **Calendar planning** | Find available time | Understand whether available time still has **real capacity** |
+| ✅ **Task tracking** | Record completion | Evidence for learning the user’s realistic capacity |
+| 🤖 **AI assistance** | One general chatbot | **LangGraph specialist agents** for FIT, WHY, FIX, Learning and Insights |
+| 🔄 **Rescheduling** | Rearrange the schedule | Suggest the **smallest practical FIX** and wait for Human Approval |
+| 📊 **Productivity analytics** | Scores and completion statistics | Personal capacity, focus, overload and recovery patterns |
+| 💬 **Peer support** | Feed, chat or community | Private **5-minute Comfort Circle** |
+| 🥽 **AR** | Visual or entertainment experience | Place supportive messages into the user’s real environment |
+| 📱 **Quick capture** | Add another task | **Back Tap UNLOAD** for commitments the calendar missed |
 
-#### What is novel about the combination?
+#### What makes the combination novel?
 
-SPCE connects these ideas into one closed loop:
+| SPCE layer | What is different |
+|---|---|
+| ⚡ **Capture** | UNLOAD captures invisible commitments before they disappear from memory |
+| 🧠 **Understand** | Real-day context combines scheduled and unscheduled workload |
+| 🎯 **FIT Agent** | Checks whether another commitment fits the user’s learned capacity |
+| 🔍 **WHY Agent** | Shows the evidence behind the decision |
+| 🛠️ **FIX Agent** | Proposes the smallest practical adjustment instead of rebuilding the whole day |
+| 🙋 **Human Approval** | Important changes stop for approval before being applied or learned |
+| 📈 **Learning Agent** | Learns from planned vs actual outcomes, not just task completion |
+| 📊 **Insights Agent** | Turns approved evidence into personal capacity and recovery patterns |
+| 💜 **Comfort** | Gives the user support when another productivity recommendation is not useful |
+| 🪄 **AR Comfort Wall** | Turns encouragement into a spatial experience instead of another inbox |
 
-**Capture context · understand capacity · check FIT · explain WHY · suggest a small FIX · ask for approval · learn from the actual outcome · support the user when planning is not enough**
+> **The originality is the closed loop:**  
+> **UNLOAD · Capacity · FIT · WHY · FIX · Human Approval · Check-In · Learning · Insights · Comfort**
 
-The loop is coordinated by **LangGraph**, which passes one shared SPCE state through specialist agents instead of relying on one general chatbot. A WHY Agent explains evidence, a FIX Agent proposes the smallest practical adjustment, and a Learning Agent only receives approved outcomes.
+| Traditional productivity model | SPCE model |
+|---|---|
+| **What do I need to do?** | **What can I realistically handle?** |
+| Plan first | Capacity first |
+| Track tasks | Learn from outcomes |
+| AI gives an answer | Specialist agents provide bounded reasoning |
+| Reschedule automatically | Recommend, explain, then ask |
+| Productivity score | Personal patterns with evidence |
+| Support is separate | Planning, learning and comfort are connected |
 
-The distinctive part is not simply AI, calendars, AR, agents, or peer support individually. It is the way they work together around a **Personal Capacity AI** that learns from the gap between **what the user planned** and **what they actually managed to do**, while keeping the user in control.
-
-> **SPCE is not trying to make students more productive at any cost. It is trying to help them understand what is realistically sustainable for them.**
+> **SPCE is designed around sustainable personal capacity, not maximum productivity.**
 
 ### <img src="https://api.iconify.design/lucide/badge-plus.svg?color=%23F472B6" width="20" alt="" /> 4.2 Novel Features
 
