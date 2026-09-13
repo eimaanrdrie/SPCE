@@ -48,7 +48,7 @@
 </tr>
 <tr>
 <td><strong>Video Presentation</strong></td>
-<td>To be added</td>
+<td><a href="https://youtu.be/JwhGS7YMscY">Watch on YouTube</a></td>
 </tr>
 <tr>
 <td><strong>Presentation Slides</strong></td>
