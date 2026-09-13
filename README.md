@@ -311,22 +311,22 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 <table>
 <tr>
 <td align="center" width="25%">
-  <img src="images/HOME.png" width="170" alt="SPCE Home"><br>
+  <img src="images/HOME.png" width="220" alt="SPCE Home"><br>
   <strong>Home</strong><br>
   <sub>See what fits today before overload starts.</sub>
 </td>
 <td align="center" width="25%">
-  <img src="images/REALDAY.png" width="170" alt="SPCE Real Day"><br>
+  <img src="images/REALDAY.png" width="220" alt="SPCE Real Day"><br>
   <strong>Real Day</strong><br>
   <sub>Bring events, reminders, and real commitments together.</sub>
 </td>
 <td align="center" width="25%">
-  <img src="images/UNLOAD.png" width="170" alt="SPCE UNLOAD"><br>
+  <img src="images/UNLOAD.png" width="220" alt="SPCE UNLOAD"><br>
   <strong>UNLOAD</strong><br>
   <sub>Capture what calendars usually miss.</sub>
 </td>
 <td align="center" width="25%">
-  <img src="images/FIX.png" width="170" alt="SPCE FIX"><br>
+  <img src="images/FIX.png" width="220" alt="SPCE FIX"><br>
   <strong>FIX</strong><br>
   <sub>Make the smallest practical change that helps.</sub>
 </td>
@@ -334,22 +334,22 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 
 <tr>
 <td align="center" width="25%">
-  <img src="images/INSIGHTS.png" width="170" alt="SPCE Insights"><br>
+  <img src="images/INSIGHTS.png" width="220" alt="SPCE Insights"><br>
   <strong>Insights</strong><br>
   <sub>Turn daily outcomes into personal capacity patterns.</sub>
 </td>
 <td align="center" width="25%">
-  <img src="images/COMFORTCIRCLE.png" width="170" alt="SPCE Comfort Circle"><br>
+  <img src="images/COMFORTCIRCLE.png" width="220" alt="SPCE Comfort Circle"><br>
   <strong>Comfort Circle</strong><br>
   <sub>Open a private five-minute support space.</sub>
 </td>
 <td align="center" width="25%">
-  <img src="images/ARNOTES.png" width="170" alt="SPCE AR Notes"><br>
+  <img src="images/ARNOTES.png" width="220" alt="SPCE AR Notes"><br>
   <strong>AR Comfort</strong><br>
   <sub>See supportive notes around you in AR.</sub>
 </td>
 <td align="center" width="25%">
-  <img src="images/STREAK.png" width="170" alt="SPCE Kindness Streak"><br>
+  <img src="images/STREAK.png" width="220" alt="SPCE Kindness Streak"><br>
   <strong>Kindness Streak</strong><br>
   <sub>Give comfort and keep small acts of kindness going.</sub>
 </td>
@@ -357,7 +357,7 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 
 <tr>
 <td align="center" colspan="4">
-  <img src="images/WIDGET.png" width="170" alt="SPCE Widget"><br>
+  <img src="images/WIDGET.png" width="220" alt="SPCE Widget"><br>
   <strong>Widget</strong><br>
   <sub>See today’s capacity and UNLOAD at a glance.</sub>
 </td>
