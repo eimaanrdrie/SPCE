@@ -389,50 +389,113 @@ SPCE is not trying to become another task manager. Its main difference is that i
 
 ### <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23F472B6" width="20" alt="" /> 4.1 Originality
 
-SPCE’s originality comes from combining familiar capabilities around one different question:
+<p align="center">
+  <strong>Most productivity tools ask: “When should I do this?”</strong><br>
+  <strong>SPCE asks: “Can I realistically handle this today?”</strong>
+</p>
 
-> **“Can I realistically handle this today?”**
+#### <img src="https://api.iconify.design/lucide/layers-3.svg?color=%238B5CF6" width="18" alt="" /> Where the originality comes from
 
-| Existing idea | Typical use | SPCE reframes it as |
-|---|---|---|
-| 📅 **Calendar planning** | Find available time | Understand whether available time still has **real capacity** |
-| ✅ **Task tracking** | Record completion | Evidence for learning the user’s realistic capacity |
-| 🤖 **AI assistance** | One general chatbot | **LangGraph specialist agents** for FIT, WHY, FIX, Learning and Insights |
-| 🔄 **Rescheduling** | Rearrange the schedule | Suggest the **smallest practical FIX** and wait for Human Approval |
-| 📊 **Productivity analytics** | Scores and completion statistics | Personal capacity, focus, overload and recovery patterns |
-| 💬 **Peer support** | Feed, chat or community | Private **5-minute Comfort Circle** |
-| 🥽 **AR** | Visual or entertainment experience | Place supportive messages into the user’s real environment |
-| 📱 **Quick capture** | Add another task | **Back Tap UNLOAD** for commitments the calendar missed |
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/calendar-days.svg?color=%2360A5FA" width="34" alt=""><br>
+  <strong>Planning</strong><br>
+  <sub>From finding free time to checking real capacity</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/network.svg?color=%238B5CF6" width="34" alt=""><br>
+  <strong>Agentic AI</strong><br>
+  <sub>From one chatbot to bounded specialist agents</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/shield-check.svg?color=%2334D399" width="34" alt=""><br>
+  <strong>Human Control</strong><br>
+  <sub>From auto-rescheduling to explain, propose, approve</sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="34" alt=""><br>
+  <strong>Support</strong><br>
+  <sub>From productivity only to planning + comfort</sub>
+</td>
+</tr>
+</table>
 
-#### What makes the combination novel?
+#### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="18" alt="" /> The SPCE loop
 
-| SPCE layer | What is different |
-|---|---|
-| ⚡ **Capture** | UNLOAD captures invisible commitments before they disappear from memory |
-| 🧠 **Understand** | Real-day context combines scheduled and unscheduled workload |
-| 🎯 **FIT Agent** | Checks whether another commitment fits the user’s learned capacity |
-| 🔍 **WHY Agent** | Shows the evidence behind the decision |
-| 🛠️ **FIX Agent** | Proposes the smallest practical adjustment instead of rebuilding the whole day |
-| 🙋 **Human Approval** | Important changes stop for approval before being applied or learned |
-| 📈 **Learning Agent** | Learns from planned vs actual outcomes, not just task completion |
-| 📊 **Insights Agent** | Turns approved evidence into personal capacity and recovery patterns |
-| 💜 **Comfort** | Gives the user support when another productivity recommendation is not useful |
-| 🪄 **AR Comfort Wall** | Turns encouragement into a spatial experience instead of another inbox |
+<table>
+<tr>
+<td align="center" width="16%">
+  <img src="https://api.iconify.design/lucide/mic.svg?color=%2360A5FA" width="28" alt=""><br>
+  <strong>UNLOAD</strong><br>
+  <sub>Capture what the calendar missed</sub>
+</td>
+<td align="center" width="17%">
+  <img src="https://api.iconify.design/lucide/gauge.svg?color=%238B5CF6" width="28" alt=""><br>
+  <strong>FIT</strong><br>
+  <sub>Check real capacity</sub>
+</td>
+<td align="center" width="17%">
+  <img src="https://api.iconify.design/lucide/search-check.svg?color=%23F59E0B" width="28" alt=""><br>
+  <strong>WHY</strong><br>
+  <sub>Explain the evidence</sub>
+</td>
+<td align="center" width="17%">
+  <img src="https://api.iconify.design/lucide/wrench.svg?color=%23F472B6" width="28" alt=""><br>
+  <strong>FIX</strong><br>
+  <sub>Suggest the smallest change</sub>
+</td>
+<td align="center" width="16%">
+  <img src="https://api.iconify.design/lucide/user-check.svg?color=%2334D399" width="28" alt=""><br>
+  <strong>APPROVE</strong><br>
+  <sub>User stays in control</sub>
+</td>
+<td align="center" width="17%">
+  <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="28" alt=""><br>
+  <strong>LEARN</strong><br>
+  <sub>Use approved outcomes</sub>
+</td>
+</tr>
+</table>
 
-> **The originality is the closed loop:**  
-> **UNLOAD · Capacity · FIT · WHY · FIX · Human Approval · Check-In · Learning · Insights · Comfort**
+<p align="center">
+  <sub><strong>LangGraph</strong> coordinates the specialist agents through one shared SPCE state.</sub>
+</p>
 
-| Traditional productivity model | SPCE model |
-|---|---|
-| **What do I need to do?** | **What can I realistically handle?** |
-| Plan first | Capacity first |
-| Track tasks | Learn from outcomes |
-| AI gives an answer | Specialist agents provide bounded reasoning |
-| Reschedule automatically | Recommend, explain, then ask |
-| Productivity score | Personal patterns with evidence |
-| Support is separate | Planning, learning and comfort are connected |
+#### <img src="https://api.iconify.design/lucide/scan-search.svg?color=%2360A5FA" width="18" alt="" /> What changes compared with a normal productivity app?
 
-> **SPCE is designed around sustainable personal capacity, not maximum productivity.**
+<table>
+<thead>
+<tr>
+<th width="36%">Typical productivity app</th>
+<th width="64%">SPCE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Finds an empty time slot</td>
+<td><strong>Checks whether the person still has capacity</strong></td>
+</tr>
+<tr>
+<td>One general AI assistant</td>
+<td><strong>LangGraph specialist agents for FIT, WHY, FIX, Learning and Insights</strong></td>
+</tr>
+<tr>
+<td>Automatically rearranges tasks</td>
+<td><strong>Explains, proposes a minimum-disruption FIX, then waits for approval</strong></td>
+</tr>
+<tr>
+<td>Tracks tasks and productivity scores</td>
+<td><strong>Learns from planned vs actual outcomes and how the workload felt</strong></td>
+</tr>
+<tr>
+<td>Treats wellbeing as a separate feature</td>
+<td><strong>Connects capacity planning, personal learning and Comfort in one experience</strong></td>
+</tr>
+</tbody>
+</table>
+
+> **Originality:** SPCE combines capacity-aware planning, specialist agent orchestration, explainable recommendations, human approval, outcome-based learning, and spatial peer support into one governed Personal Capacity AI.
 
 ### <img src="https://api.iconify.design/lucide/badge-plus.svg?color=%23F472B6" width="20" alt="" /> 4.2 Novel Features
 
