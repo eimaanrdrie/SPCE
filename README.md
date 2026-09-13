@@ -186,7 +186,7 @@ Insights keeps the learning visible with a **7-day capacity pattern**, **planned
 
 ## <img src="https://api.iconify.design/lucide/lightbulb.svg?color=%23F59E0B" width="22" alt="" /> 2. Ideation & Process
 
-### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="20" alt="" /> 2.1 Ideas We Considered
+### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="20" alt="" /> 2.1 Iteration & Idea Evolution
 
 
 
