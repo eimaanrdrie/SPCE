@@ -32,13 +32,28 @@
 
 ---
 
-| | |
-| --- | --- |
-| **Team** | [Member 1], [Member 2], [Member 3], [Member 4] |
-| **Problem Statement** | Stress & Workload Manager |
-| **Video Presentation** | [Unlisted YouTube Link] |
-| **Presentation Slides** | [Public Link] |
-| **UI Prototype** | [Public Figma Link] |
+<table>
+<tr>
+<td><strong>Team</strong></td>
+<td>Eimaan Ardrie · Danish Hafriz</td>
+</tr>
+<tr>
+<td><strong>Problem Statement</strong></td>
+<td>Stress & Workload Manager</td>
+</tr>
+<tr>
+<td><strong>Video Presentation</strong></td>
+<td>To be added</td>
+</tr>
+<tr>
+<td><strong>Presentation Slides</strong></td>
+<td><a href="https://canva.link/fc7qteqd2k5bjb7">View Presentation Slides</a></td>
+</tr>
+<tr>
+<td><strong>UI Prototype</strong></td>
+<td><a href="https://www.figma.com/proto/QZE8gmPaPXSJHeG0o0ltbI/SPCE--protoype-?page-id=150%3A38761&node-id=150-38792&viewport=120%2C-456%2C0.71&t=j3Ygr6uF5lauWI0T-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=150%3A38802">Open Interactive Figma Prototype</a></td>
+</tr>
+</table>
 
 ---
 
