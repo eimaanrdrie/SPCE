@@ -14,27 +14,22 @@
 
 <p align="center">
   <a href="#-1-project-overview">
-    <img src="https://api.iconify.design/lucide/house.svg?color=%2360A5FA" width="14" alt="" /> Overview
+    <img src="https://img.shields.io/badge/OVERVIEW-6D3BB6?style=for-the-badge" alt="Overview" />
   </a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#-2-ideation--process">
-    <img src="https://api.iconify.design/lucide/lightbulb.svg?color=%23F59E0B" width="14" alt="" /> Ideation
+    <img src="https://img.shields.io/badge/IDEATION-E84A27?style=for-the-badge" alt="Ideation" />
   </a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#-3-design--prototype">
-    <img src="https://api.iconify.design/lucide/smartphone.svg?color=%238B5CF6" width="14" alt="" /> Prototype
+    <img src="https://img.shields.io/badge/PROTOTYPE-D9A514?style=for-the-badge" alt="Prototype" />
   </a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#prototype-mockup-gallery">
-    <img src="https://api.iconify.design/lucide/images.svg?color=%23F472B6" width="14" alt="" /> Gallery
+    <img src="https://img.shields.io/badge/GALLERY-2563EB?style=for-the-badge" alt="Gallery" />
   </a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#-4-what-makes-it-different">
-    <img src="https://api.iconify.design/lucide/sparkles.svg?color=%2334D399" width="14" alt="" /> Difference
+    <img src="https://img.shields.io/badge/DIFFERENCE-16A085?style=for-the-badge" alt="Difference" />
   </a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#-5-technical-architecture--feasibility">
-    <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="14" alt="" /> Architecture
+    <img src="https://img.shields.io/badge/ARCHITECTURE-7C3AED?style=for-the-badge" alt="Architecture" />
   </a>
 </p>
 
