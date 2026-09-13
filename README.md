@@ -2,10 +2,10 @@
   <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%238B5CF6" width="64" alt="" />
 </p>
 
-<h1 align="center">SPCE — Personal Capacity AI That Learns Your Patterns</h1>
+<h1 align="center">SPCE : Personal Capacity AI That Learns Your Patterns</h1>
 
 <p align="center">
-  <strong>SPCE gets to know you like someone who loves you would — learning when you can handle more, when you need to slow down, when you are falling into a last-minute pattern, and when you just need comfort.</strong>
+  <strong>SPCE gets to know you like someone who loves you would : learning when you can handle more, when you need to slow down, when you are falling into a last-minute pattern, and when you just need comfort.</strong>
 </p>
 
 <p align="center">
@@ -254,7 +254,7 @@ We used four visual boards to show how the idea moved from **understanding the p
 
 We used the mentoring sessions to decide what to **adopt**, what to **pivot**, and what to **improve further**.
 
-#### Session 1 — Buildability
+#### Session 1: Buildability
 
 | Detail | Information |
 |---|---|
@@ -262,14 +262,14 @@ We used the mentoring sessions to decide what to **adopt**, what to **pivot**, a
 | **Time** | 11:25 PM |
 | **Mentor** | **Sim Hong Bing** |
 
-| Focus | Mentor Feedback | Our Response |
-|---|---|---|
-| **Hackathon scope** | Keep the **Personal Capacity AI** concept practical and realistic for the build phase. | **Adopted** — narrowed SPCE around the core capacity loop instead of trying to solve everything at once. |
-| **Tech stack** | Recommended **React Native**, **Deepgram**, hosted AI, and managed services such as **Convex / Supabase**. | **Adopted** — moved toward a faster, managed stack suitable for the hackathon. |
-| **AI architecture** | Use hosted AI pragmatically instead of overcomplicating the build. | **Pivoted** — AI understands input, while **Capacity, FIT, WHY, FIX, and Human Approval** remain structured and explainable. |
-| **Deployment** | Flagged iOS deployment friction and suggested **Android / PWA** as fallbacks. | **Kept + fallback** — remained iOS-first because Back Tap UNLOAD is part of the experience, with Android/PWA as fallback options. |
+| Focus | Mentor Feedback | Decision | What Changed in SPCE |
+|---|---|---|---|
+| **Hackathon scope** | Keep the **Personal Capacity AI** concept practical and realistic for the build phase. | **Adopted** | Narrowed SPCE around the core capacity loop instead of trying to solve everything at once. |
+| **Tech stack** | Recommended **React Native**, **Deepgram**, hosted AI, and managed services such as **Convex / Supabase**. | **Adopted** | Moved toward a faster managed stack suitable for the hackathon. |
+| **AI architecture** | Use hosted AI pragmatically instead of overcomplicating the build. | **Pivoted** | AI understands input, while **Capacity, FIT, WHY, FIX, and Human Approval** remain structured and explainable. |
+| **Deployment** | Flagged iOS deployment friction and suggested **Android / PWA** as fallbacks. | **Kept + Fallback** | Remained iOS-first because Back Tap UNLOAD is part of the experience, with Android/PWA as fallback options. |
 
-#### Session 2 — Differentiation
+#### Session 2: Differentiation
 
 | Detail | Information |
 |---|---|
@@ -277,11 +277,11 @@ We used the mentoring sessions to decide what to **adopt**, what to **pivot**, a
 | **Time** | 11:25 PM |
 | **Mentor** | **Sim Hong Bing** |
 
-| Focus | Mentor Feedback | Our Response |
-|---|---|---|
-| **Differentiation** | The prototype was useful but could still feel like another productivity app. | **Pivoted** — differentiation shifted toward **Personal Pattern Insights** and capacity-aware reasoning. |
-| **Why now?** | Make SPCE more memorable and clearly show why the product matters now. | **Improved** — strengthened **WHY, Insights, and Human Approval** so the intelligence is visible and explainable. |
-| **Experience** | Explore realtime AI, generated visuals, gamification, bots, avatars, or unconventional interaction. | **Adapted, not copied** — added **Comfort Circle, Give Comfort + Kindness Streak, and the AR Comfort Wall** instead of turning SPCE into a generic chatbot or gamified calendar. |
+| Focus | Mentor Feedback | Decision | What Changed in SPCE |
+|---|---|---|---|
+| **Differentiation** | The prototype was useful but could still feel like another productivity app. | **Pivoted** | Shifted differentiation toward **Personal Pattern Insights** and capacity-aware reasoning. |
+| **Why now?** | Make SPCE more memorable and clearly show why the product matters now. | **Improved** | Strengthened **WHY, Insights, and Human Approval** so the intelligence is visible and explainable. |
+| **Experience** | Explore realtime AI, generated visuals, gamification, bots, avatars, or unconventional interaction. | **Adapted** | Added **Comfort Circle, Give Comfort + Kindness Streak, and the AR Comfort Wall** instead of turning SPCE into a generic chatbot or gamified calendar. |
 
 > **Mentor impact:** Session 1 made SPCE **more buildable**. Session 2 made it **more distinctive and memorable** without losing the core Personal Capacity AI idea.
 
@@ -293,7 +293,7 @@ We used the mentoring sessions to decide what to **adopt**, what to **pivot**, a
 
 **UI Prototype:** [Public Figma Link]
 
-SPCE is designed as **one continuous, playable mobile experience** — not a collection of disconnected screens.
+SPCE is designed as **one continuous, playable mobile experience** : not a collection of disconnected screens.
 
 ### Primary Navigation
 
