@@ -188,37 +188,22 @@ Insights keeps the learning visible with a **7-day capacity pattern**, **planned
 
 ### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="20" alt="" /> 2.1 Ideas We Considered
 
-We started broad, then kept the ideas that supported one clear goal: **help SPCE understand what a student can realistically handle while keeping the student in control.**
 
-| **Idea** | **Status** | **Why it stayed / changed** |
-| --- | --- | --- |
-| **Personal Capacity Engine** | ✅ Core | The heart of SPCE. It learns from the gap between planned and actual behaviour. |
-| **Instant UNLOAD with iPhone Back Tap** | ✅ Core | Captures commitments before the student forgets them. |
-| **Calendar + Reminders Connection** | ✅ Core | Reduces duplicate entry and provides the visible planned day. |
-| **Microsoft Teams / Microsoft 365 Calendar** | ✅ Planned | Academic meetings and group work often live outside a personal calendar. |
-| **Class Timetable Import** | ✅ Planned | Recurring lectures, labs and tutorials are a major part of student load. |
-| **Choose What to Improve** | ✅ Core direction | Lets users start with the pattern that matters most to them, such as last-minute work or always-busy days. |
-| **Daily Activity Check-In** | ✅ Core | Records Done, Partly done, Not done and Moved instead of assuming the plan happened. |
-| **Overall Load Check-In** | ✅ Core | Separates completion from how difficult the day actually felt. |
-| **Personal Capacity Learning** | ✅ Core | Repeated patterns produce a more realistic capacity model for that person. |
-| **FIT / Does Not Fit** | ✅ Core | Gives a simple answer about whether another commitment appears realistic. |
-| **WHY / Decision Ledger** | ✅ Core | Makes reasoning inspectable instead of opaque. |
-| **Minimum-Disruption FIX** | ✅ Core | Changes as little as possible instead of rebuilding the whole schedule. |
-| **Human Approval** | ✅ Core | The user remains the final authority. |
-| **Self-Learning Personal Policies** | ✅ Core | Approved repeated patterns can become proposed personal rules. |
-| **Comfort Circle** | ✅ Core | Creates a short, privacy-preserving support window when productivity advice is not enough. |
-| **AR Support Wall** | ✅ Core direction | Turns supportive messages into spatial sticky notes on a wall or desk rather than another inbox. |
-| **Give Comfort + Kindness Streak** | ✅ Core | Support works both ways and rewards one meaningful supportive action per day. |
-| **Insights / Pattern Visualisation** | ✅ Core | Lets users inspect capacity, focus, load and recovery patterns. |
-| **Glanceable Capacity Widget** | 🧪 Stretch | Useful after the core learning loop works. |
-| **Optional Garmin Context** | 🧪 Stretch | Extra context only; SPCE must work without a wearable. |
-| **Generic Mood Tracker** | ❌ Dropped | Mood alone does not explain workload fit or repeated postponement. |
-| **Generic To-Do / Calendar App** | ❌ Dropped | SPCE should understand capacity, not duplicate a normal planner. |
-| **Generic AI Chatbot** | ❌ Dropped | Conversation alone does not create the structured FIT, WHY, FIX and approval system. |
-| **Wearable-First Stress Dashboard** | ❌ Dropped | Too hardware-dependent and too close to medical interpretation. |
-| **Automatic AI Rescheduling** | ❌ Dropped | SPCE should recommend, explain and ask rather than silently rearrange the user’s life. |
-| **Open Social Feed and DMs** | ❌ Dropped | Comfort Circle should stay focused and private, not become another social network. |
-| **Medical Burnout Diagnosis** | ❌ Dropped | SPCE is not a diagnostic product. |
+SPCE evolved through several documented directions. Each iteration tested a different answer to the same question: **how can we help a student understand what they can realistically handle while keeping them in control?**
+
+| Iteration | Direction Explored | What We Learned | Decision | How SPCE Evolved |
+|---|---|---|---|---|
+| **1. Stress and mood tracking** | Generic mood tracker, burnout indicators, wearable-first stress dashboard, medical-style interpretation | Mood or stress data alone could not explain **why work did not fit**, and medical interpretation would move SPCE into a diagnostic space. | **Dropped** | SPCE moved away from diagnosis and toward **personal capacity, workload fit, and behaviour patterns**. |
+| **2. Smarter student planner** | Generic to-do list, calendar, reminders, class timetable, Teams / Microsoft 365 connection | Calendars are useful for visible commitments, but a better calendar still answers **what is scheduled**, not **whether the student can realistically handle it**. | **Partly kept** | Calendar, reminders, timetable, and Teams became **inputs to SPCE**, not the product itself. |
+| **3. AI scheduling assistant** | Generic AI chatbot and automatic AI rescheduling | A chatbot could become vague, while automatic rescheduling reduced user control and made decisions hard to inspect. | **Pivoted** | SPCE became a structured reasoning loop: **FIT → WHY → FIX → Human Approval**. AI helps understand input, but the decision process stays explainable. |
+| **4. Personal Capacity Engine** | Learn from planned commitments, actual outcomes, postponements, and overall load | The gap between **planned and actual behaviour** was more useful than a static productivity score. | **Adopted as core** | Added **Daily Activity Check-In**, **Overall Load Check-In**, personal capacity learning, and self-learning personal policies. |
+| **5. Instant UNLOAD** | Capture forgotten or sudden commitments through fast input, including iPhone Back Tap | Students often remember important work **outside the calendar**, after the plan is already made. | **Adopted as core** | UNLOAD became the fast capture layer that feeds new commitments into the capacity check. |
+| **6. Pattern-based guidance** | Personal Pattern Insights, focus windows, recovery patterns, last-minute behaviour, always-busy days | Capacity is personal and repeated behaviour can reveal useful patterns that a generic planner misses. | **Expanded** | Added **Insights**, pattern visualisation, and **Choose What to Improve** so SPCE can adapt to the user over time. |
+| **7. Social support** | Open social feed, direct messages, peer support, gamification | A full social network would create distraction and privacy concerns, but short supportive interactions could still help when productivity advice is not enough. | **Pivoted** | Dropped the open feed and DMs. Added **Comfort Circle**, **Give Comfort**, and **Kindness Streak** as focused, privacy-preserving support. |
+| **8. Spatial comfort** | Turn supportive messages into something more memorable than another notification or inbox | Support felt more meaningful when it could appear in the user’s environment rather than as another feed. | **Improved further** | Added the **AR Comfort Wall / AR Notes** experience using spatial sticky notes on a wall or desk. |
+| **9. Glanceable and optional context** | Home-screen capacity widget and Garmin context | Some context is useful without opening the app, but SPCE should not depend on a wearable. | **Stretch** | Kept the **Capacity Widget** as a lightweight extension and **Garmin** as optional context only. |
+
+> **Evolution summary:** SPCE started closer to a stress and productivity tool, then evolved into a **Personal Capacity AI** built around real-day context, structured FIT / WHY / FIX reasoning, human approval, personal pattern learning, and focused peer comfort.
 
 ### <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="20" alt="" /> 2.2 Ideation Boards
 
