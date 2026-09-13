@@ -349,7 +349,7 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 
 <p align="center">
-  <strong>Capture the real day · Check capacity · Explain decisions · Make the smallest fix · Learn only with approval · Support the person behind the plan</strong>
+  <strong>SPCE stops your calendar from gaslighting you. It learns what you can actually handle, explains why something does or does not fit, suggests the smallest fix, and knows when the answer is comfort, not more hustle.</strong>
 </p>
 
 ---
