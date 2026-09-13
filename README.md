@@ -306,63 +306,22 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 
 <a id="prototype-mockup-gallery"></a>
 
-### <img src="https://api.iconify.design/lucide/gallery-horizontal-end.svg?color=%238B5CF6" width="20" alt="" /> Prototype Mockup Gallery
+### <img src="https://api.iconify.design/lucide/gallery-horizontal-end.svg?color=%238B5CF6" width="20" alt="" /> Interactive Prototype Gallery
 
 <p align="center">
-  <strong>See SPCE in action</strong><br>
-  <sub>Click any mockup to open the full-resolution image.</sub>
-</p>
-
-<p align="center">
-  <a href="images/HOME.png">
-    <img src="images/HOME.png" width="480" alt="SPCE Home — Know what fits today">
+  <a href="https://eimaanrdrie.github.io/SPCE/docs/">
+    <img src="images/HOME.png" width="480" alt="Open the interactive SPCE prototype gallery">
   </a>
 </p>
 
 <p align="center">
-  <strong>Know what fits today</strong><br>
-  <sub>Your capacity, today’s commitments, and the fastest path into SPCE.</sub>
+  <a href="https://eimaanrdrie.github.io/SPCE/docs/">
+    <strong>↔ Explore the swipeable SPCE prototype</strong>
+  </a><br>
+  <sub>Swipe on mobile · drag / scroll on desktop · ◀ / ▶ · keyboard arrows</sub>
 </p>
 
-<br>
-
-<p align="center">
-  <a href="images/REALDAY.png"><img src="images/REALDAY.png" width="160" alt="SPCE Real Day"></a>
-  &nbsp;&nbsp;
-  <a href="images/UNLOAD.png"><img src="images/UNLOAD.png" width="160" alt="SPCE UNLOAD"></a>
-  &nbsp;&nbsp;
-  <a href="images/FIX.png"><img src="images/FIX.png" width="160" alt="SPCE FIX"></a>
-  &nbsp;&nbsp;
-  <a href="images/INSIGHTS.png"><img src="images/INSIGHTS.png" width="160" alt="SPCE Insights"></a>
-</p>
-
-<p align="center">
-  <strong>Real Day</strong> &nbsp;·&nbsp;
-  <strong>UNLOAD</strong> &nbsp;·&nbsp;
-  <strong>FIX</strong> &nbsp;·&nbsp;
-  <strong>Insights</strong>
-</p>
-
-<br>
-
-<p align="center">
-  <a href="images/COMFORTCIRCLE.png"><img src="images/COMFORTCIRCLE.png" width="160" alt="SPCE Comfort Circle"></a>
-  &nbsp;&nbsp;
-  <a href="images/ARNOTES.png"><img src="images/ARNOTES.png" width="160" alt="SPCE AR Comfort Notes"></a>
-  &nbsp;&nbsp;
-  <a href="images/STREAK.png"><img src="images/STREAK.png" width="160" alt="SPCE Kindness Streak"></a>
-  &nbsp;&nbsp;
-  <a href="images/WIDGET.png"><img src="images/WIDGET.png" width="160" alt="SPCE Widget"></a>
-</p>
-
-<p align="center">
-  <strong>Comfort Circle</strong> &nbsp;·&nbsp;
-  <strong>AR Comfort</strong> &nbsp;·&nbsp;
-  <strong>Kindness Streak</strong> &nbsp;·&nbsp;
-  <strong>Widget</strong>
-</p>
-
-> **Prototype story:** Understand the real day → capture what calendars miss → protect your capacity → see your patterns → receive or give support when things get heavy.
+> **Gallery flow:** Home → Real Day → UNLOAD → FIX → Insights → Comfort Circle → AR Notes → Kindness Streak → Widget
 
 ---
 
