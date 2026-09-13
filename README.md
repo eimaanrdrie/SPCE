@@ -254,14 +254,20 @@ We used four visual boards to show how the idea moved from **understanding the p
 
 We used the mentoring sessions to decide what to **adopt**, what to **pivot**, and what to **improve further**.
 
-| **Session** | **Key Feedback** | **What We Did** |
-| --- | --- | --- |
-| **7 Sep 2026 · 11:25 PM**<br>**Sim Hong Bing** | • Keep the **Personal Capacity AI** concept practical for a hackathon.<br>• Recommended **React Native**, **Deepgram**, hosted AI, and managed backend services such as **Convex / Supabase**.<br>• Flagged iOS deployment friction and suggested Android or PWA as fallbacks. | **Adopted:** React Native, Deepgram and managed cloud services.<br><br>**Pivoted:** AI is used for understanding input, while **Capacity, FIT, WHY, FIX and Human Approval** stay structured and explainable.<br><br>**Kept:** iOS-first because **Back Tap UNLOAD** is part of the core experience, with Android/PWA as fallback options. |
-| **11 Sep 2026 · 11:25 PM**<br>**Sim Hong Bing** | • The prototype had useful features but could still feel like another productivity app.<br>• Challenged us to answer **“Why now?”** and make SPCE more memorable.<br>• Suggested exploring realtime AI, generated visuals, gamification, bots, avatars, or more unconventional interaction. | **Used the principle, not every idea literally.** We did not turn SPCE into a generic chatbot or gamified calendar.<br><br>**Pivoted:** differentiation around **Personal Pattern Insights** and capacity-aware reasoning.<br><br>**Improved further:** added **Comfort Circle, Give Comfort + Kindness Streak, and the AR Comfort Wall**, while strengthening **WHY, Insights and Human Approval**. |
+| Session | Focus | Mentor Feedback | Decision | What Changed in SPCE |
+|---|---|---|---|---|
+| **7 Sep 2026**<br>11:25 PM<br>**Sim Hong Bing** | Hackathon feasibility | Keep the **Personal Capacity AI** concept practical and buildable within the hackathon. | **Adopted** | Narrowed the build around the core capacity loop instead of trying to solve everything at once. |
+| **7 Sep 2026**<br>11:25 PM | Tech stack | Recommended **React Native**, **Deepgram**, hosted AI, and managed backend services such as **Convex / Supabase**. | **Adopted** | Moved toward React Native, Deepgram, and managed cloud services for a faster build. |
+| **7 Sep 2026**<br>11:25 PM | AI architecture | Use hosted AI pragmatically rather than overcomplicating the hackathon build. | **Pivoted** | AI handles **input understanding**, while **Capacity, FIT, WHY, FIX, and Human Approval** remain structured and explainable. |
+| **7 Sep 2026**<br>11:25 PM | Deployment | Flagged iOS deployment friction and suggested **Android or PWA** as fallbacks. | **Kept + Fallback** | Kept **iOS-first** because Back Tap UNLOAD is part of the experience, with Android/PWA as fallback options. |
+| **11 Sep 2026**<br>11:25 PM<br>**Sim Hong Bing** | Differentiation | The prototype was useful but could still feel like another productivity app. | **Pivoted** | Shifted differentiation toward **Personal Pattern Insights** and capacity-aware reasoning. |
+| **11 Sep 2026**<br>11:25 PM | “Why now?” | Make SPCE more memorable and clearly answer why this product should exist now. | **Improved** | Strengthened **WHY, Insights, and Human Approval** so the intelligence is visible and explainable. |
+| **11 Sep 2026**<br>11:25 PM | Experience | Suggested exploring realtime AI, generated visuals, gamification, bots, avatars, or more unconventional interaction. | **Adapted, not copied** | Added **Comfort Circle, Give Comfort + Kindness Streak, and the AR Comfort Wall** instead of turning SPCE into a generic chatbot or gamified calendar. |
 
-> **Mentor impact:** The first session made SPCE **more buildable**. The second pushed us to make it **more memorable** without losing the core Personal Capacity AI idea.
+> **Mentor impact:** Session 1 made SPCE **more buildable**. Session 2 made it **more distinctive and memorable** without losing the core Personal Capacity AI idea.
 
 ---
+
 
 ## <img src="https://api.iconify.design/lucide/smartphone.svg?color=%2360A5FA" width="22" alt="" /> 3. Design & Prototype
 
