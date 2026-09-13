@@ -306,26 +306,63 @@ This separates the **plan**, the **actual activity outcomes**, and the **subject
 
 <a id="prototype-mockup-gallery"></a>
 
-### <img src="https://api.iconify.design/lucide/gallery-horizontal-end.svg?color=%238B5CF6" width="20" alt="" /> Interactive Prototype Gallery
+### <img src="https://api.iconify.design/lucide/gallery-horizontal-end.svg?color=%238B5CF6" width="20" alt="" /> Prototype Mockups
 
-<p align="center">
-  <a href="https://spceprototype.vercel.app/">
-    <img src="images/HOME.png" width="480" alt="Open the interactive SPCE prototype gallery">
-  </a>
-</p>
+<table>
+<tr>
+<td align="center" width="25%">
+  <img src="images/HOME.png" width="170" alt="SPCE Home"><br>
+  <strong>Home</strong><br>
+  <sub>See what fits today before overload starts.</sub>
+</td>
+<td align="center" width="25%">
+  <img src="images/REALDAY.png" width="170" alt="SPCE Real Day"><br>
+  <strong>Real Day</strong><br>
+  <sub>Bring events, reminders, and real commitments together.</sub>
+</td>
+<td align="center" width="25%">
+  <img src="images/UNLOAD.png" width="170" alt="SPCE UNLOAD"><br>
+  <strong>UNLOAD</strong><br>
+  <sub>Capture what calendars usually miss.</sub>
+</td>
+<td align="center" width="25%">
+  <img src="images/FIX.png" width="170" alt="SPCE FIX"><br>
+  <strong>FIX</strong><br>
+  <sub>Make the smallest practical change that helps.</sub>
+</td>
+</tr>
 
-<p align="center">
-  <a href="https://spceprototype.vercel.app/">
-    <strong>↔ Explore the swipeable SPCE prototype</strong>
-  </a><br>
-  <sub>Swipe on mobile · drag / scroll on desktop · ◀ / ▶ · keyboard arrows</sub>
-</p>
+<tr>
+<td align="center" width="25%">
+  <img src="images/INSIGHTS.png" width="170" alt="SPCE Insights"><br>
+  <strong>Insights</strong><br>
+  <sub>Turn daily outcomes into personal capacity patterns.</sub>
+</td>
+<td align="center" width="25%">
+  <img src="images/COMFORTCIRCLE.png" width="170" alt="SPCE Comfort Circle"><br>
+  <strong>Comfort Circle</strong><br>
+  <sub>Open a private five-minute support space.</sub>
+</td>
+<td align="center" width="25%">
+  <img src="images/ARNOTES.png" width="170" alt="SPCE AR Notes"><br>
+  <strong>AR Comfort</strong><br>
+  <sub>See supportive notes around you in AR.</sub>
+</td>
+<td align="center" width="25%">
+  <img src="images/STREAK.png" width="170" alt="SPCE Kindness Streak"><br>
+  <strong>Kindness Streak</strong><br>
+  <sub>Give comfort and keep small acts of kindness going.</sub>
+</td>
+</tr>
 
-<p align="center">
-  <a href="https://spceprototype.vercel.app/"><strong>Open Live Prototype ↗</strong></a>
-</p>
-
-> **Gallery flow:** Home → Real Day → UNLOAD → FIX → Insights → Comfort Circle → AR Notes → Kindness Streak → Widget
+<tr>
+<td align="center" colspan="4">
+  <img src="images/WIDGET.png" width="170" alt="SPCE Widget"><br>
+  <strong>Widget</strong><br>
+  <sub>See today’s capacity and UNLOAD at a glance.</sub>
+</td>
+</tr>
+</table>
 
 ---
 
