@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo.png" width="72" alt="SPCE logo" />
+  <img src="images/logo.png" width="88" alt="SPCE logo" />
 </p>
 
 <h1 align="center">SPCE : Personal Capacity AI That Learns Your Patterns</h1>
@@ -35,7 +35,7 @@
 
 ---
 
-## <img src="images/logo.png" width="28" alt="SPCE logo" /> SPCE by 𝐄𝐀𝐐
+## <img src="images/logo.png" width="34" alt="SPCE logo" /> SPCE by 𝐄𝐀𝐐
 
 <table>
 <tr>
@@ -110,7 +110,7 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
     </tr>
     <tr>
       <td align="center">
-        <img src="images/logo.png" width="36" alt="SPCE logo"><br>
+        <img src="images/logo.png" width="42" alt="SPCE logo"><br>
         <strong>SPCE</strong>
       </td>
       <td>Hidden workload, behavioural patterns and personal capacity.</td>
@@ -818,7 +818,7 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
 <tr>
 <th align="left">Capability</th>
 <th align="center">
-  <img src="images/logo.png" width="36" alt="SPCE logo"><br>
+  <img src="images/logo.png" width="42" alt="SPCE logo"><br>
   <strong>SPCE</strong>
 </th>
 <th align="center">
