@@ -13,12 +13,29 @@
 </p>
 
 <p align="center">
-  <a href="#-1-project-overview">Overview</a> •
-  <a href="#-2-ideation--process">Ideation</a> •
-  <a href="#-3-design--prototype">Prototype</a> •
-  <a href="#prototype-mockup-gallery">Gallery</a> •
-  <a href="#-4-what-makes-it-different">Difference</a> •
-  <a href="#-5-technical-architecture--feasibility">Architecture</a>
+  <a href="#-1-project-overview">
+    <img src="https://api.iconify.design/lucide/house.svg?color=%2360A5FA" width="14" alt="" /> Overview
+  </a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#-2-ideation--process">
+    <img src="https://api.iconify.design/lucide/lightbulb.svg?color=%23F59E0B" width="14" alt="" /> Ideation
+  </a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#-3-design--prototype">
+    <img src="https://api.iconify.design/lucide/smartphone.svg?color=%238B5CF6" width="14" alt="" /> Prototype
+  </a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#prototype-mockup-gallery">
+    <img src="https://api.iconify.design/lucide/images.svg?color=%23F472B6" width="14" alt="" /> Gallery
+  </a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#-4-what-makes-it-different">
+    <img src="https://api.iconify.design/lucide/sparkles.svg?color=%2334D399" width="14" alt="" /> Difference
+  </a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#-5-technical-architecture--feasibility">
+    <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="14" alt="" /> Architecture
+  </a>
 </p>
 
 ---
