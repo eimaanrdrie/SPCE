@@ -46,8 +46,6 @@
 
 # <img src="https://api.iconify.design/lucide/target.svg?color=%238B5CF6" width="28" alt="" /> 1. Project Overview
 
-<br><br>
-
 ## <img src="https://api.iconify.design/lucide/triangle-alert.svg?color=%23F59E0B" width="23" alt="" /> 1.1 The Problem
 
 
@@ -360,30 +358,8 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 # <img src="https://api.iconify.design/lucide/lightbulb.svg?color=%23F59E0B" width="28" alt="" /> 2. Ideation & Process
 
-<br><br>
 
-## <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="23" alt="" /> 2.1 Iteration & Idea Evolution
-
-
-SPCE evolved through multiple documented iterations from **31 Aug to 13 Sep 2026**. Each iteration tested a different answer to one question: **how can we help a student understand what they can realistically handle while keeping them in control?**
-
-| Date | Iteration | Direction Explored | Learning | Decision | Evolution |
-|---|---|---|---|---|---|
-| **📅 31 Aug** | **01 · 🌡️ Stress & Mood** | Mood tracker, burnout indicators, wearable-first stress dashboard, medical-style interpretation | Mood or stress data alone could not explain **why work did not fit**. Medical interpretation also pushed SPCE too close to diagnosis. | **❌ Dropped** | 🧠 Shifted toward **personal capacity, workload fit, and behaviour patterns**. |
-| **📅 1 Sep** | **02 · 📆 Smarter Planner** | To-do list, calendar, reminders, timetable, Teams / Microsoft 365 connection | A better calendar still answers **what is scheduled**, not **whether the student can realistically handle it**. | **🟡 Partly Kept** | 🔗 Calendar, reminders, timetable, and Teams became **inputs to SPCE**, not the product itself. |
-| **📅 3 Sep** | **03 · 🤖 AI Scheduling** | Generic AI chatbot and automatic AI rescheduling | Chat alone could become vague, while automatic rescheduling reduced control and made decisions difficult to inspect. | **🔄 Pivoted** | 🧩 Created the structured **FIT, WHY, FIX, Human Approval** model, later organised as bounded specialist agents coordinated by **LangGraph**. |
-| **📅 4 Sep** | **04 · 🧠 Capacity Engine** | Learn from planned commitments, actual outcomes, postponements, and overall load | The gap between **planned and actual behaviour** was more useful than a static productivity score. | **✅ Adopted** | 📚 Added **Activity Check-In, Overall Load Check-In, capacity learning, and personal policies**. |
-| **📅 6 Sep** | **05 · ⚡ Instant UNLOAD** | Fast capture for sudden or forgotten commitments, including iPhone Back Tap | Important work is often remembered **outside the calendar**, after the original plan is already made. | **✅ Adopted** | 🎙️ UNLOAD became the fast capture layer for new commitments before SPCE checks capacity. |
-| **📅 8 Sep** | **06 · 📊 Pattern Guidance** | Personal Pattern Insights, focus windows, recovery patterns, last-minute behaviour, always-busy days | Capacity is personal. Repeated behaviour reveals patterns that a generic planner misses. | **✨ Expanded** | 🔍 Added **Insights, pattern visualisation, and Choose What to Improve**. |
-| **📅 10 Sep** | **07 · 💬 Social Support** | Open social feed, DMs, peer support, and gamification | A full social network created distraction and privacy concerns, but short supportive interactions still had value. | **🔄 Pivoted** | 💜 Dropped the open feed and DMs. Added **Comfort Circle, Give Comfort, and Kindness Streak**. |
-| **📅 12 Sep** | **08 · 🪄 Spatial Comfort** | Make supportive messages more memorable than another inbox or notification | Support felt more meaningful when it appeared in the user’s environment. | **✨ Improved** | 🥽 Added **AR Comfort Wall / AR Notes** using spatial sticky notes on a wall or desk. |
-| **📅 13 Sep** | **09 · 📱 Glanceable Context** | Home-screen capacity widget and optional Garmin context | Quick context is useful without opening the app, but SPCE should not depend on a wearable. | **🧪 Stretch** | 👀 Kept the **Capacity Widget** as a lightweight extension and Garmin as optional context only. |
-
-> **🧭 Evolution summary:** SPCE began closer to a stress and productivity tool, then became a **Personal Capacity AI** centered on real-day context, explainable decision support, human approval, personal pattern learning, and focused peer comfort.
-
-<br><br>
-
-## <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="23" alt="" /> 2.2 Ideation Boards
+## <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="23" alt="" /> 2.1 Ideation Boards
 
 
 We used five visual boards to document the ideation process from **understanding the problem**, to **exploring possibilities**, **clustering and refining ideas**, **mapping the user journey**, and finally **defining the SPCE ecosystem**.
@@ -444,6 +420,29 @@ We used five visual boards to document the ideation process from **understanding
 <sub><strong>What it shows:</strong> The final SPCE ecosystem connecting primary users, input sources, the Personal Capacity Engine, daily check-ins, Comfort, Insights, user control, and the supporting technologies that enable the experience.</sub>
 
 > **Our ideation path:** 🌳 understand the problem · 🧠 explore widely · 🗂️ cluster and refine · 🧭 map the experience · 🌐 connect the ecosystem
+
+<br><br>
+
+<br><br>
+
+## <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="23" alt="" /> 2.2 Iteration & Idea Evolution
+
+
+SPCE evolved through multiple documented iterations from **31 Aug to 13 Sep 2026**. Each iteration tested a different answer to one question: **how can we help a student understand what they can realistically handle while keeping them in control?**
+
+| Date | Iteration | Direction Explored | Learning | Decision | Evolution |
+|---|---|---|---|---|---|
+| **📅 31 Aug** | **01 · 🌡️ Stress & Mood** | Mood tracker, burnout indicators, wearable-first stress dashboard, medical-style interpretation | Mood or stress data alone could not explain **why work did not fit**. Medical interpretation also pushed SPCE too close to diagnosis. | **❌ Dropped** | 🧠 Shifted toward **personal capacity, workload fit, and behaviour patterns**. |
+| **📅 1 Sep** | **02 · 📆 Smarter Planner** | To-do list, calendar, reminders, timetable, Teams / Microsoft 365 connection | A better calendar still answers **what is scheduled**, not **whether the student can realistically handle it**. | **🟡 Partly Kept** | 🔗 Calendar, reminders, timetable, and Teams became **inputs to SPCE**, not the product itself. |
+| **📅 3 Sep** | **03 · 🤖 AI Scheduling** | Generic AI chatbot and automatic AI rescheduling | Chat alone could become vague, while automatic rescheduling reduced control and made decisions difficult to inspect. | **🔄 Pivoted** | 🧩 Created the structured **FIT, WHY, FIX, Human Approval** model, later organised as bounded specialist agents coordinated by **LangGraph**. |
+| **📅 4 Sep** | **04 · 🧠 Capacity Engine** | Learn from planned commitments, actual outcomes, postponements, and overall load | The gap between **planned and actual behaviour** was more useful than a static productivity score. | **✅ Adopted** | 📚 Added **Activity Check-In, Overall Load Check-In, capacity learning, and personal policies**. |
+| **📅 6 Sep** | **05 · ⚡ Instant UNLOAD** | Fast capture for sudden or forgotten commitments, including iPhone Back Tap | Important work is often remembered **outside the calendar**, after the original plan is already made. | **✅ Adopted** | 🎙️ UNLOAD became the fast capture layer for new commitments before SPCE checks capacity. |
+| **📅 8 Sep** | **06 · 📊 Pattern Guidance** | Personal Pattern Insights, focus windows, recovery patterns, last-minute behaviour, always-busy days | Capacity is personal. Repeated behaviour reveals patterns that a generic planner misses. | **✨ Expanded** | 🔍 Added **Insights, pattern visualisation, and Choose What to Improve**. |
+| **📅 10 Sep** | **07 · 💬 Social Support** | Open social feed, DMs, peer support, and gamification | A full social network created distraction and privacy concerns, but short supportive interactions still had value. | **🔄 Pivoted** | 💜 Dropped the open feed and DMs. Added **Comfort Circle, Give Comfort, and Kindness Streak**. |
+| **📅 12 Sep** | **08 · 🪄 Spatial Comfort** | Make supportive messages more memorable than another inbox or notification | Support felt more meaningful when it appeared in the user’s environment. | **✨ Improved** | 🥽 Added **AR Comfort Wall / AR Notes** using spatial sticky notes on a wall or desk. |
+| **📅 13 Sep** | **09 · 📱 Glanceable Context** | Home-screen capacity widget and optional Garmin context | Quick context is useful without opening the app, but SPCE should not depend on a wearable. | **🧪 Stretch** | 👀 Kept the **Capacity Widget** as a lightweight extension and Garmin as optional context only. |
+
+> **🧭 Evolution summary:** SPCE began closer to a stress and productivity tool, then became a **Personal Capacity AI** centered on real-day context, explainable decision support, human approval, personal pattern learning, and focused peer comfort.
 
 <br><br>
 
