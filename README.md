@@ -901,8 +901,8 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
   <img src="https://cdn.simpleicons.org/apple/FFFFFF" width="18" alt="Apple" />
   Apple Calendar / Reminders
   &nbsp;
-  <img src="https://cdn.simpleicons.org/microsoft/5E5E5E" width="18" alt="Microsoft" />
-  Microsoft 365 / Teams
+  <img src="https://cdn.simpleicons.org/microsoftteams/6264A7" width="18" alt="Microsoft Teams" />
+  <strong>Microsoft 365 / Teams Calendar</strong>
 </td>
 <td>Builds the user's real-day context</td>
 </tr>
@@ -1046,7 +1046,7 @@ flowchart LR
 ### <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="20" alt="" /> 5.4 System Architecture
 
 <p align="center">
-  <img src="images/architecture.png" alt="SPCE System Architecture Diagram" width="100%">
+  <img src="images/architecture.png" alt="SPCE System Architecture Diagram" width="100%" />
 </p>
 
 <table>
@@ -1059,8 +1059,6 @@ flowchart LR
 </tr>
 </table>
 
-> [!NOTE]
-> `images/architecture.png` should reflect the LangGraph agent architecture before final submission.
 
 ### <img src="https://api.iconify.design/lucide/calendar-range.svg?color=%23F59E0B" width="20" alt="" /> 5.5 Build Plan
 
