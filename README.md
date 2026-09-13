@@ -189,21 +189,22 @@ Insights keeps the learning visible with a **7-day capacity pattern**, **planned
 ### <img src="https://api.iconify.design/lucide/git-branch.svg?color=%238B5CF6" width="20" alt="" /> 2.1 Ideas We Considered
 
 
-SPCE evolved through several documented directions. Each iteration tested a different answer to the same question: **how can we help a student understand what they can realistically handle while keeping them in control?**
 
-| Iteration | Direction Explored | What We Learned | Decision | How SPCE Evolved |
-|---|---|---|---|---|
-| **1. Stress and mood tracking** | Generic mood tracker, burnout indicators, wearable-first stress dashboard, medical-style interpretation | Mood or stress data alone could not explain **why work did not fit**, and medical interpretation would move SPCE into a diagnostic space. | **Dropped** | SPCE moved away from diagnosis and toward **personal capacity, workload fit, and behaviour patterns**. |
-| **2. Smarter student planner** | Generic to-do list, calendar, reminders, class timetable, Teams / Microsoft 365 connection | Calendars are useful for visible commitments, but a better calendar still answers **what is scheduled**, not **whether the student can realistically handle it**. | **Partly kept** | Calendar, reminders, timetable, and Teams became **inputs to SPCE**, not the product itself. |
-| **3. AI scheduling assistant** | Generic AI chatbot and automatic AI rescheduling | A chatbot could become vague, while automatic rescheduling reduced user control and made decisions hard to inspect. | **Pivoted** | SPCE became a structured reasoning loop: **FIT → WHY → FIX → Human Approval**. AI helps understand input, but the decision process stays explainable. |
-| **4. Personal Capacity Engine** | Learn from planned commitments, actual outcomes, postponements, and overall load | The gap between **planned and actual behaviour** was more useful than a static productivity score. | **Adopted as core** | Added **Daily Activity Check-In**, **Overall Load Check-In**, personal capacity learning, and self-learning personal policies. |
-| **5. Instant UNLOAD** | Capture forgotten or sudden commitments through fast input, including iPhone Back Tap | Students often remember important work **outside the calendar**, after the plan is already made. | **Adopted as core** | UNLOAD became the fast capture layer that feeds new commitments into the capacity check. |
-| **6. Pattern-based guidance** | Personal Pattern Insights, focus windows, recovery patterns, last-minute behaviour, always-busy days | Capacity is personal and repeated behaviour can reveal useful patterns that a generic planner misses. | **Expanded** | Added **Insights**, pattern visualisation, and **Choose What to Improve** so SPCE can adapt to the user over time. |
-| **7. Social support** | Open social feed, direct messages, peer support, gamification | A full social network would create distraction and privacy concerns, but short supportive interactions could still help when productivity advice is not enough. | **Pivoted** | Dropped the open feed and DMs. Added **Comfort Circle**, **Give Comfort**, and **Kindness Streak** as focused, privacy-preserving support. |
-| **8. Spatial comfort** | Turn supportive messages into something more memorable than another notification or inbox | Support felt more meaningful when it could appear in the user’s environment rather than as another feed. | **Improved further** | Added the **AR Comfort Wall / AR Notes** experience using spatial sticky notes on a wall or desk. |
-| **9. Glanceable and optional context** | Home-screen capacity widget and Garmin context | Some context is useful without opening the app, but SPCE should not depend on a wearable. | **Stretch** | Kept the **Capacity Widget** as a lightweight extension and **Garmin** as optional context only. |
+SPCE evolved through multiple documented iterations from **31 Aug to 13 Sep 2026**. Each iteration tested a different answer to one question: **how can we help a student understand what they can realistically handle while keeping them in control?**
 
-> **Evolution summary:** SPCE started closer to a stress and productivity tool, then evolved into a **Personal Capacity AI** built around real-day context, structured FIT / WHY / FIX reasoning, human approval, personal pattern learning, and focused peer comfort.
+| Date | Iteration | Direction Explored | Learning | Decision | Evolution |
+|---|---|---|---|---|---|
+| **📅 31 Aug** | **01 · 🌡️ Stress & Mood** | Mood tracker, burnout indicators, wearable-first stress dashboard, medical-style interpretation | Mood or stress data alone could not explain **why work did not fit**. Medical interpretation also pushed SPCE too close to diagnosis. | **❌ Dropped** | 🧠 Shifted toward **personal capacity, workload fit, and behaviour patterns**. |
+| **📅 1 Sep** | **02 · 📆 Smarter Planner** | To-do list, calendar, reminders, timetable, Teams / Microsoft 365 connection | A better calendar still answers **what is scheduled**, not **whether the student can realistically handle it**. | **🟡 Partly Kept** | 🔗 Calendar, reminders, timetable, and Teams became **inputs to SPCE**, not the product itself. |
+| **📅 3 Sep** | **03 · 🤖 AI Scheduling** | Generic AI chatbot and automatic AI rescheduling | Chat alone could become vague, while automatic rescheduling reduced control and made decisions difficult to inspect. | **🔄 Pivoted** | 🧩 Created the structured **FIT, WHY, FIX, Human Approval** reasoning model. |
+| **📅 4 Sep** | **04 · 🧠 Capacity Engine** | Learn from planned commitments, actual outcomes, postponements, and overall load | The gap between **planned and actual behaviour** was more useful than a static productivity score. | **✅ Adopted** | 📚 Added **Activity Check-In, Overall Load Check-In, capacity learning, and personal policies**. |
+| **📅 6 Sep** | **05 · ⚡ Instant UNLOAD** | Fast capture for sudden or forgotten commitments, including iPhone Back Tap | Important work is often remembered **outside the calendar**, after the original plan is already made. | **✅ Adopted** | 🎙️ UNLOAD became the fast capture layer for new commitments before SPCE checks capacity. |
+| **📅 8 Sep** | **06 · 📊 Pattern Guidance** | Personal Pattern Insights, focus windows, recovery patterns, last-minute behaviour, always-busy days | Capacity is personal. Repeated behaviour reveals patterns that a generic planner misses. | **✨ Expanded** | 🔍 Added **Insights, pattern visualisation, and Choose What to Improve**. |
+| **📅 10 Sep** | **07 · 💬 Social Support** | Open social feed, DMs, peer support, and gamification | A full social network created distraction and privacy concerns, but short supportive interactions still had value. | **🔄 Pivoted** | 💜 Dropped the open feed and DMs. Added **Comfort Circle, Give Comfort, and Kindness Streak**. |
+| **📅 12 Sep** | **08 · 🪄 Spatial Comfort** | Make supportive messages more memorable than another inbox or notification | Support felt more meaningful when it appeared in the user’s environment. | **✨ Improved** | 🥽 Added **AR Comfort Wall / AR Notes** using spatial sticky notes on a wall or desk. |
+| **📅 13 Sep** | **09 · 📱 Glanceable Context** | Home-screen capacity widget and optional Garmin context | Quick context is useful without opening the app, but SPCE should not depend on a wearable. | **🧪 Stretch** | 👀 Kept the **Capacity Widget** as a lightweight extension and Garmin as optional context only. |
+
+> **🧭 Evolution summary:** SPCE began closer to a stress and productivity tool, then became a **Personal Capacity AI** centered on real-day context, explainable decision support, human approval, personal pattern learning, and focused peer comfort.
 
 ### <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="20" alt="" /> 2.2 Ideation Boards
 
@@ -285,7 +286,7 @@ SPCE is designed as **one continuous, playable mobile experience** : not a colle
 | Area | Purpose |
 |---|---|
 | 🏠 **Home** | See today’s capacity, commitments, UNLOAD, and start a daily check-in |
-| 💼 **Work** | Plan the real day through **UNLOAD → FIT → WHY → FIX → Approval** |
+| 💼 **Work** | Plan the real day through **UNLOAD › FIT › WHY › FIX › Approval** |
 | 💜 **Comfort** | Receive or give support through Comfort Circle, AR Notes, and Kindness Streak |
 | 📊 **Insights** | Understand capacity, focus, recovery, and learned personal patterns |
 
@@ -293,11 +294,11 @@ SPCE is designed as **one continuous, playable mobile experience** : not a colle
 
 | Journey | Flow |
 |---|---|
-| 💼 **Planning** | Real Day → UNLOAD → FIT → WHY → FIX → Human Approval → Confirmation |
-| 🧠 **Daily Learning** | Check in today → Activity outcomes → Overall feel → Review → Approved learning |
-| 💜 **Receive Comfort** | I need comfort → 5-minute Circle → Live session → AR setup → AR comfort notes |
-| 🤝 **Give Comfort** | Give comfort → Send note → Comfort sent → Kindness Streak |
-| 📊 **Insights** | 7-day capacity pattern → Pattern detail → Evidence → What it affects |
+| 💼 **Planning** | Real Day › UNLOAD › FIT › WHY › FIX › Human Approval › Confirmation |
+| 🧠 **Daily Learning** | Check in today › Activity outcomes › Overall feel › Review › Approved learning |
+| 💜 **Receive Comfort** | I need comfort › 5-minute Circle › Live session › AR setup › AR comfort notes |
+| 🤝 **Give Comfort** | Give comfort › Send note › Comfort sent › Kindness Streak |
+| 📊 **Insights** | 7-day capacity pattern › Pattern detail › Evidence › What it affects |
 
 > The planning flow handles **what should happen next**.  
 > The later check-in records **what actually happened and how the day felt**.
@@ -464,7 +465,7 @@ A model may help interpret:
 
 But the actual capacity decision remains structured:
 
-> **Context → Capacity → FIT → WHY → FIX → Human Approval → Check-In → Approved Learning**
+> **Context › Capacity › FIT › WHY › FIX › Human Approval › Check-In › Approved Learning**
 
 ### <img src="https://api.iconify.design/lucide/workflow.svg?color=%2360A5FA" width="20" alt="" /> System Architecture
 
@@ -576,15 +577,15 @@ The goal is not to build every possible SPCE feature.
 
 The goal is to demonstrate a believable closed loop:
 
-> **REAL DAY → UNLOAD → FIT → WHY → FIX → HUMAN APPROVAL → CHECK-IN → LEARN → INSIGHTS**
+> **REAL DAY › UNLOAD › FIT › WHY › FIX › HUMAN APPROVAL › CHECK-IN › LEARN › INSIGHTS**
 
 and a second support loop:
 
-> **NEED COMFORT → 5-MINUTE CIRCLE → AR SUPPORT WALL → RECOVER**
+> **NEED COMFORT › 5-MINUTE CIRCLE › AR SUPPORT WALL › RECOVER**
 
 with the community side:
 
-> **GIVE COMFORT → MODERATED NOTE → KINDNESS STREAK**
+> **GIVE COMFORT › MODERATED NOTE › KINDNESS STREAK**
 
 If those journeys work clearly, the wider product becomes credible.
 
