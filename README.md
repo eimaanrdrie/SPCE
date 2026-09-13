@@ -901,8 +901,8 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
   <img src="https://cdn.simpleicons.org/apple/FFFFFF" width="18" alt="Apple" />
   Apple Calendar / Reminders
   &nbsp;
-  <img src="https://cdn.simpleicons.org/microsoftteams/6264A7" width="18" alt="Microsoft Teams" />
-  <strong>Microsoft 365 / Teams Calendar</strong>
+  <img src="https://api.iconify.design/logos/microsoft-teams.svg" width="18" alt="Microsoft Teams" />
+  <strong>Microsoft 365 / Teams</strong>
 </td>
 <td>Builds the user's real-day context</td>
 </tr>
