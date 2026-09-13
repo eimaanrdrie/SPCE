@@ -208,7 +208,8 @@ SPCE evolved through multiple documented iterations from **31 Aug to 13 Sep 2026
 
 ### <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="20" alt="" /> 2.2 Ideation Boards
 
-We used four visual boards to show how the idea moved from **understanding the problem** to **choosing SPCE**, then into the **solution flow** and the final **product ecosystem**.
+
+We used five visual boards to document how SPCE moved from **understanding the problem**, to **exploring and clustering ideas**, then into the **solution flow** and final **product ecosystem**.
 
 #### 1. Problem Exploration
 
@@ -216,25 +217,41 @@ We used four visual boards to show how the idea moved from **understanding the p
   <img src="images/Problem_Board.png" alt="SPCE Problem Exploration Board" width="100%">
 </p>
 
+<sub>Mapped the student problems behind overload, forgotten commitments, unrealistic planning, and repeated last-minute work.</sub>
+
 #### 2. Idea Exploration
 
 <p align="center">
   <img src="images/Idea_Board.png" alt="SPCE Idea Exploration Board" width="100%">
 </p>
 
-#### 3. SPCE Solution Flow
+<sub>Explored multiple directions before narrowing the concept around personal capacity, explainable planning, learning, and support.</sub>
+
+#### 3. Affinity Diagram
+
+<p align="center">
+  <img src="images/affinity.png" alt="SPCE Affinity Diagram for Iteration and Idea Evolution" width="100%">
+</p>
+
+<sub>Grouped raw ideas into common themes, evaluated what should be adopted, evolved, or dropped, and clarified the final SPCE product pillars.</sub>
+
+#### 4. SPCE Solution Flow
 
 <p align="center">
   <img src="images/SPCE_feature.png" alt="How SPCE Works Board" width="100%">
 </p>
 
-#### 4. Product Ecosystem
+<sub>Turned the selected ideas into one connected experience built around capacity, FIT, WHY, FIX, Human Approval, learning, and comfort.</sub>
+
+#### 5. Product Ecosystem
 
 <p align="center">
   <img src="images/Product_EcoSystem.png" alt="SPCE Product Ecosystem Board" width="100%">
 </p>
 
-> **Our ideation path:** understand the real problem, explore different ideas, choose the strongest concept, then turn it into one connected product.
+<sub>Shows how the final product areas connect across Home, Work, Comfort, Insights, integrations, and supporting experiences.</sub>
+
+> **Our ideation path:** understand the problem, explore possibilities, cluster and refine the ideas, define the solution flow, then connect everything into one product ecosystem.
 
 ### <img src="https://api.iconify.design/lucide/messages-square.svg?color=%2334D399" width="20" alt="" /> 2.3 Mentor Consultation
 
