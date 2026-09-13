@@ -378,7 +378,6 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 # <img src="https://api.iconify.design/lucide/lightbulb.svg?color=%23F59E0B" width="28" alt="" /> 2. Ideation & Process
 
-
 ## <img src="https://api.iconify.design/lucide/network.svg?color=%2360A5FA" width="23" alt="" /> 2.1 Ideation Boards
 
 
@@ -514,7 +513,6 @@ We used the mentoring sessions to decide what to **adopt**, what to **pivot**, a
 
 # <img src="https://api.iconify.design/lucide/smartphone.svg?color=%2360A5FA" width="28" alt="" /> 3. Design & Prototype
 
-
 **UI Prototype:** [Open Interactive Figma Prototype](https://www.figma.com/proto/QZE8gmPaPXSJHeG0o0ltbI/SPCE--protoype-?page-id=150%3A38761&node-id=150-38792&viewport=120%2C-456%2C0.71&t=j3Ygr6uF5lauWI0T-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=150%3A38802)
 
 SPCE is designed as **one continuous, playable mobile experience** : not a collection of disconnected screens.
@@ -613,7 +611,6 @@ SPCE is designed as **one continuous, playable mobile experience** : not a colle
 <br>
 
 # <img src="https://api.iconify.design/lucide/sparkles.svg?color=%23F472B6" width="28" alt="" /> 4. What Makes It Different
-
 
 SPCE is not trying to become another task manager. Its main difference is that it learns from the gap between **what you planned**, **what actually happened**, and **how the load felt**.
 
@@ -1237,7 +1234,6 @@ SPCE is positioned as a **capacity-aware planning and governed self-learning sys
 <br>
 
 # <img src="https://api.iconify.design/lucide/workflow.svg?color=%2334D399" width="28" alt="" /> 5. Technical Architecture & Feasibility
-
 
 <p align="center">
   <strong>Build the core loop first. Keep the agents bounded. Use managed infrastructure. Protect human control.</strong>
