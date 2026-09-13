@@ -35,7 +35,7 @@
 
 ## <img src="https://api.iconify.design/lucide/target.svg?color=%238B5CF6" width="22" alt="" /> 1. Project Overview
 
-### ⚠️ The Problem
+### <img src="https://api.iconify.design/lucide/triangle-alert.svg?color=%23F59E0B" width="20" alt="" /> 1.1 The Problem
 
 **Imagine this:** your bestie keeps telling you uni life is exhausting. Assignments are piling up, classes are scattered across the day, Teams meetings keep appearing, they are commuting, running errands, keeping up with friends, and somehow still expected to stay productive.
 
@@ -96,7 +96,7 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 > [!NOTE]
 > **SPCE is a stress and workload management tool, not a medical diagnosis tool.**
 
-### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="20" alt="" /> Our Solution
+### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="20" alt="" /> 1.2 Our Solution
 
 <p align="center">
   <strong>SPCE learns how much you can realistically handle each day, not just what fits on your calendar.</strong>
@@ -271,7 +271,11 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 > **No silent learning. No hidden personal policy changes.**
 
-#### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="18" alt="" /> When Planning Is Not the Answer
+#### <img src="https://api.iconify.design/lucide/heart-handshake.svg?color=%23F472B6" width="18" alt="" /> What if Planning Is Not Enough?
+
+<p align="center">
+  <sub>Sometimes the user does not need another productivity suggestion. They need support.</sub>
+</p>
 
 <table>
 <tr>
@@ -290,8 +294,8 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 
 <td width="33%" align="center">
   <img src="https://api.iconify.design/lucide/scan-line.svg?color=%238B5CF6" width="30" alt="" /><br>
-  <strong>AR Comfort Wall</strong><br>
-  <sub>See support around you, not in another inbox</sub>
+  <strong>Augmented Reality (AR) Comfort Wall</strong><br>
+  <sub>See supportive notes around you, not in another inbox</sub>
 </td>
 
 </tr>
