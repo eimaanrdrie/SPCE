@@ -103,7 +103,7 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 </p>
 
 <p align="center">
-  <sub>A human-governed Personal Capacity AI powered by specialist agents and governed self-learning.</sub>
+  <sub>A human-governed Personal Capacity AI that learns your personalized behaviour patterns through specialist agents and governed self-learning.</sub>
 </p>
 
 #### <img src="https://api.iconify.design/lucide/layers-3.svg?color=%238B5CF6" width="18" alt="" /> What SPCE brings together
@@ -111,25 +111,31 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 <table>
 <tr>
 
-<td width="25%" align="center">
+<td width="20%" align="center">
   <img src="https://api.iconify.design/lucide/calendar-days.svg?color=%2360A5FA" width="34" alt="" /><br>
   <strong>Your Real Day</strong><br>
   <sub>Calendar · Reminders · Teams · Timetable · UNLOAD</sub>
 </td>
 
-<td width="25%" align="center">
+<td width="20%" align="center">
   <img src="https://api.iconify.design/lucide/gauge.svg?color=%238B5CF6" width="34" alt="" /><br>
   <strong>Personal Capacity</strong><br>
   <sub>Time · Mental · Physical · Social · Errands</sub>
 </td>
 
-<td width="25%" align="center">
+<td width="20%" align="center">
+  <img src="https://api.iconify.design/lucide/fingerprint.svg?color=%23F472B6" width="34" alt="" /><br>
+  <strong>Personalized Behaviour Patterns</strong><br>
+  <sub>Focus · Recovery · Last-minute work · Always-busy days</sub>
+</td>
+
+<td width="20%" align="center">
   <img src="https://api.iconify.design/lucide/network.svg?color=%2334D399" width="34" alt="" /><br>
   <strong>Specialist Agents</strong><br>
   <sub>FIT · WHY · FIX · Learning · Insights</sub>
 </td>
 
-<td width="25%" align="center">
+<td width="20%" align="center">
   <img src="https://api.iconify.design/lucide/refresh-cw.svg?color=%23F59E0B" width="34" alt="" /><br>
   <strong>Governed Learning</strong><br>
   <sub>Only approved evidence changes future guidance</sub>
@@ -301,16 +307,6 @@ Existing tools already help organise the day, but SPCE focuses on what those pla
 </tr>
 </table>
 
-#### <img src="https://api.iconify.design/lucide/chart-no-axes-combined.svg?color=%2360A5FA" width="18" alt="" /> Personal Pattern Insights
-
-<table>
-<tr>
-<td align="center"><strong>Capacity</strong><br><sub>Planned vs actual load</sub></td>
-<td align="center"><strong>Focus</strong><br><sub>When deep work works best</sub></td>
-<td align="center"><strong>Recovery</strong><br><sub>When lighter time is needed</sub></td>
-<td align="center"><strong>Evidence</strong><br><sub>Why SPCE believes the pattern</sub></td>
-</tr>
-</table>
 
 ### <img src="https://api.iconify.design/lucide/sparkles.svg?color=%238B5CF6" width="18" alt="" /> SPCE in One Line
 
